@@ -9,61 +9,41 @@ title: Plots
 ---
 <table BORDER="0">
 <tr>
-<td align="center"><b>Dimension</b></td>
-<td align="center"><b>Function</b></td>
-<td align="center"><b>Instance</b></td>
-<td align="center"><b>Plot type</b></td>
+<td align="center" onclick="selectNode(this)" id="dimAll"><b>Dimension</b></td>
+<td align="center" onclick="selectNode(this)" id="funAll"><b>Function</b></td>
+<td align="center" onclick="selectNode(this)" id="insAll"><b>Instance</b></td>
+<td align="center" onclick="selectNode(this)" id="typAll" class="on"><b>Plot type</b></td>
 </tr>
 <tr>
 <td class="select" align="center">
-<select id="dim" onchange="changePlot()">       
-</select>
+<button id="dimPrev" onclick="getPrev(this)" class="button"><i class="arrow left"></i></button>
+<select id="dim" onchange="changePlot()"></select>
+<button id="dimNext" onclick="getNext(this)" class="button"><i class="arrow right"></i></button>
 </td>
 <td class="select" align="center">
-<select id="fun" onchange="changePlot()">       
-</select>
+<button id="funPrev" onclick="getPrev(this)" class="button"><i class="arrow left"></i></button>
+<select id="fun" onchange="changePlot()"></select>
+<button id="funNext" onclick="getNext(this)" class="button"><i class="arrow right"></i></button>
 </td>
 <td class="select" align="center">
-<select id="ins" onchange="changePlot()">       
-</select>
+<button id="insPrev" onclick="getPrev(this)" class="button"><i class="arrow left"></i></button>
+<select id="ins" onchange="changePlot()"></select>
+<button id="insNext" onclick="getNext(this)" class="button"><i class="arrow right"></i></button>
 </td>
 <td class="select" align="center">
-<select id="typ" onchange="changePlot()">    
-<option value="text1">text1</option>
-<option value="text2">text2</option>
-<option value="text3">text3</option>
-<option value="text4">text4</option>   
+<button id="typPrev" onclick="getPrev(this)" class="button"><i class="arrow left"></i></button>
+<select id="typ" onchange="changePlot()" style="width:100px;">    
+<option value="type1">type 1</option>
+<option value="type2">type 2 has a long name</option>
+<option value="type3">type 3</option>
+<option value="type4">type 4</option>   
 </select>
+<button id="typNext" onclick="getNext(this)" class="button"><i class="arrow right"></i></button>
 </td>
 </tr>
 </table>
 
 <textarea id="result"></textarea>
 
-<script>
-var selectDim = document.getElementById("dim");
-var dims = ["2", "3", "5", "10", "20", "40"];
-var contentsDim;
-for (let i = 0; i < dims.length; i++) {
-contentsDim += "<option>" + dims[i] + "</option>";
-}
-selectDim.innerHTML = contentsDim;
-
-var selectFun = document.getElementById("fun");
-var contentsFun;
-for (let i = 1; i <= 92; i++) {
-contentsFun += "<option>" + i + "</option>";
-}
-selectFun.innerHTML = contentsFun;
-
-var selectIns = document.getElementById("ins");
-var contentsIns;
-for (let i = 1; i <= 15; i++) {
-contentsIns += "<option>" + i + "</option>";
-}
-selectIns.innerHTML = contentsIns;
-
-function changePlot() {
-document.getElementById('result').value = dim.value + fun.value + ins.value + typ.value;
-}
-</script>
+<script src="{{ '/assets/js/custom.js' | relative_url }}"></script>
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}"/>
