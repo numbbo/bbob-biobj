@@ -1,0 +1,23 @@
+title: bbob-biobj(-ext)
+description: >- 
+  This is the supplementary material providing visualizations of all 55 
+  (92) functions of the bbob-biobj (bbob-biobj-ext) test suite of the 
+  Comparing Continous Optimizers (COCO) platform
+baseurl: "" 
+github_repo: "numbbo/bbob-biobj"
+
+# Build settings
+theme: "just-the-docs"
+# search_enabled: false # Use this to disable search
+
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+exclude:
+  - .jekyll-cache/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
