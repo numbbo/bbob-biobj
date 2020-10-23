@@ -3,7 +3,7 @@ description: >-
   This is the supplementary material providing visualizations of all 55 
   (92) functions of the bbob-biobj (bbob-biobj-ext) test suite of the 
   Comparing Continous Optimizers (COCO) platform
-baseurl: "" 
+baseurl: "https://numbbo.github.io/bbob-biobj/" 
 github_repo: "numbbo/bbob-biobj"
 
 # Build settings
