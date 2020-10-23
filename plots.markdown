@@ -32,11 +32,7 @@ title: Plots
 </td>
 <td class="select" align="center">
 <button id="typPrev" onclick="getPrev(this)" class="button"><i class="arrow left"></i></button>
-<select id="typ" onchange="changePlot()" style="width:100px;">    
-<option value="type1">type 1</option>
-<option value="type2">type 2 has a long name</option>
-<option value="type3">type 3</option>
-<option value="type4">type 4</option>   
+<select id="typ" onchange="changePlot()" style="width:100px;">   
 </select>
 <button id="typNext" onclick="getNext(this)" class="button"><i class="arrow right"></i></button>
 </td>

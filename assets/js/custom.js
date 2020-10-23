@@ -20,6 +20,15 @@ for (let i = 1; i <= 15; i++) {
 }
 selectIns.innerHTML = contentsIns;
 
+var selectTyp = document.getElementById("typ");
+var typs = ["type 1", "type 2 has a long name", "type 3", "type 4"];
+var valuesTyp = ["type1", "type2", "type3", "type4"];
+var contentsTyp;
+for (let i = 0; i < typs.length; i++) {
+	contentsTyp += "<option value=\"" + valuesTyp[i] + "\">" + typs[i] + "</option>";
+}
+selectTyp.innerHTML = contentsTyp;
+
 var all = "typAll";
 
 function pad(num) {
@@ -61,7 +70,7 @@ function getNext(ele) {
 
 function selectNode(node){
 	let j = document.getElementsByClassName("on");
-	for(var i = 0; i < j.length; i++){
+	for (let i = 0; i < j.length; i++) {
 		j[i].className="";
 	}
 	node.className="on";
