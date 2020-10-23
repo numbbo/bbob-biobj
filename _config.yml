@@ -7,7 +7,7 @@ baseurl: ""
 github_repo: "numbbo/bbob-biobj"
 
 # Build settings
-theme: "just-the-docs"
+remote_theme: pmarsceill/just-the-docs
 # search_enabled: false # Use this to disable search
 
 plugins:
