@@ -18,15 +18,16 @@
 .button {
   padding: 0px 0px;
   width: 25px;
-  height: 25px; 
+  height: 25px;
 }
 
 select {
   /* for Firefox */
   -moz-appearance: none;
+  
   /* for Chrome */
   -webkit-appearance: none;
-  height: 25px; 
+  height: 25px;
   width: 35px;
 }
 
@@ -41,11 +42,11 @@ input[type="radio"] {
 }
 
 label{
-  font-size:16px;
+  font-size: 16px;
   vertical-align: middle;
 }
 
 .on{
-  color: white;	
+  color: white;
   background-color: #7253ed;
 }
