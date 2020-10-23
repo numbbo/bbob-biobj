@@ -41,5 +41,7 @@ title: Plots
 
 <textarea id="result"></textarea>
 
+<div id="images"></div>
+
 <script src="{{ '/assets/js/custom.js' | relative_url }}"></script>
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}"/>

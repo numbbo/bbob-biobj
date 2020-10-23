@@ -1,3 +1,6 @@
+/* Url to the plots */
+plotPath = "https://github.com/numbbo/bbob-biobj-plots/"
+
 /* Fill the dimensions dropdown with values */
 var selectDim = document.getElementById("dim");
 var valuesDim = ["2", "3", "5", "10", "20", "40"];
@@ -51,11 +54,20 @@ function pad(num) {
     return num;
 }
 
+/* Adds the plot to the div */
+function addPlot(plotName) {
+	var elem = document.createElement("img");
+	elem.setAttribute("src", plotPath + plotName);
+	elem.setAttribute("width", "100%");
+	elem.setAttribute("alt", "");
+	document.getElementById("images").appendChild(elem);
+}
+
 /* Show the plots wrt the chosen dimension, function, instance and plot type.
 Exactly one of these categories contains all possible values, the rest only the
 chonse one. */
 function changePlot() {
-	let plots = "";
+	let plotName;
 	let chosenDim = [dim.value];
 	let chosenFun = [fun.value];
 	let chosenIns = [ins.value];
@@ -69,16 +81,19 @@ function changePlot() {
 	} else if (selectedNode === "typAll") {
 		chosenTyp = [...valuesTyp];
 	}
+	document.getElementById("images").innerHTML = "";
+	document.getElementById("result").value = "";
 	for (let iDim = 0; iDim < chosenDim.length; iDim++) {
 		for (let iFun = 0; iFun < chosenFun.length; iFun++) {
 			for (let iIns = 0; iIns < chosenIns.length; iIns++) {
 				for (let iTyp = 0; iTyp < chosenTyp.length; iTyp++) {
-					plots += "biobj_f" + pad(chosenFun[iFun]) + "_i" + pad(chosenIns[iIns]) + "_d" + pad(chosenDim[iDim]) + "_" + pad(chosenTyp[iTyp]) + ".png\n";
+					plotName = "biobj_f" + pad(chosenFun[iFun]) + "_i" + pad(chosenIns[iIns]) + "_d" + pad(chosenDim[iDim]) + "_" + pad(chosenTyp[iTyp]) + ".png";
+					addPlot(plotName);
+					document.getElementById("result").value += plotName + "\n";
 				}
 			}
 		}
 	}
-  document.getElementById('result').value = plots;
 }
 
 /* Move the dropdown selection to the previous item in the list */
@@ -116,15 +131,15 @@ function disableElements(ele, mode) {
 
 /* Select the table cell */
 function selectNode(node) {
-  selectedNode = node.id;
+  	selectedNode = node.id;
 	for (let i = 0; i < allNodes.length; i++) {
-  	if (selectedNode === allNodes[i]) {
-    	document.getElementById(allNodes[i]).className = "on";
-      disableElements(allNodes[i].substring(0, 3), true);
-    } else {
-    	document.getElementById(allNodes[i]).className = "off";
-      disableElements(allNodes[i].substring(0, 3), false);
-    }
+		if (selectedNode === allNodes[i]) {
+			document.getElementById(allNodes[i]).className = "on";
+		  disableElements(allNodes[i].substring(0, 3), true);
+		} else {
+			document.getElementById(allNodes[i]).className = "off";
+		  disableElements(allNodes[i].substring(0, 3), false);
+		}
 	}
 	changePlot()
 }
