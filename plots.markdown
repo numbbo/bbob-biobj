@@ -9,9 +9,9 @@ title: Plots
 ---
 <table BORDER="0">
 <tr>
-<td align="center" onclick="selectNode(this)" id="dimAll"><b>Dimension</b></td>
-<td align="center" onclick="selectNode(this)" id="funAll"><b>Function</b></td>
-<td align="center" onclick="selectNode(this)" id="insAll"><b>Instance</b></td>
+<td align="center" onclick="selectNode(this)" id="dimAll" class="off"><b>Dimension</b></td>
+<td align="center" onclick="selectNode(this)" id="funAll" class="off"><b>Function</b></td>
+<td align="center" onclick="selectNode(this)" id="insAll" class="off"><b>Instance</b></td>
 <td align="center" onclick="selectNode(this)" id="typAll" class="on"><b>Plot type</b></td>
 </tr>
 <tr>
