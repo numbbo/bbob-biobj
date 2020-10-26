@@ -7,6 +7,10 @@ title: Plots
 
 # Plots  #
 ---
+Note that some plot types are not available for all dimensions and instances. For example, 
+*Unscaled objective space*, *Objective space*, *Search space* and *Search space (optima direction)*
+are only provided for dimensions 2, 3 and 5 and instances 1 to 5.
+
 <table BORDER="0">
 <tr>
 <td align="center" onclick="selectNode(this)" id="dimAll" class="off"><b>Dimension</b></td>
