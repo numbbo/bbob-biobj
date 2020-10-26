@@ -39,7 +39,7 @@ title: Plots
 </tr>
 </table>
 
-<textarea id="result"></textarea>
+<!-- <textarea id="result"></textarea> -->
 
 <div id="images"></div>
 
