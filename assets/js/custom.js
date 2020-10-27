@@ -56,9 +56,10 @@ function pad(num) {
 
 /* Adds the plot to the div */
 function addPlot(plotName) {
+	let widthPlot = 100 / cols.value;
 	var elem = document.createElement("img");
 	elem.setAttribute("src", plotPath + plotName);
-	elem.setAttribute("width", "33%");
+	elem.setAttribute("width", widthPlot + "%");
 	elem.setAttribute("alt", "");
 	document.getElementById("images").appendChild(elem);
 }
