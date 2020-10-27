@@ -56,12 +56,18 @@ function pad(num) {
 
 /* Adds the plot to the div */
 function addPlot(plotName) {
-	let widthPlot = 100 / cols.value;
-	var elem = document.createElement("img");
-	elem.setAttribute("src", plotPath + plotName);
-	elem.setAttribute("width", widthPlot + "%");
-	elem.setAttribute("alt", "");
-	document.getElementById("images").appendChild(elem);
+	let plotWidth = 100 / cols.value;
+	var elemDiv = document.createElement('div');
+	var elemA = document.createElement('a');
+	var elemImg = document.createElement("img");
+	elemDiv.setAttribute("style", "display:inline-block; width:" + plotWidth + "%;");
+	elemA.setAttribute("href", plotPath + plotName);
+	elemA.setAttribute("class", "nostyle");
+	elemImg.setAttribute("src", plotPath + plotName);
+	elemImg.setAttribute("alt", "");
+	elemA.appendChild(elemImg);
+	elemDiv.appendChild(elemA);
+	document.getElementById("images").appendChild(elemDiv);
 }
 
 /* Show the plots wrt the chosen dimension, function, instance and plot type.
