@@ -58,7 +58,7 @@ function pad(num) {
 function addPlot(plotName) {
 	var elem = document.createElement("img");
 	elem.setAttribute("src", plotPath + plotName);
-	elem.setAttribute("width", "100%");
+	elem.setAttribute("width", "33%");
 	elem.setAttribute("alt", "");
 	document.getElementById("images").appendChild(elem);
 }
