@@ -3,7 +3,7 @@ plotPath = "https://raw.githubusercontent.com/numbbo/bbob-biobj-plots/gh-pages/p
 
 /* Fill the dimensions dropdown with values */
 var selectDim = document.getElementById("dim");
-var valuesDim = ["2", "3", "5", "10", "20", "40"];
+var valuesDim = ["2", "3", "5"]; //, "10", "20", "40"];
 var contentsDim;
 for (let i = 0; i < valuesDim.length; i++) {
 	contentsDim += "<option>" + valuesDim[i] + "</option>";
@@ -32,8 +32,8 @@ selectIns.innerHTML = contentsIns;
 
 /* Fill the plot types dropdown with values */
 var selectTyp = document.getElementById("typ");
-var typs = ["Unscaled objective space", "Normalized objective space", "Search space", "Search space (optima direction)"];
-var valuesTyp = ["directions-objspace", "directions-logobjspace", "directions-searchspace", "directions-searchspace-projection"];
+var typs = ["Unscaled objective space", "Normalized objective space", "Search space", "Search space (optima direction)", "Dominance rank", "Level sets", "Local dominance", "Gradient length", "Path length"];
+var valuesTyp = ["directions-objspace", "directions-logobjspace", "directions-searchspace", "directions-searchspace-projection", "dominance-rank", "level-sets", "local-dominance", "gradient-length", "path-length"];
 /* Make sure typs and valuesTyp have the same length! */
 var contentsTyp;
 for (let i = 0; i < typs.length; i++) {

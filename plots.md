@@ -7,9 +7,12 @@ title: Plots
 
 # Plots  #
 ---
-Note that some plot types are not available for all dimensions and instances. For example, 
+Note that some plot types are not available for all dimensions and instances. For example, plots
+of the 
 *Unscaled objective space*, *Objective space*, *Search space* and *Search space (optima direction)*
-are only provided for dimensions 2, 3 and 5 and instances 1 to 5.
+are only provided for dimensions 2, 3 and 5 and instances 1 to 5, while plots of the *Dominance rank*,
+*Level sets*, *Local dominance*, *Gradient length* and *Path length* are only available for 
+dimension 2.
 
 <table BORDER="0">
 <tr>
