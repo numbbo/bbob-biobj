@@ -33,7 +33,7 @@ jump.appendChild(elemA);
 </script>
 
 ## <a name="F1"></a>F<sub>1</sub>: Sphere/Sphere ##
-Combination of two sphere functions ([f<sub>1</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=5) in the bbob suite).
+Combination of two sphere functions ([f<sub>1</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=5) in the bbob suite).
 
 Both objectives are unimodal, highly symmetric, rotational and scale
 invariant. The Pareto set is known to be a straight line and the Pareto
@@ -49,8 +49,8 @@ Contained in the *separable - separable* function group.
 
 
 ## <a name="F2"></a>F<sub>2</sub>: Sphere/Ellipsoid separable ##
-Combination of the sphere function ([f<sub>1</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=5) in the bbob suite)
-and the separable ellipsoid function ([f<sub>2</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=10) in the bbob suite).
+Combination of the sphere function ([f<sub>1</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=5) in the bbob suite)
+and the separable ellipsoid function ([f<sub>2</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=10) in the bbob suite).
 
 Both objectives are unimodal and separable. While the first objective is
 truly convex-quadratic with a condition number of 1, the second
@@ -62,8 +62,8 @@ Contained in the *separable - separable* function group.
 
 
 ## <a name="F3"></a>F<sub>3</sub>: Sphere/Attractive sector ##
-Combination of the sphere function ([f<sub>1</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=5) in the bbob suite)
-and the attractive sector function ([f<sub>6</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=30) in the bbob suite).
+Combination of the sphere function ([f<sub>1</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=5) in the bbob suite)
+and the attractive sector function ([f<sub>6</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=30) in the bbob suite).
 
 Both objective functions are unimodal, but only the first objective is
 separable and truly convex quadratic. The attractive sector
@@ -77,8 +77,8 @@ Contained in the *separable - moderate* function group.
 
 
 ## <a name="F4"></a>F<sub>4</sub>: Sphere/Rosenbrock original ##
-Combination of the sphere function ([f<sub>1</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=5) in the bbob suite)
-and the original, i.e., unrotated Rosenbrock function ([f<sub>8</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=40) in the bbob suite).
+Combination of the sphere function ([f<sub>1</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=5) in the bbob suite)
+and the original, i.e., unrotated Rosenbrock function ([f<sub>8</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=40) in the bbob suite).
 
 The first objective is separable and truly convex, the second
 objective is partially separable (tri-band structure). The first
@@ -90,8 +90,8 @@ Contained in the *separable - moderate* function group.
 
 
 ## <a name="F5"></a>F<sub>5</sub>: Sphere/Sharp ridge ##
-Combination of the sphere function ([f<sub>1</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=5) in the bbob suite)
-and the sharp ridge function ([f<sub>13</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=65) in the bbob suite).
+Combination of the sphere function ([f<sub>1</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=5) in the bbob suite)
+and the sharp ridge function ([f<sub>13</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=65) in the bbob suite).
 
 Both objective functions are unimodal.
 In addition to the simple, separable, and differentiable first
@@ -110,8 +110,8 @@ Contained in the *separable - ill-conditioned* function group.
 
 
 ## <a name="F6"></a>F<sub>6</sub>: Sphere/Sum of Different Powers ##
-Combination of the sphere function ([f<sub>1</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=5) in the bbob suite)
-and the sum of different powers function ([f<sub>14</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=70) in the bbob suite).
+Combination of the sphere function ([f<sub>1</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=5) in the bbob suite)
+and the sum of different powers function ([f<sub>14</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the bbob suite).
 
 Both objective functions are unimodal. The first objective is
 separable, the second non-separable.
@@ -124,8 +124,8 @@ Contained in the *separable - ill-conditioned* function group.
 
 
 ## <a name="F7"></a>F<sub>7</sub>: Sphere/Rastrigin ##
-Combination of the sphere function ([f<sub>1</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=5) in the bbob suite)
-and the Rastrigin function ([f<sub>15</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=75) in the bbob suite).
+Combination of the sphere function ([f<sub>1</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=5) in the bbob suite)
+and the Rastrigin function ([f<sub>15</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=75) in the bbob suite).
 
 In addition to the simple sphere function, the prototypical highly
 multimodal Rastrigin function needs to be solved which has originally
@@ -142,8 +142,8 @@ Contained in the *separable - multimodal* function group.
 
 
 ## <a name="F8"></a>F<sub>8</sub>: Sphere/Schaffer F## <a name="F7"></a>F<sub>7</sub>, condition ## <a name="F10"></a>F<sub>10</sub> ##
-Combination of the sphere function ([f<sub>1</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=5) in the bbob suite)
-and the Schaffer F7 function with condition number 10 ([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=85) in the bbob suite).
+Combination of the sphere function ([f<sub>1</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=5) in the bbob suite)
+and the Schaffer F7 function with condition number 10 ([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the bbob suite).
 
 In addition to the simple sphere function, an asymmetric, non-separable,
 and highly multimodal function needs to be solved to approach the Pareto
@@ -156,8 +156,8 @@ Contained in the *separable - multimodal* function group.
 
 
 ## <a name="F9"></a>F<sub>9</sub>: Sphere/Schwefel x*sin(x) ##
-Combination of the sphere function ([f<sub>1</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=5) in the bbob suite)
-and the Schwefel function ([f<sub>20</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=100) in the bbob suite).
+Combination of the sphere function ([f<sub>1</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=5) in the bbob suite)
+and the Schwefel function ([f<sub>20</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the bbob suite).
 
 While the first objective function is separable and unimodal,
 the second objective function is partially separable and highly
@@ -169,8 +169,8 @@ Contained in the *separable - weakly-structured* function group.
 
 
 ## <a name="F10"></a>F<sub>10</sub>: Sphere/Gallagher ## <a name="F101"></a>F<sub>101</sub> peaks ##
-Combination of the sphere function ([f<sub>1</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=5) in the bbob suite)
-and the Gallagher function with 101 peaks ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=105) in the bbob suite).
+Combination of the sphere function ([f<sub>1</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=5) in the bbob suite)
+and the Gallagher function with 101 peaks ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the bbob suite).
 
 While the first objective function is separable and unimodal,
 the second objective function is non-separable and consists
@@ -184,7 +184,7 @@ Contained in the *separable - weakly-structured* function group.
 
 
 ## <a name="F11"></a>F<sub>11</sub>: Ellipsoid separable/Ellipsoid separable ##
-Combination of two separable ellipsoid functions ([f<sub>2</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=10) in the bbob suite).
+Combination of two separable ellipsoid functions ([f<sub>2</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=10) in the bbob suite).
 
 Both objectives are unimodal, separable, only globally
 quadratic with smooth local irregularities, and highly
@@ -196,8 +196,8 @@ Contained in the *separable - separable* function group.
 
 
 ## <a name="F12"></a>F<sub>12</sub>: Ellipsoid separable/Attractive sector ##
-Combination of the separable ellipsoid function ([f<sub>2</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=10) in the bbob suite)
-and the attractive sector function ([f<sub>6</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=30) in the bbob suite).
+Combination of the separable ellipsoid function ([f<sub>2</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=10) in the bbob suite)
+and the attractive sector function ([f<sub>6</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=30) in the bbob suite).
 
 Both objective functions are unimodal but only the first
 one is separable. The first objective function, in addition,
@@ -214,8 +214,8 @@ Contained in the *separable - moderate* function group.
 
 
 ## <a name="F13"></a>F<sub>13</sub>: Ellipsoid separable/Rosenbrock original ##
-Combination of the separable ellipsoid function ([f<sub>2</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=10) in the bbob suite) and the original, i.e., unrotated Rosenbrock function
-([f<sub>8</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=40) in the bbob suite).
+Combination of the separable ellipsoid function ([f<sub>2</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=10) in the bbob suite) and the original, i.e., unrotated Rosenbrock function
+([f<sub>8</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=40) in the bbob suite).
 
 Only the first objective is separable and unimodal. The second
 objective is partially separable (tri-band structure) and has a local
@@ -230,7 +230,7 @@ Contained in the *separable - moderate* function group.
 
 
 ## <a name="F14"></a>F<sub>14</sub>: Ellipsoid separable/Sharp ridge ##
-Combination of the separable ellipsoid function ([f<sub>2</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=10) in the bbob suite) and the sharp ridge function ([f<sub>13</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=65) in the bbob suite).
+Combination of the separable ellipsoid function ([f<sub>2</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=10) in the bbob suite) and the sharp ridge function ([f<sub>13</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=65) in the bbob suite).
 
 Both objective functions are unimodal but only the first one is
 separable.
@@ -245,8 +245,8 @@ Contained in the *separable - ill-conditioned* function group.
 
 
 ## <a name="F15"></a>F<sub>15</sub>: Ellipsoid separable/Sum of Different Powers ##
-Combination of the separable ellipsoid function ([f<sub>2</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=10) in the bbob suite) and the sum of different powers function
-([f<sub>14</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=70) in the bbob suite).
+Combination of the separable ellipsoid function ([f<sub>2</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=10) in the bbob suite) and the sum of different powers function
+([f<sub>14</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the bbob suite).
 
 Both objective functions are unimodal but only the first one is
 separable.
@@ -262,7 +262,7 @@ Contained in the *separable - ill-conditioned* function group.
 
 
 ## <a name="F16"></a>F<sub>16</sub>: Ellipsoid separable/Rastrigin ##
-Combination of the separable ellipsoid function ([f<sub>2</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=10) in the bbob suite) and the Rastrigin function ([f<sub>15</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=75) in the bbob suite).
+Combination of the separable ellipsoid function ([f<sub>2</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=10) in the bbob suite) and the Rastrigin function ([f<sub>15</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=75) in the bbob suite).
 
 The objective functions show rather opposite properties.
 The first one is separable, the second not. The first one
@@ -278,8 +278,8 @@ Contained in the *separable - multimodal* function group.
 
 
 ## <a name="F17"></a>F<sub>17</sub>: Ellipsoid separable/Schaffer F## <a name="F7"></a>F<sub>7</sub>, condition ## <a name="F10"></a>F<sub>10</sub> ##
-Combination of the separable ellipsoid function ([f<sub>2</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=10) in the bbob suite) and the Schaffer F7 function with condition number 10
-([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=85) in the bbob suite).
+Combination of the separable ellipsoid function ([f<sub>2</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=10) in the bbob suite) and the Schaffer F7 function with condition number 10
+([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the bbob suite).
 
 Also here, both single objectives possess opposing properties.
 The first objective is unimodal, besides small local non-linearities symmetric,
@@ -291,7 +291,7 @@ Contained in the *separable - multimodal* function group.
 
 
 ## <a name="F18"></a>F<sub>18</sub>: Ellipsoid separable/Schwefel x*sin(x) ##
-Combination of the separable ellipsoid function ([f<sub>2</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=10) in the bbob suite) and the Schwefel function ([f<sub>20</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=100) in the bbob suite).
+Combination of the separable ellipsoid function ([f<sub>2</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=10) in the bbob suite) and the Schwefel function ([f<sub>20</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the bbob suite).
 
 The first objective is unimodal, separable and highly ill-conditioned.
 The second objective is partially separable and highly multimodal---having
@@ -303,7 +303,7 @@ Contained in the *separable - weakly-structured* function group.
 
 
 ## <a name="F19"></a>F<sub>19</sub>: Ellipsoid separable/Gallagher ## <a name="F101"></a>F<sub>101</sub> peaks ##
-Combination of the separable ellipsoid function ([f<sub>2</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=10) in the bbob suite) and the Gallagher function with 101 peaks ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=105) in the bbob suite).
+Combination of the separable ellipsoid function ([f<sub>2</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=10) in the bbob suite) and the Gallagher function with 101 peaks ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the bbob suite).
 
 While the first objective function is separable, unimodal, and
 highly ill-conditioned (condition number of about $$10^6$$),
@@ -318,7 +318,7 @@ Contained in the *separable - weakly-structured* function group.
 
 
 ## <a name="F20"></a>F<sub>20</sub>: Attractive sector/Attractive sector ##
-Combination of two attractive sector functions ([f<sub>6</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=30) in the bbob suite).
+Combination of two attractive sector functions ([f<sub>6</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=30) in the bbob suite).
 Both functions are unimodal and highly asymmetric, where only one
 *hypercone* (with angular base area) per objective with a volume of
 roughly $$(1/2)^n$$ yields low function values. The objective
@@ -329,7 +329,7 @@ Contained in the *moderate - moderate* function group.
 
 
 ## <a name="F21"></a>F<sub>21</sub>: Attractive sector/Rosenbrock original ##
-Combination of the attractive sector function ([f<sub>6</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=30) in the bbob suite) and the Rosenbrock function ([f<sub>8</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=40) in the bbob suite).
+Combination of the attractive sector function ([f<sub>6</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=30) in the bbob suite) and the Rosenbrock function ([f<sub>8</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=40) in the bbob suite).
 
 The first function is unimodal but highly asymmetric, where only one
 *hypercone* (with angular base area) with a volume of
@@ -343,7 +343,7 @@ Contained in the *moderate - moderate* function group.
 
 
 ## <a name="F22"></a>F<sub>22</sub>: Attractive sector/Sharp ridge ##
-Combination of the attractive sector function ([f<sub>6</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=30) in the bbob suite) and the sharp ridge function ([f<sub>13</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=65) in the bbob suite).
+Combination of the attractive sector function ([f<sub>6</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=30) in the bbob suite) and the sharp ridge function ([f<sub>13</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=65) in the bbob suite).
 
 Both objective functions are unimodal and non-separable. The
 first objective is highly asymmetric in the sense that only one
@@ -357,8 +357,8 @@ Contained in the *moderate - ill-conditioned* function group.
 
 
 ## <a name="F23"></a>F<sub>23</sub>: Attractive sector/Sum of Different Powers ##
-Combination of the attractive sector function ([f<sub>6</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=30) in the bbob suite) and the sum of different powers function
-([f<sub>14</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=70) in the bbob suite).
+Combination of the attractive sector function ([f<sub>6</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=30) in the bbob suite) and the sum of different powers function
+([f<sub>14</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the bbob suite).
 
 Both objective functions are unimodal and non-separable. The
 first objective is highly asymmetric in the sense that only one
@@ -373,8 +373,8 @@ Contained in the *moderate - ill-conditioned* function group.
 
 
 ## <a name="F24"></a>F<sub>24</sub>: Attractive sector/Rastrigin ##
-Combination of the attractive sector function ([f<sub>6</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=30) in the bbob suite) and the Rastrigin function
-([f<sub>15</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=75) in the bbob suite).
+Combination of the attractive sector function ([f<sub>6</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=30) in the bbob suite) and the Rastrigin function
+([f<sub>15</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=75) in the bbob suite).
 
 Both objectives are non-separable, and the second one
 is highly multimodal (roughly $$10^n$$ local
@@ -387,8 +387,8 @@ Contained in the *moderate - multimodal* function group.
 
 
 ## <a name="F25"></a>F<sub>25</sub>: Attractive sector/Schaffer F## <a name="F7"></a>F<sub>7</sub>, condition ## <a name="F10"></a>F<sub>10</sub> ##
-Combination of the attractive sector function ([f<sub>6</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=30) in the bbob suite) and the Schaffer F7 function with condition number 10
-([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=85) in the bbob suite).
+Combination of the attractive sector function ([f<sub>6</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=30) in the bbob suite) and the Schaffer F7 function with condition number 10
+([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the bbob suite).
 
 Both objectives are non-separable and asymmetric.
 While the first objective is unimodal, the second one is
@@ -400,7 +400,7 @@ Contained in the *moderate - multimodal* function group.
 
 
 ## <a name="F26"></a>F<sub>26</sub>: Attractive sector/Schwefel x*sin(x) ##
-Combination of the attractive sector function ([f<sub>6</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=30) in the bbob suite) and the Schwefel function ([f<sub>20</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=100) in the bbob suite).
+Combination of the attractive sector function ([f<sub>6</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=30) in the bbob suite) and the Schwefel function ([f<sub>20</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the bbob suite).
 
 The first objective is non-separable, unimodal, and asymmetric.
 The second objective is partially separable and highly multimodal---having
@@ -412,7 +412,7 @@ Contained in the *moderate - weakly-structured* function group.
 
 
 ## <a name="F27"></a>F<sub>27</sub>: Attractive sector/Gallagher ## <a name="F101"></a>F<sub>101</sub> peaks ##
-Combination of the attractive sector function ([f<sub>6</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=30) in the bbob suite) and the Gallagher function with 101 peaks ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=105) in the bbob suite).
+Combination of the attractive sector function ([f<sub>6</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=30) in the bbob suite) and the Gallagher function with 101 peaks ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the bbob suite).
 
 Both objective functions are non-separable but only the first
 is unimodal. The first objective function is furthermore asymmetric.
@@ -426,7 +426,7 @@ Contained in the *moderate - weakly-structured* function group.
 
 
 ## <a name="F28"></a>F<sub>28</sub>: Rosenbrock original/Rosenbrock original ##
-Combination of two Rosenbrock functions ([f<sub>8</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=40) in the bbob suite).
+Combination of two Rosenbrock functions ([f<sub>8</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=40) in the bbob suite).
 
 Both objectives are partially separable (tri-band structure) and have
 a local optimum with an attraction volume of about 25%.
@@ -436,8 +436,8 @@ Contained in the *moderate - moderate* function group.
 
 
 ## <a name="F29"></a>F<sub>29</sub>: Rosenbrock original/Sharp ridge ##
-Combination of the Rosenbrock function ([f<sub>8</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=40) in the bbob suite) and the
-sharp ridge function ([f<sub>13</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=65) in the bbob suite).
+Combination of the Rosenbrock function ([f<sub>8</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=40) in the bbob suite) and the
+sharp ridge function ([f<sub>13</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=65) in the bbob suite).
 
 The first objective function is partially separable (tri-band structure)
 and has a local optimum with an attraction volume of about 25%.
@@ -449,8 +449,8 @@ Contained in the *moderate - ill-conditioned* function group.
 
 
 ## <a name="F30"></a>F<sub>30</sub>: Rosenbrock original/Sum of Different Powers ##
-Combination of the Rosenbrock function ([f<sub>8</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=40) in the bbob suite) and the sum of different powers function
-([f<sub>14</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=70) in the bbob suite).
+Combination of the Rosenbrock function ([f<sub>8</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=40) in the bbob suite) and the sum of different powers function
+([f<sub>14</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the bbob suite).
 
 The first objective function is partially separable (tri-band structure)
 and has a local optimum with an attraction volume of about 25%.
@@ -463,8 +463,8 @@ Contained in the *moderate - ill-conditioned* function group.
 
 
 ## <a name="F31"></a>F<sub>31</sub>: Rosenbrock original/Rastrigin ##
-Combination of the Rosenbrock function ([f<sub>8</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=40) in the bbob suite) and the Rastrigin function
-([f<sub>15</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=75) in the bbob suite).
+Combination of the Rosenbrock function ([f<sub>8</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=40) in the bbob suite) and the Rastrigin function
+([f<sub>15</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=75) in the bbob suite).
 
 The first objective function is partially separable (tri-band structure)
 and has a local optimum with an attraction volume of about 25%.
@@ -477,9 +477,9 @@ Contained in the *moderate - multimodal* function group.
 
 
 ## <a name="F32"></a>F<sub>32</sub>: Rosenbrock original/Schaffer F## <a name="F7"></a>F<sub>7</sub>, condition ## <a name="F10"></a>F<sub>10</sub> ##
-Combination of the Rosenbrock function ([f<sub>8</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=40) in the bbob suite) and the
+Combination of the Rosenbrock function ([f<sub>8</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=40) in the bbob suite) and the
 Schaffer F7 function with condition number 10
-([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=85) in the bbob suite).
+([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the bbob suite).
 
 The first objective function is partially separable (tri-band structure)
 and has a local optimum with an attraction volume of about 25%.
@@ -492,8 +492,8 @@ Contained in the *moderate - multimodal* function group.
 
 
 ## <a name="F33"></a>F<sub>33</sub>: Rosenbrock original/Schwefel x*sin(x) ##
-Combination of the Rosenbrock function ([f<sub>8</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=40) in the bbob suite) and the
-Schwefel function ([f<sub>20</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=100) in the bbob suite).
+Combination of the Rosenbrock function ([f<sub>8</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=40) in the bbob suite) and the
+Schwefel function ([f<sub>20</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the bbob suite).
 
 Both objective functions are partially separable.
 While the first objective function has a local optimum with an attraction
@@ -506,8 +506,8 @@ Contained in the *moderate - weakly-structured* function group.
 
 
 ## <a name="F34"></a>F<sub>34</sub>: Rosenbrock original/Gallagher ## <a name="F101"></a>F<sub>101</sub> peaks ##
-Combination of the Rosenbrock function ([f<sub>8</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=40) in the bbob suite) and
-the Gallagher function with 101 peaks ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=105) in the bbob suite).
+Combination of the Rosenbrock function ([f<sub>8</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=40) in the bbob suite) and
+the Gallagher function with 101 peaks ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the bbob suite).
 
 The first objective function is partially separable, the second one
 non-separable. While the first objective function has a local optimum
@@ -522,7 +522,7 @@ Contained in the *moderate - weakly-structured* function group.
 
 
 ## <a name="F35"></a>F<sub>35</sub>: Sharp ridge/Sharp ridge ##
-Combination of two sharp ridge functions ([f<sub>13</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=65) in the bbob suite).
+Combination of two sharp ridge functions ([f<sub>13</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=65) in the bbob suite).
 
 Both objective functions are unimodal and non-separable and, for
 optimizing them, two sharp, i.e., non-differentiable ridges have to be
@@ -533,9 +533,9 @@ Contained in the *ill-conditioned - ill-conditioned* function group.
 
 
 ## <a name="F36"></a>F<sub>36</sub>: Sharp ridge/Sum of Different Powers ##
-Combination of the sharp ridge function ([f<sub>13</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=65) in the bbob suite) and the
+Combination of the sharp ridge function ([f<sub>13</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=65) in the bbob suite) and the
 sum of different powers function
-([f<sub>14</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=70) in the bbob suite).
+([f<sub>14</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the bbob suite).
 
 Both functions are uni-modal and non-separable.
 For optimizing the first objective, a sharp, i.e., non-differentiable
@@ -548,8 +548,8 @@ Contained in the *ill-conditioned - ill-conditioned* function group.
 
 
 ## <a name="F37"></a>F<sub>37</sub>: Sharp ridge/Rastrigin ##
-Combination of the sharp ridge function ([f<sub>13</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=65) in the bbob suite) and the Rastrigin function
-([f<sub>15</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=75) in the bbob suite).
+Combination of the sharp ridge function ([f<sub>13</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=65) in the bbob suite) and the Rastrigin function
+([f<sub>15</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=75) in the bbob suite).
 
 Both functions are non-separable. While the first one
 is unimodal and non-differentiable at its ridge, the second objective
@@ -560,9 +560,9 @@ Contained in the *ill-conditioned - multimodal* function group.
 
 
 ## <a name="F38"></a>F<sub>38</sub>: Sharp ridge/Schaffer F## <a name="F7"></a>F<sub>7</sub>, condition ## <a name="F10"></a>F<sub>10</sub> ##
-Combination of the sharp ridge function ([f<sub>13</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=65) in the bbob suite) and the
+Combination of the sharp ridge function ([f<sub>13</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=65) in the bbob suite) and the
 Schaffer F7 function with condition number 10
-([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=85) in the bbob suite).
+([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the bbob suite).
 
 Both functions are non-separable. While the first one
 is unimodal and non-differentiable at its ridge, the second objective
@@ -574,8 +574,8 @@ Contained in the *ill-conditioned - multimodal* function group.
 
 
 ## <a name="F39"></a>F<sub>39</sub>: Sharp ridge/Schwefel x*sin(x) ##
-Combination of the sharp ridge function ([f<sub>13</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=65) in the bbob suite) and the
-Schwefel function ([f<sub>20</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=100) in the bbob suite).
+Combination of the sharp ridge function ([f<sub>13</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=65) in the bbob suite) and the
+Schwefel function ([f<sub>20</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the bbob suite).
 
 While the first objective function is unimodal, non-separable, and
 non-differentiable at its ridge, the second objective function is highly
@@ -587,8 +587,8 @@ Contained in the *ill-conditioned - weakly-structured* function group.
 
 
 ## <a name="F40"></a>F<sub>40</sub>: Sharp ridge/Gallagher ## <a name="F101"></a>F<sub>101</sub> peaks ##
-Combination of the sharp ridge function ([f<sub>13</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=65) in the bbob suite) and the
-Gallagher function with 101 peaks ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=105) in the bbob suite).
+Combination of the sharp ridge function ([f<sub>13</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=65) in the bbob suite) and the
+Gallagher function with 101 peaks ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the bbob suite).
 
 Both objective functions are non-separable.
 While the first objective function is unimodal and non-differentiable at
@@ -604,7 +604,7 @@ Contained in the *ill-conditioned - weakly-structured* function group.
 
 ## <a name="F41"></a>F<sub>41</sub>: Sum of Different Powers/Sum of Different Powers ##
 Combination of two sum of different powers functions
-([f<sub>14</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=70) in the bbob suite).
+([f<sub>14</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the bbob suite).
 
 Both functions are uni-modal and non-separable where the sensitivities of
 the variables in the rotated search space become more and more different
@@ -616,8 +616,8 @@ Contained in the *ill-conditioned - ill-conditioned* function group.
 
 ## <a name="F42"></a>F<sub>42</sub>: Sum of Different Powers/Rastrigin ##
 Combination of the sum of different powers functions
-([f<sub>14</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=70) in the bbob suite) and the Rastrigin function
-([f<sub>15</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=75) in the bbob suite).
+([f<sub>14</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the bbob suite) and the Rastrigin function
+([f<sub>15</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=75) in the bbob suite).
 
 Both objective functions are non-separable. While the first one
 is unimodal, the second objective
@@ -629,8 +629,8 @@ Contained in the *ill-conditioned - multimodal* function group.
 
 ## <a name="F43"></a>F<sub>43</sub>: Sum of Different Powers/Schaffer F## <a name="F7"></a>F<sub>7</sub>, condition ## <a name="F10"></a>F<sub>10</sub> ##
 Combination of the sum of different powers functions
-([f<sub>14</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=70) in the bbob suite) and the Schaffer F7 function with
-condition number 10 ([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=85) in the bbob suite).
+([f<sub>14</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the bbob suite) and the Schaffer F7 function with
+condition number 10 ([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the bbob suite).
 
 Both objective functions are non-separable. While the first one
 is unimodal with an increasing conditioning once the optimum is approached,
@@ -643,7 +643,7 @@ Contained in the *ill-conditioned - multimodal* function group.
 
 ## <a name="F44"></a>F<sub>44</sub>: Sum of Different Powers/Schwefel x*sin(x) ##
 Combination of the sum of different powers functions
-([f<sub>14</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=70) in the bbob suite) and the Schwefel function ([f<sub>20</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=100) in the bbob suite).
+([f<sub>14</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the bbob suite) and the Schwefel function ([f<sub>20</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the bbob suite).
 
 Both objectives are non-separable.
 While the first objective function is unimodal,
@@ -657,8 +657,8 @@ Contained in the *ill-conditioned - weakly-structured* function group.
 
 ## <a name="F45"></a>F<sub>45</sub>: Sum of Different Powers/Gallagher ## <a name="F101"></a>F<sub>101</sub> peaks ##
 Combination of the sum of different powers functions
-([f<sub>14</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=70) in the bbob suite) and the Gallagher function with
-101 peaks ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=105) in the bbob suite).
+([f<sub>14</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the bbob suite) and the Gallagher function with
+101 peaks ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the bbob suite).
 
 Both objective functions are non-separable.
 While the first objective function is unimodal, the second objective function
@@ -673,7 +673,7 @@ Contained in the *ill-conditioned - weakly-structured* function group.
 
 ## <a name="F46"></a>F<sub>46</sub>: Rastrigin/Rastrigin ##
 Combination of two Rastrigin functions
-([f<sub>15</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=75) in the bbob suite).
+([f<sub>15</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=75) in the bbob suite).
 
 Both objective functions are non-separable and highly multimodal
 (roughly $$10^n$$ local optima).
@@ -684,8 +684,8 @@ Contained in the *multimodal - multimodal* function group.
 
 ## <a name="F47"></a>F<sub>47</sub>: Rastrigin/Schaffer F## <a name="F7"></a>F<sub>7</sub>, condition ## <a name="F10"></a>F<sub>10</sub> ##
 Combination of the Rastrigin function
-([f<sub>15</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=75) in the bbob suite) and the Schaffer F7 function with
-condition number 10 ([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=85) in the bbob suite).
+([f<sub>15</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=75) in the bbob suite) and the Schaffer F7 function with
+condition number 10 ([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the bbob suite).
 
 Both objective functions are non-separable and highly multimodal.
 
@@ -695,7 +695,7 @@ Contained in the *multimodal - multimodal* function group.
 
 ## <a name="F48"></a>F<sub>48</sub>: Rastrigin/Schwefel x*sin(x) ##
 Combination of the Rastrigin function
-([f<sub>15</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=75) in the bbob suite) and the Schwefel function ([f<sub>20</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=100) in the bbob suite).
+([f<sub>15</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=75) in the bbob suite) and the Schwefel function ([f<sub>20</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the bbob suite).
 
 Both objective functions are non-separable and highly multimodal where
 the first has roughly $$10^n$$ local optima and the most prominent
@@ -708,8 +708,8 @@ Contained in the *multimodal - weakly-structured* function group.
 
 ## <a name="F49"></a>F<sub>49</sub>: Rastrigin/Gallagher ## <a name="F101"></a>F<sub>101</sub> peaks ##
 Combination of the Rastrigin function
-([f<sub>15</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=75) in the bbob suite) and the Gallagher function with
-101 peaks ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=105) in the bbob suite).
+([f<sub>15</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=75) in the bbob suite) and the Gallagher function with
+101 peaks ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the bbob suite).
 
 Both objective functions are non-separable and highly multimodal where
 the first has roughly $$10^n$$ local optima and the second has
@@ -722,7 +722,7 @@ Contained in the *multimodal - weakly-structured* function group.
 
 ## <a name="F50"></a>F<sub>50</sub>: Schaffer F## <a name="F7"></a>F<sub>7</sub>, condition ## <a name="F10"></a>F<sub>10</sub>/Schaffer F## <a name="F7"></a>F<sub>7</sub>, condition ## <a name="F10"></a>F<sub>10</sub> ##
 Combination of two Schaffer F7 functions with
-condition number 10 ([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=85) in the bbob suite).
+condition number 10 ([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the bbob suite).
 
 Both objective functions are non-separable and highly multimodal.
 
@@ -732,8 +732,8 @@ Contained in the *multimodal - multimodal* function group.
 
 ## <a name="F51"></a>F<sub>51</sub>: Schaffer F## <a name="F7"></a>F<sub>7</sub>, condition ## <a name="F10"></a>F<sub>10</sub>/Schwefel x*sin(x) ##
 Combination of the Schaffer F7 function with
-condition number 10 ([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=85) in the bbob suite)
-and the Schwefel function ([f<sub>20</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=100) in the bbob suite).
+condition number 10 ([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the bbob suite)
+and the Schwefel function ([f<sub>20</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the bbob suite).
 
 Both objective functions are non-separable and highly multimodal.
 While frequency and amplitude of the modulation vary in an almost
@@ -746,9 +746,9 @@ Contained in the *multimodal - weakly-structured* function group.
 
 ## <a name="F52"></a>F<sub>52</sub>: Schaffer F## <a name="F7"></a>F<sub>7</sub>, condition ## <a name="F10"></a>F<sub>10</sub>/Gallagher ## <a name="F101"></a>F<sub>101</sub> peaks ##
 Combination of the Schaffer F7 function with
-condition number 10 ([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=85) in the bbob suite)
+condition number 10 ([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the bbob suite)
 and the Gallagher function with
-101 peaks ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=105) in the bbob suite).
+101 peaks ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the bbob suite).
 
 Both objective functions are non-separable and highly multimodal.
 While frequency and amplitude of the modulation vary in an almost
@@ -761,7 +761,7 @@ Contained in the *multimodal - weakly-structured* function group.
 
 
 ## <a name="F53"></a>F<sub>53</sub>: Schwefel x*sin(x)/Schwefel x*sin(x) ##
-Combination of two Schwefel functions ([f<sub>20</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=100) in the bbob suite).
+Combination of two Schwefel functions ([f<sub>20</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the bbob suite).
 
 Both objective functions are non-separable and highly multimodal where
 the most prominent $$2^n$$ minima of each objective function are
@@ -775,8 +775,8 @@ Contained in the *weakly-structured - weakly-structured* function group.
 
 
 ## <a name="F54"></a>F<sub>54</sub>: Schwefel x*sin(x)/Gallagher ## <a name="F101"></a>F<sub>101</sub> peaks ##
-Combination of the Schwefel function ([f<sub>20</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=100) in the bbob suite) and the Gallagher function with
-101 peaks ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=105) in the bbob suite).
+Combination of the Schwefel function ([f<sub>20</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the bbob suite) and the Gallagher function with
+101 peaks ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the bbob suite).
 
 Both objective functions are non-separable and highly multimodal.
 For the first objective function, the most prominent $$2^n$$ minima
@@ -791,7 +791,7 @@ Contained in the *weakly-structured - weakly-structured* function group.
 
 ## <a name="F55"></a>F<sub>55</sub>: Gallagher ## <a name="F101"></a>F<sub>101</sub> peaks/Gallagher ## <a name="F101"></a>F<sub>101</sub> peaks ##
 Combination of two Gallagher functions with
-101 peaks ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=105) in the bbob suite).
+101 peaks ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the bbob suite).
 
 Both objective functions are non-separable and highly multimodal.
 Position and height of all 101 optima in each objective function
@@ -803,8 +803,8 @@ Contained in the *weakly-structured - weakly-structured* function group.
 
 
 ## <a name="F56"></a>F<sub>56</sub>: Sphere/Rastrigin separable ##
-Combination of the Sphere function ([f<sub>1</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=5) in the bbob suite) and the
-separable Rastrigin function ([f<sub>3</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=15) in the bbob suite).
+Combination of the Sphere function ([f<sub>1</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=5) in the bbob suite) and the
+separable Rastrigin function ([f<sub>3</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=15) in the bbob suite).
 
 While the first objective function is unimodal, highly symmetric,
 rotational and scale invariant, the second one is highly multimodal
@@ -818,8 +818,8 @@ Contained in the *separable - separable* function group.
 
 
 ## <a name="F57"></a>F<sub>57</sub>: Sphere/Rastrigin-B\"{u}che ##
-Combination of the Sphere function ([f<sub>1</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=5) in the bbob suite) and the
-separable B\"{u}che-Rastrigin function ([f<sub>4</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=20) in the bbob suite).
+Combination of the Sphere function ([f<sub>1</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=5) in the bbob suite) and the
+separable B\"{u}che-Rastrigin function ([f<sub>4</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=20) in the bbob suite).
 
 While the first objective function is unimodal, highly symmetric,
 rotational and scale invariant, the second one is highly multimodal
@@ -834,8 +834,8 @@ Contained in the *separable - separable* function group.
 
 
 ## <a name="F58"></a>F<sub>58</sub>: Sphere/Linear slope ##
-Combination of the Sphere function ([f<sub>1</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=5) in the bbob suite) and the
-Linear Slope function ([f<sub>5</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=25) in the bbob suite).
+Combination of the Sphere function ([f<sub>1</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=5) in the bbob suite) and the
+Linear Slope function ([f<sub>5</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=25) in the bbob suite).
 
 Both objective functions are separable and amongst the simplest
 continuous functions to optimize. The first objective function is fully
@@ -849,8 +849,8 @@ Contained in the *separable - separable* function group.
 
 
 ## <a name="F59"></a>F<sub>59</sub>: Separable Ellipsoid/Separable Rastrigin ##
-Combination of the separable Ellipsoid function ([f<sub>2</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=10) in the bbob suite) and the
-separable Rastrigin function ([f<sub>3</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=15) in the bbob suite).
+Combination of the separable Ellipsoid function ([f<sub>2</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=10) in the bbob suite) and the
+separable Rastrigin function ([f<sub>3</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=15) in the bbob suite).
 
 Besides being both separable, the two objective functions are quite opposite:
 the first objective function is unimodal, globally quadratic and ill-conditioned
@@ -866,8 +866,8 @@ Contained in the *separable - separable* function group.
 
 
 ## <a name="F60"></a>F<sub>60</sub>: separable Ellipsoid/B\"{u}che-Rastrigin ##
-Combination of the separable Ellipsoid function ([f<sub>2</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=10) in the bbob suite) and the
-separable B\"{u}che-Rastrigin function ([f<sub>4</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=20) in the bbob suite).
+Combination of the separable Ellipsoid function ([f<sub>2</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=10) in the bbob suite) and the
+separable B\"{u}che-Rastrigin function ([f<sub>4</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=20) in the bbob suite).
 
 Besides being both separable, the two objective functions are quite opposite:
 the first objective function is unimodal, globally quadratic and ill-conditioned
@@ -881,8 +881,8 @@ Contained in the *separable - separable* function group.
 
 
 ## <a name="F61"></a>F<sub>61</sub>: Separable Ellipsoid/Linear Slope ##
-Combination of the separable Ellipsoid function ([f<sub>2</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=10) in the bbob suite) and the
-Linear Slope function ([f<sub>5</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=25) in the bbob suite).
+Combination of the separable Ellipsoid function ([f<sub>2</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=10) in the bbob suite) and the
+Linear Slope function ([f<sub>5</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=25) in the bbob suite).
 
 Both objective functions are separable. The first objective function
 is unimodal with a high condition number of about $$10^6$$. The second
@@ -895,8 +895,8 @@ Contained in the *separable - separable* function group.
 
 
 ## <a name="F62"></a>F<sub>62</sub>: separable Rastrigin/B\"{u}che-Rastrigin ##
-Combination of the separable Rastrigin function ([f<sub>3</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=15) in the bbob suite) and the
-separable B\"{u}che-Rastrigin function ([f<sub>4</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=20) in the bbob suite).
+Combination of the separable Rastrigin function ([f<sub>3</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=15) in the bbob suite) and the
+separable B\"{u}che-Rastrigin function ([f<sub>4</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=20) in the bbob suite).
 
 Both objective functions are separable and highly multimodal with an underlying
 structure for the placements of the optima. While for the separable Rastrigin function,
@@ -908,8 +908,8 @@ Contained in the *separable - separable* function group.
 
 
 ## <a name="F63"></a>F<sub>63</sub>: Separable Rastrigin/Linear Slope ##
-Combination of the separable Rastrigin function ([f<sub>3</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=15) in the bbob suite) and the
-Linear Slope function ([f<sub>5</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=25) in the bbob suite).
+Combination of the separable Rastrigin function ([f<sub>3</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=15) in the bbob suite) and the
+Linear Slope function ([f<sub>5</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=25) in the bbob suite).
 
 Both objective functions are separable, but while the first objective function
 is highly multimodal with an underlying symmetric structure, the second objective
@@ -921,8 +921,8 @@ Contained in the *separable - separable* function group.
 
 
 ## <a name="F64"></a>F<sub>64</sub>: B\"{u}che-Rastrigin/Linear slope ##
-Combination of the B\"{u}che-Rastrigin function ([f<sub>4</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=20) in the bbob suite) and the
-Linear Slope function ([f<sub>5</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=25) in the bbob suite).
+Combination of the B\"{u}che-Rastrigin function ([f<sub>4</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=20) in the bbob suite) and the
+Linear Slope function ([f<sub>5</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=25) in the bbob suite).
 
 Both objective functions are separable, but while the first objective function
 is highly multimodal with an underlying asymmetric structure, the second objective
@@ -934,8 +934,8 @@ Contained in the *separable - separable* function group.
 
 
 ## <a name="F65"></a>F<sub>65</sub>: Attractive Sector/Step-ellipsoid ##
-Combination of the Attractive Sector function ([f<sub>6</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=30) in the bbob suite) and the
-Step Ellipsoidal function ([f<sub>7</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=35) in the bbob suite).
+Combination of the Attractive Sector function ([f<sub>6</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=30) in the bbob suite) and the
+Step Ellipsoidal function ([f<sub>7</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=35) in the bbob suite).
 
 Both objective functions are unimodal and of moderate conditioning.
 The first objective function is highly asymmetric, where only one *hypercone*
@@ -950,8 +950,8 @@ Contained in the *moderate - moderate* function group.
 
 
 ## <a name="F66"></a>F<sub>66</sub>: Attractive Sector/rotated Rosenbrock ##
-Combination of the Attractive Sector function ([f<sub>6</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=30) in the bbob suite) and the
-rotated Rosenbrock function ([f<sub>9</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=45) in the bbob suite).
+Combination of the Attractive Sector function ([f<sub>6</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=30) in the bbob suite) and the
+rotated Rosenbrock function ([f<sub>9</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=45) in the bbob suite).
 
 The first objective function is highly asymmetric, where only one *hypercone*
 (with angular base area) with a volume of roughly $$1/2^n$$ yields low function values.
@@ -967,8 +967,8 @@ Contained in the *moderate - moderate* function group.
 
 
 ## <a name="F67"></a>F<sub>67</sub>: Step-ellipsoid/separable Rosenbrock ##
-Combination of the Step Ellipsoidal function ([f<sub>7</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=35) in the bbob suite) and the
-separable Rosenbrock function ([f<sub>8</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=40) in the bbob suite).
+Combination of the Step Ellipsoidal function ([f<sub>7</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=35) in the bbob suite) and the
+separable Rosenbrock function ([f<sub>8</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=40) in the bbob suite).
 
 The first objective function is unimodal, non-separable, and has a
 conditioning of about 100. It actually consists of many plateaus of different sizes.
@@ -982,8 +982,8 @@ Contained in the *moderate - moderate* function group.
 
 
 ## <a name="F68"></a>F<sub>68</sub>: Step-ellipsoid/rotated Rosenbrock ##
-Combination of the Step Ellipsoidal function ([f<sub>7</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=35) in the bbob suite) and the
-rotated Rosenbrock function ([f<sub>9</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=45) in the bbob suite).
+Combination of the Step Ellipsoidal function ([f<sub>7</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=35) in the bbob suite) and the
+rotated Rosenbrock function ([f<sub>9</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=45) in the bbob suite).
 
 The first objective function is unimodal, non-separable, and has a
 conditioning of about 100. It actually consists of many plateaus of different sizes.
@@ -1001,8 +1001,8 @@ Contained in the *moderate - moderate* function group.
 
 
 ## <a name="F69"></a>F<sub>69</sub>: separable Rosenbrock/rotated Rosenbrock ##
-Combination of the separable Rosenbrock function ([f<sub>8</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=40) in the bbob suite) and the
-rotated Rosenbrock function ([f<sub>9</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=45) in the bbob suite).
+Combination of the separable Rosenbrock function ([f<sub>8</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=40) in the bbob suite) and the
+rotated Rosenbrock function ([f<sub>9</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=45) in the bbob suite).
 
 Both objective functions are Rosenbrock functions (also known under the name
 banana function due to its 2-D contour lines forming a bent ridge or valley)
@@ -1015,8 +1015,8 @@ Contained in the *moderate - moderate* function group.
 
 
 ## <a name="F70"></a>F<sub>70</sub>: Ellipsoid/Discus ##
-Combination of the Ellipsoid function ([f<sub>10</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=50) in the bbob suite) and the
-Discus (or Tablet) function ([f<sub>11</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=55) in the bbob suite).
+Combination of the Ellipsoid function ([f<sub>10</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=50) in the bbob suite) and the
+Discus (or Tablet) function ([f<sub>11</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=55) in the bbob suite).
 
 Both objective functions are globally quadratic (unimodal) ill-conditioned functions with
 condition numbers of $$10^6$$ with  smooth local irregularities. A single direction
@@ -1027,8 +1027,8 @@ Contained in the *ill-conditioned - ill-conditioned* function group.
 
 
 ## <a name="F71"></a>F<sub>71</sub>: Ellipsoid/Bent Cigar ##
-Combination of the Ellipsoid function ([f<sub>10</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=50) in the bbob suite) and the
-Bent Cigar function ([f<sub>12</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=60) in the bbob suite).
+Combination of the Ellipsoid function ([f<sub>10</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=50) in the bbob suite) and the
+Bent Cigar function ([f<sub>12</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=60) in the bbob suite).
 
 Both objective functions are unimodal, non-separable, and have a conditioning
 of about $$10^6$$. The Ellipsoid function is globally quadratic with
@@ -1041,8 +1041,8 @@ Contained in the *ill-conditioned - ill-conditioned* function group.
 
 
 ## <a name="F72"></a>F<sub>72</sub>: Ellipsoid/Sharp Ridge ##
-Combination of the Ellipsoid function ([f<sub>10</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=50) in the bbob suite) and the
-Sharp Ridge function ([f<sub>13</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=65) in the bbob suite).
+Combination of the Ellipsoid function ([f<sub>10</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=50) in the bbob suite) and the
+Sharp Ridge function ([f<sub>13</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=65) in the bbob suite).
 
 Both objective functions are unimodal, non-separable, and have a conditioning
 of about $$10^6$$. Compared to the previous function, the ridge of the
@@ -1056,8 +1056,8 @@ Contained in the *ill-conditioned - ill-conditioned* function group.
 
 
 ## <a name="F73"></a>F<sub>73</sub>: Ellipsoid/Sum of Different Powers ##
-Combination of the Ellipsoid function ([f<sub>10</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=50) in the bbob suite) and the
-Sum of Different Powers function ([f<sub>14</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=70) in the bbob suite).
+Combination of the Ellipsoid function ([f<sub>10</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=50) in the bbob suite) and the
+Sum of Different Powers function ([f<sub>14</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the bbob suite).
 
 Both objective functions are unimodal and non-separable. While the
 Ellipsoid function has a constant conditioning of $$10^6$$ everywhere,
@@ -1071,8 +1071,8 @@ Contained in the *ill-conditioned - ill-conditioned* function group.
 
 
 ## <a name="F74"></a>F<sub>74</sub>: Discus/Bent Cigar ##
-Combination of the Discus function ([f<sub>11</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=55) in the bbob suite) and the
-Bent cigar function ([f<sub>12</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=60) in the bbob suite).
+Combination of the Discus function ([f<sub>11</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=55) in the bbob suite) and the
+Bent cigar function ([f<sub>12</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=60) in the bbob suite).
 
 Both objective functions are unimodal, non-separable, and have a conditioning
 of about $$10^6$$.
@@ -1087,8 +1087,8 @@ Contained in the *ill-conditioned - ill-conditioned* function group.
 
 
 ## <a name="F75"></a>F<sub>75</sub>: Discus/Sharp Ridge ##
-Combination of the Discus function ([f<sub>11</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=55) in the bbob suite) and the
-Sharp Ridge function ([f<sub>13</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=65) in the bbob suite).
+Combination of the Discus function ([f<sub>11</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=55) in the bbob suite) and the
+Sharp Ridge function ([f<sub>13</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=65) in the bbob suite).
 
 Both objective functions are unimodal, non-separable, and have a conditioning
 of about $$10^6$$.
@@ -1106,8 +1106,8 @@ Contained in the *ill-conditioned - ill-conditioned* function group.
 
 
 ## <a name="F76"></a>F<sub>76</sub>: Discus/Sum of Different Powers ##
-Combination of the Discus function ([f<sub>11</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=55) in the bbob suite) and the
-Sum of Different Powers function ([f<sub>14</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=70) in the bbob suite).
+Combination of the Discus function ([f<sub>11</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=55) in the bbob suite) and the
+Sum of Different Powers function ([f<sub>14</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the bbob suite).
 
 Both objective functions are unimodal and non-separable. While the
 globally quadratic Discus function has a constant conditioning
@@ -1124,8 +1124,8 @@ Contained in the *ill-conditioned - ill-conditioned* function group.
 
 
 ## <a name="F77"></a>F<sub>77</sub>: Bent Cigar/Sharp Ridge ##
-Combination of the Bent Cigar function ([f<sub>12</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=60) in the bbob suite) and the
-Sharp Ridge function ([f<sub>13</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=65) in the bbob suite).
+Combination of the Bent Cigar function ([f<sub>12</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=60) in the bbob suite) and the
+Sharp Ridge function ([f<sub>13</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=65) in the bbob suite).
 
 Both objective functions are unimodal, non-separable, and have a conditioning
 of about $$10^6$$.
@@ -1143,8 +1143,8 @@ Contained in the *ill-conditioned - ill-conditioned* function group.
 
 
 ## <a name="F78"></a>F<sub>78</sub>: Bent Cigar/Sum of Different Powers ##
-Combination of the Bent Cigar function ([f<sub>12</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=60) in the bbob suite) and the
-Sum of Different Powers function ([f<sub>14</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=70) in the bbob suite).
+Combination of the Bent Cigar function ([f<sub>12</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=60) in the bbob suite) and the
+Sum of Different Powers function ([f<sub>14</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the bbob suite).
 
 Both objective functions are unimodal, non-separable, and have a conditioning
 of about $$10^6$$.
@@ -1165,8 +1165,8 @@ Contained in the *ill-conditioned - ill-conditioned* function group.
 
 
 ## <a name="F79"></a>F<sub>79</sub>: Rastrigin/Schaffer F## <a name="F7"></a>F<sub>7</sub> with conditioning of ## <a name="F1000"></a>F<sub>1000</sub> ##
-Combination of the Rastrigin function ([f<sub>15</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=75) in the bbob suite) and the
-Schaffer F7 function with conditioning 1000 ([f<sub>18</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=90) in the bbob suite).
+Combination of the Rastrigin function ([f<sub>15</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=75) in the bbob suite) and the
+Schaffer F7 function with conditioning 1000 ([f<sub>18</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=90) in the bbob suite).
 
 Both objective functions are non-separable and highly multimodal.
 The problem's Rastrigin function alleviates the symmetry and regularity of
@@ -1184,8 +1184,8 @@ Contained in the *multimodal - multimodal* function group.
 
 
 ## <a name="F80"></a>F<sub>80</sub>: Rastrigin/Griewank-Rosenbrock ##
-Combination of the Rastrigin function ([f<sub>15</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=75) in the bbob suite) and the
-Griewank-Rosenbrock function ([f<sub>19</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=95) in the bbob suite).
+Combination of the Rastrigin function ([f<sub>15</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=75) in the bbob suite) and the
+Griewank-Rosenbrock function ([f<sub>19</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=95) in the bbob suite).
 
 Both objective functions are non-separable and highly multimodal.
 Both objective functions furthermore are variants of the original Rosenbrock
@@ -1200,8 +1200,8 @@ Contained in the *multimodal multimodal* function group.
 
 
 ## <a name="F81"></a>F<sub>81</sub>: Schaffer F## <a name="F7"></a>F<sub>7</sub>/Schaffer F## <a name="F7"></a>F<sub>7</sub> with conditioning ## <a name="F1000"></a>F<sub>1000</sub> ##
-Combination of the Schaffer F7 function ([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=85) in the bbob suite) and the
-Schaffer F7 with conditioning 1000 function ([f<sub>18</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=90) in the bbob suite).
+Combination of the Schaffer F7 function ([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the bbob suite) and the
+Schaffer F7 with conditioning 1000 function ([f<sub>18</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=90) in the bbob suite).
 
 Both objective functions are of the same type (asymmetric, non-separable,
 highly multimodal where frequency and amplitude of the modulation vary).
@@ -1213,8 +1213,8 @@ Contained in the *multimodal - multimodal* function group.
 
 
 ## <a name="F82"></a>F<sub>82</sub>: Schaffer F## <a name="F7"></a>F<sub>7</sub>/Griewank-Rosenbrock ##
-Combination of the Schaffer F7 function ([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=85) in the bbob suite) and the
-Griewank-Rosenbrock function ([f<sub>19</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=95) in the bbob suite).
+Combination of the Schaffer F7 function ([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the bbob suite) and the
+Griewank-Rosenbrock function ([f<sub>19</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=95) in the bbob suite).
 
 Both objective functions are non-separable and highly multimodal.
 For the asymmetric Schaffer F7 function, frequency and amplitude of
@@ -1227,8 +1227,8 @@ Contained in the *multimodal - multimodal* function group.
 
 
 ## <a name="F83"></a>F<sub>83</sub>: Schaffer F## <a name="F7"></a>F<sub>7</sub> with conditioning ## <a name="F1000"></a>F<sub>1000</sub>/Griewank-Rosenbrock ##
-Combination of the Schaffer F7 function with conditioning 1000 ([f<sub>18</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=90) in the bbob suite) and the
-Griewank-Rosenbrock function ([f<sub>19</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=95) in the bbob suite).
+Combination of the Schaffer F7 function with conditioning 1000 ([f<sub>18</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=90) in the bbob suite) and the
+Griewank-Rosenbrock function ([f<sub>19</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=95) in the bbob suite).
 
 Compared to $$F_{82}$$, the only difference is the higher condition number of
 about 1000 (compared to 10) in the Schaffer F7 function.
@@ -1238,8 +1238,8 @@ Contained in the *multimodal - multimodal* function group.
 
 
 ## <a name="F84"></a>F<sub>84</sub>: Schwefel/Gallagher ## <a name="F21"></a>F<sub>21</sub> ##
-Combination of the Schwefel function ([f<sub>20</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=100) in the bbob suite) and the
-Gallagher 21 function ([f<sub>22</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=110) in the bbob suite).
+Combination of the Schwefel function ([f<sub>20</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the bbob suite) and the
+Gallagher 21 function ([f<sub>22</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=110) in the bbob suite).
 
 Both objective functions are multimodal with only a weak global structure.
 The most prominent $$2^n$$ minima of the Schwefel function
@@ -1257,8 +1257,8 @@ Contained in the *weakly-structured - weakly-structured* function group.
 
 
 ## <a name="F85"></a>F<sub>85</sub>: Schwefel/Katsuuras ##
-Combination of the Schwefel function ([f<sub>20</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=100) in the bbob suite) and the
-Katsuuras function ([f<sub>23</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=115) in the bbob suite).
+Combination of the Schwefel function ([f<sub>20</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the bbob suite) and the
+Katsuuras function ([f<sub>23</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=115) in the bbob suite).
 
 Both objective functions are highly multimodal with an exponential number
 (in the dimension) of (global) optima and only a weak global structure.
@@ -1271,8 +1271,8 @@ global optima.
 
 
 ## <a name="F86"></a>F<sub>86</sub>: Schwefel/Lunacek bi-Rastrigin ##
-Combination of the Schwefel function ([f<sub>20</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=100) in the bbob suite) and the
-Lunacek bi-Rastrigin function ([f<sub>24</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=120) in the bbob suite).
+Combination of the Schwefel function ([f<sub>20</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the bbob suite) and the
+Lunacek bi-Rastrigin function ([f<sub>24</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=120) in the bbob suite).
 
 Both objective functions are highly multimodal with only a weak global structure.
 While the most prominent $$2^n$$ minima of the Schwefel function
@@ -1288,8 +1288,8 @@ Contained in the *weakly-structure - weakly-structured* function group.
 
 
 ## <a name="F87"></a>F<sub>87</sub>: Gallagher ## <a name="F101"></a>F<sub>101</sub>/Gallagher ## <a name="F21"></a>F<sub>21</sub> ##
-Combination of Gallagher’s Gaussian 101-me Peaks function ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=105) in the bbob suite) and the
-Gallagher’s Gaussian 21-hi Peaks function ([f<sub>22</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=110) in the bbob suite).
+Combination of Gallagher’s Gaussian 101-me Peaks function ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the bbob suite) and the
+Gallagher’s Gaussian 21-hi Peaks function ([f<sub>22</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=110) in the bbob suite).
 
 Both objective functions are multimodal and non-separable. Both consist of a set of
 optima with position and height being unrelated and randomly chosen. The number of
@@ -1301,8 +1301,8 @@ Contained in the *weakly-structured - weakly-structured* function group.
 
 
 ## <a name="F88"></a>F<sub>88</sub>: Gallagher ## <a name="F101"></a>F<sub>101</sub>/Katsuuras ##
-Combination of Gallagher’s Gaussian 101-me Peaks function ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=105) in the bbob suite) and the
-Katsuuras function ([f<sub>23</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=115) in the bbob suite).
+Combination of Gallagher’s Gaussian 101-me Peaks function ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the bbob suite) and the
+Katsuuras function ([f<sub>23</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=115) in the bbob suite).
 
 Both objective functions are non-separable and highly multimodal with
 only a weak global structure. Gallagher's Gaussian 101-me Peaks
@@ -1316,8 +1316,8 @@ Contained in the *weakly-structured - weakly-structured* function group.
 
 
 ## <a name="F89"></a>F<sub>89</sub>: Gallagher ## <a name="F101"></a>F<sub>101</sub>/Lunacek bi-Rastrigin ##
-Combination of Gallagher’s Gaussian 101-me Peaks function ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=105) in the bbob suite) and the
-Lunacek bi-Rastrigin function ([f<sub>24</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=120) in the bbob suite).
+Combination of Gallagher’s Gaussian 101-me Peaks function ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the bbob suite) and the
+Lunacek bi-Rastrigin function ([f<sub>24</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=120) in the bbob suite).
 
 Both objective functions are non-separable and highly multimodal with
 only a weak global structure. Gallagher's Gaussian 101-me Peaks
@@ -1334,8 +1334,8 @@ Contained in the *weakly-structured - weakly-structured* function group.
 
 
 ## <a name="F90"></a>F<sub>90</sub>: Gallagher ## <a name="F21"></a>F<sub>21</sub>/Katsuuras ##
-Combination of Gallagher’s Gaussian 21-hi Peaks function ([f<sub>22</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=110) in the bbob suite) and the
-Katsuuras function ([f<sub>23</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=115) in the bbob suite).
+Combination of Gallagher’s Gaussian 21-hi Peaks function ([f<sub>22</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=110) in the bbob suite) and the
+Katsuuras function ([f<sub>23</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=115) in the bbob suite).
 
 Both objective functions are non-separable and multimodal with
 only a weak global structure. Gallagher's Gaussian 21-hi Peaks
@@ -1349,8 +1349,8 @@ Contained in the *weakly-structured - weakly-structured* function group.
 
 
 ## <a name="F91"></a>F<sub>91</sub>: Gallagher ## <a name="F21"></a>F<sub>21</sub>/Lunacek bi-Rastrigin ##
-Combination of Gallagher’s Gaussian 21-hi Peaks function ([f<sub>22</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=110) in the bbob suite) and the
-Lunacek bi-Rastrigin function ([f<sub>24</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=120) in the bbob suite).
+Combination of Gallagher’s Gaussian 21-hi Peaks function ([f<sub>22</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=110) in the bbob suite) and the
+Lunacek bi-Rastrigin function ([f<sub>24</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=120) in the bbob suite).
 
 Both objective functions are non-separable and multimodal with
 only a weak global structure. Gallagher's Gaussian 21-hi Peaks
@@ -1367,8 +1367,8 @@ Contained in the *weakly-structured - weakly-structured* function group.
 
 
 ## <a name="F92"></a>F<sub>92</sub>: Katsuuras/Lunacek bi-Rastrigin ##
-Combination of the Katsuuras function ([f<sub>23</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=115) in the bbob suite) and the
-Lunacek bi-Rastrigin function ([f<sub>24</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf\#page=120) in the bbob suite).
+Combination of the Katsuuras function ([f<sub>23</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=115) in the bbob suite) and the
+Lunacek bi-Rastrigin function ([f<sub>24</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=120) in the bbob suite).
 
 Both objective functions are non-separable and highly multimodal with
 only a weak global structure.
