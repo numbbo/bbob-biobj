@@ -141,7 +141,7 @@ Contained in the *separable - multimodal* function group.
 
 
 
-## <a name="F8"></a>F<sub>8</sub>: Sphere/Schaffer F## <a name="F7"></a>F<sub>7</sub>, condition ## <a name="F10"></a>F<sub>10</sub> ##
+## <a name="F8"></a>F<sub>8</sub>: Sphere/Schaffer F7, condition 10 ##
 Combination of the sphere function ([f<sub>1</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=5) in the bbob suite)
 and the Schaffer F7 function with condition number 10 ([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the bbob suite).
 
@@ -168,7 +168,7 @@ Contained in the *separable - weakly-structured* function group.
 
 
 
-## <a name="F10"></a>F<sub>10</sub>: Sphere/Gallagher ## <a name="F101"></a>F<sub>101</sub> peaks ##
+## <a name="F10"></a>F<sub>10</sub>: Sphere/Gallagher 101 peaks ##
 Combination of the sphere function ([f<sub>1</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=5) in the bbob suite)
 and the Gallagher function with 101 peaks ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the bbob suite).
 
@@ -277,7 +277,7 @@ Contained in the *separable - multimodal* function group.
 
 
 
-## <a name="F17"></a>F<sub>17</sub>: Ellipsoid separable/Schaffer F## <a name="F7"></a>F<sub>7</sub>, condition ## <a name="F10"></a>F<sub>10</sub> ##
+## <a name="F17"></a>F<sub>17</sub>: Ellipsoid separable/Schaffer F7, condition 10 ##
 Combination of the separable ellipsoid function ([f<sub>2</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=10) in the bbob suite) and the Schaffer F7 function with condition number 10
 ([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the bbob suite).
 
@@ -302,7 +302,7 @@ Contained in the *separable - weakly-structured* function group.
 
 
 
-## <a name="F19"></a>F<sub>19</sub>: Ellipsoid separable/Gallagher ## <a name="F101"></a>F<sub>101</sub> peaks ##
+## <a name="F19"></a>F<sub>19</sub>: Ellipsoid separable/Gallagher 101 peaks ##
 Combination of the separable ellipsoid function ([f<sub>2</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=10) in the bbob suite) and the Gallagher function with 101 peaks ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the bbob suite).
 
 While the first objective function is separable, unimodal, and
@@ -386,7 +386,7 @@ Contained in the *moderate - multimodal* function group.
 
 
 
-## <a name="F25"></a>F<sub>25</sub>: Attractive sector/Schaffer F## <a name="F7"></a>F<sub>7</sub>, condition ## <a name="F10"></a>F<sub>10</sub> ##
+## <a name="F25"></a>F<sub>25</sub>: Attractive sector/Schaffer F7, condition 10 ##
 Combination of the attractive sector function ([f<sub>6</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=30) in the bbob suite) and the Schaffer F7 function with condition number 10
 ([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the bbob suite).
 
@@ -411,7 +411,7 @@ Contained in the *moderate - weakly-structured* function group.
 
 
 
-## <a name="F27"></a>F<sub>27</sub>: Attractive sector/Gallagher ## <a name="F101"></a>F<sub>101</sub> peaks ##
+## <a name="F27"></a>F<sub>27</sub>: Attractive sector/Gallagher 101 peaks ##
 Combination of the attractive sector function ([f<sub>6</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=30) in the bbob suite) and the Gallagher function with 101 peaks ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the bbob suite).
 
 Both objective functions are non-separable but only the first
@@ -476,7 +476,7 @@ Contained in the *moderate - multimodal* function group.
 
 
 
-## <a name="F32"></a>F<sub>32</sub>: Rosenbrock original/Schaffer F## <a name="F7"></a>F<sub>7</sub>, condition ## <a name="F10"></a>F<sub>10</sub> ##
+## <a name="F32"></a>F<sub>32</sub>: Rosenbrock original/Schaffer F7, condition 10 ##
 Combination of the Rosenbrock function ([f<sub>8</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=40) in the bbob suite) and the
 Schaffer F7 function with condition number 10
 ([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the bbob suite).
@@ -505,7 +505,7 @@ Contained in the *moderate - weakly-structured* function group.
 
 
 
-## <a name="F34"></a>F<sub>34</sub>: Rosenbrock original/Gallagher ## <a name="F101"></a>F<sub>101</sub> peaks ##
+## <a name="F34"></a>F<sub>34</sub>: Rosenbrock original/Gallagher 101 peaks ##
 Combination of the Rosenbrock function ([f<sub>8</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=40) in the bbob suite) and
 the Gallagher function with 101 peaks ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the bbob suite).
 
@@ -559,7 +559,7 @@ Contained in the *ill-conditioned - multimodal* function group.
 
 
 
-## <a name="F38"></a>F<sub>38</sub>: Sharp ridge/Schaffer F## <a name="F7"></a>F<sub>7</sub>, condition ## <a name="F10"></a>F<sub>10</sub> ##
+## <a name="F38"></a>F<sub>38</sub>: Sharp ridge/Schaffer F7, condition 10 ##
 Combination of the sharp ridge function ([f<sub>13</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=65) in the bbob suite) and the
 Schaffer F7 function with condition number 10
 ([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the bbob suite).
@@ -586,7 +586,7 @@ Contained in the *ill-conditioned - weakly-structured* function group.
 
 
 
-## <a name="F40"></a>F<sub>40</sub>: Sharp ridge/Gallagher ## <a name="F101"></a>F<sub>101</sub> peaks ##
+## <a name="F40"></a>F<sub>40</sub>: Sharp ridge/Gallagher 101 peaks ##
 Combination of the sharp ridge function ([f<sub>13</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=65) in the bbob suite) and the
 Gallagher function with 101 peaks ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the bbob suite).
 
@@ -627,7 +627,7 @@ Contained in the *ill-conditioned - multimodal* function group.
 
 
 
-## <a name="F43"></a>F<sub>43</sub>: Sum of Different Powers/Schaffer F## <a name="F7"></a>F<sub>7</sub>, condition ## <a name="F10"></a>F<sub>10</sub> ##
+## <a name="F43"></a>F<sub>43</sub>: Sum of Different Powers/Schaffer F7, condition 10 ##
 Combination of the sum of different powers functions
 ([f<sub>14</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the bbob suite) and the Schaffer F7 function with
 condition number 10 ([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the bbob suite).
@@ -655,7 +655,7 @@ Contained in the *ill-conditioned - weakly-structured* function group.
 
 
 
-## <a name="F45"></a>F<sub>45</sub>: Sum of Different Powers/Gallagher ## <a name="F101"></a>F<sub>101</sub> peaks ##
+## <a name="F45"></a>F<sub>45</sub>: Sum of Different Powers/Gallagher 101 peaks ##
 Combination of the sum of different powers functions
 ([f<sub>14</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the bbob suite) and the Gallagher function with
 101 peaks ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the bbob suite).
@@ -682,7 +682,7 @@ Contained in the *multimodal - multimodal* function group.
 
 
 
-## <a name="F47"></a>F<sub>47</sub>: Rastrigin/Schaffer F## <a name="F7"></a>F<sub>7</sub>, condition ## <a name="F10"></a>F<sub>10</sub> ##
+## <a name="F47"></a>F<sub>47</sub>: Rastrigin/Schaffer F7, condition 10 ##
 Combination of the Rastrigin function
 ([f<sub>15</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=75) in the bbob suite) and the Schaffer F7 function with
 condition number 10 ([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the bbob suite).
@@ -706,7 +706,7 @@ Contained in the *multimodal - weakly-structured* function group.
 
 
 
-## <a name="F49"></a>F<sub>49</sub>: Rastrigin/Gallagher ## <a name="F101"></a>F<sub>101</sub> peaks ##
+## <a name="F49"></a>F<sub>49</sub>: Rastrigin/Gallagher 101 peaks ##
 Combination of the Rastrigin function
 ([f<sub>15</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=75) in the bbob suite) and the Gallagher function with
 101 peaks ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the bbob suite).
@@ -720,7 +720,7 @@ Contained in the *multimodal - weakly-structured* function group.
 
 
 
-## <a name="F50"></a>F<sub>50</sub>: Schaffer F## <a name="F7"></a>F<sub>7</sub>, condition ## <a name="F10"></a>F<sub>10</sub>/Schaffer F## <a name="F7"></a>F<sub>7</sub>, condition ## <a name="F10"></a>F<sub>10</sub> ##
+## <a name="F50"></a>F<sub>50</sub>: Schaffer F7, condition 10/Schaffer F7, condition 10 ##
 Combination of two Schaffer F7 functions with
 condition number 10 ([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the bbob suite).
 
@@ -730,7 +730,7 @@ Contained in the *multimodal - multimodal* function group.
 
 
 
-## <a name="F51"></a>F<sub>51</sub>: Schaffer F## <a name="F7"></a>F<sub>7</sub>, condition ## <a name="F10"></a>F<sub>10</sub>/Schwefel x*sin(x) ##
+## <a name="F51"></a>F<sub>51</sub>: Schaffer F7, condition 10/Schwefel x*sin(x) ##
 Combination of the Schaffer F7 function with
 condition number 10 ([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the bbob suite)
 and the Schwefel function ([f<sub>20</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the bbob suite).
@@ -744,7 +744,7 @@ Contained in the *multimodal - weakly-structured* function group.
 
 
 
-## <a name="F52"></a>F<sub>52</sub>: Schaffer F## <a name="F7"></a>F<sub>7</sub>, condition ## <a name="F10"></a>F<sub>10</sub>/Gallagher ## <a name="F101"></a>F<sub>101</sub> peaks ##
+## <a name="F52"></a>F<sub>52</sub>: Schaffer F7, condition 10/Gallagher 101 peaks ##
 Combination of the Schaffer F7 function with
 condition number 10 ([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the bbob suite)
 and the Gallagher function with
@@ -774,7 +774,7 @@ Contained in the *weakly-structured - weakly-structured* function group.
 
 
 
-## <a name="F54"></a>F<sub>54</sub>: Schwefel x*sin(x)/Gallagher ## <a name="F101"></a>F<sub>101</sub> peaks ##
+## <a name="F54"></a>F<sub>54</sub>: Schwefel x*sin(x)/Gallagher 101 peaks ##
 Combination of the Schwefel function ([f<sub>20</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the bbob suite) and the Gallagher function with
 101 peaks ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the bbob suite).
 
@@ -789,7 +789,7 @@ Contained in the *weakly-structured - weakly-structured* function group.
 
 
 
-## <a name="F55"></a>F<sub>55</sub>: Gallagher ## <a name="F101"></a>F<sub>101</sub> peaks/Gallagher ## <a name="F101"></a>F<sub>101</sub> peaks ##
+## <a name="F55"></a>F<sub>55</sub>: Gallagher 101 peaks/Gallagher 101 peaks ##
 Combination of two Gallagher functions with
 101 peaks ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the bbob suite).
 
@@ -1164,7 +1164,7 @@ Contained in the *ill-conditioned - ill-conditioned* function group.
 
 
 
-## <a name="F79"></a>F<sub>79</sub>: Rastrigin/Schaffer F## <a name="F7"></a>F<sub>7</sub> with conditioning of ## <a name="F1000"></a>F<sub>1000</sub> ##
+## <a name="F79"></a>F<sub>79</sub>: Rastrigin/Schaffer F7 with conditioning of 1000 ##
 Combination of the Rastrigin function ([f<sub>15</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=75) in the bbob suite) and the
 Schaffer F7 function with conditioning 1000 ([f<sub>18</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=90) in the bbob suite).
 
@@ -1199,7 +1199,7 @@ Contained in the *multimodal multimodal* function group.
 
 
 
-## <a name="F81"></a>F<sub>81</sub>: Schaffer F## <a name="F7"></a>F<sub>7</sub>/Schaffer F## <a name="F7"></a>F<sub>7</sub> with conditioning ## <a name="F1000"></a>F<sub>1000</sub> ##
+## <a name="F81"></a>F<sub>81</sub>: Schaffer F7/Schaffer F7 with conditioning 1000 ##
 Combination of the Schaffer F7 function ([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the bbob suite) and the
 Schaffer F7 with conditioning 1000 function ([f<sub>18</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=90) in the bbob suite).
 
@@ -1212,7 +1212,7 @@ Contained in the *multimodal - multimodal* function group.
 
 
 
-## <a name="F82"></a>F<sub>82</sub>: Schaffer F## <a name="F7"></a>F<sub>7</sub>/Griewank-Rosenbrock ##
+## <a name="F82"></a>F<sub>82</sub>: Schaffer F7/Griewank-Rosenbrock ##
 Combination of the Schaffer F7 function ([f<sub>17</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the bbob suite) and the
 Griewank-Rosenbrock function ([f<sub>19</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=95) in the bbob suite).
 
@@ -1226,7 +1226,7 @@ Contained in the *multimodal - multimodal* function group.
 
 
 
-## <a name="F83"></a>F<sub>83</sub>: Schaffer F## <a name="F7"></a>F<sub>7</sub> with conditioning ## <a name="F1000"></a>F<sub>1000</sub>/Griewank-Rosenbrock ##
+## <a name="F83"></a>F<sub>83</sub>: Schaffer F7 with conditioning 1000/Griewank-Rosenbrock ##
 Combination of the Schaffer F7 function with conditioning 1000 ([f<sub>18</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=90) in the bbob suite) and the
 Griewank-Rosenbrock function ([f<sub>19</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=95) in the bbob suite).
 
@@ -1237,7 +1237,7 @@ Contained in the *multimodal - multimodal* function group.
 
 
 
-## <a name="F84"></a>F<sub>84</sub>: Schwefel/Gallagher ## <a name="F21"></a>F<sub>21</sub> ##
+## <a name="F84"></a>F<sub>84</sub>: Schwefel/Gallagher 21 ##
 Combination of the Schwefel function ([f<sub>20</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the bbob suite) and the
 Gallagher 21 function ([f<sub>22</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=110) in the bbob suite).
 
@@ -1287,7 +1287,7 @@ Contained in the *weakly-structure - weakly-structured* function group.
 
 
 
-## <a name="F87"></a>F<sub>87</sub>: Gallagher ## <a name="F101"></a>F<sub>101</sub>/Gallagher ## <a name="F21"></a>F<sub>21</sub> ##
+## <a name="F87"></a>F<sub>87</sub>: Gallagher 101/Gallagher 21 ##
 Combination of Gallagher’s Gaussian 101-me Peaks function ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the bbob suite) and the
 Gallagher’s Gaussian 21-hi Peaks function ([f<sub>22</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=110) in the bbob suite).
 
@@ -1300,7 +1300,7 @@ Contained in the *weakly-structured - weakly-structured* function group.
 
 
 
-## <a name="F88"></a>F<sub>88</sub>: Gallagher ## <a name="F101"></a>F<sub>101</sub>/Katsuuras ##
+## <a name="F88"></a>F<sub>88</sub>: Gallagher 101/Katsuuras ##
 Combination of Gallagher’s Gaussian 101-me Peaks function ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the bbob suite) and the
 Katsuuras function ([f<sub>23</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=115) in the bbob suite).
 
@@ -1315,7 +1315,7 @@ Contained in the *weakly-structured - weakly-structured* function group.
 
 
 
-## <a name="F89"></a>F<sub>89</sub>: Gallagher ## <a name="F101"></a>F<sub>101</sub>/Lunacek bi-Rastrigin ##
+## <a name="F89"></a>F<sub>89</sub>: Gallagher 101/Lunacek bi-Rastrigin ##
 Combination of Gallagher’s Gaussian 101-me Peaks function ([f<sub>21</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the bbob suite) and the
 Lunacek bi-Rastrigin function ([f<sub>24</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=120) in the bbob suite).
 
@@ -1333,7 +1333,7 @@ Contained in the *weakly-structured - weakly-structured* function group.
 
 
 
-## <a name="F90"></a>F<sub>90</sub>: Gallagher ## <a name="F21"></a>F<sub>21</sub>/Katsuuras ##
+## <a name="F90"></a>F<sub>90</sub>: Gallagher 21/Katsuuras ##
 Combination of Gallagher’s Gaussian 21-hi Peaks function ([f<sub>22</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=110) in the bbob suite) and the
 Katsuuras function ([f<sub>23</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=115) in the bbob suite).
 
@@ -1348,7 +1348,7 @@ Contained in the *weakly-structured - weakly-structured* function group.
 
 
 
-## <a name="F91"></a>F<sub>91</sub>: Gallagher ## <a name="F21"></a>F<sub>21</sub>/Lunacek bi-Rastrigin ##
+## <a name="F91"></a>F<sub>91</sub>: Gallagher 21/Lunacek bi-Rastrigin ##
 Combination of Gallagher’s Gaussian 21-hi Peaks function ([f<sub>22</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=110) in the bbob suite) and the
 Lunacek bi-Rastrigin function ([f<sub>24</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=120) in the bbob suite).
 
@@ -1381,5 +1381,6 @@ The single-objective Lunacek bi-Rastrigin function was constructed
 to be deceptive for some evolutionary algorithms with large population size.
 
 Contained in the *weakly-structured - weakly-structured* function group.
+
 
 
