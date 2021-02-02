@@ -1,6 +1,17 @@
 /* Url to the plots */
 plotPath = "https://raw.githubusercontent.com/numbbo/bbob-biobj-plots/gh-pages/plots_currData_Sep2020/"
 
+/* Fill the columns dropdown with values */
+var selectCol = document.getElementById("col");
+var valuesCol = [];
+var contentsCol;
+for (let i = 1; i <= 10; i++) {
+	valuesCol.push(i);
+	contentsCol += "<option>" + i + "</option>";
+}
+selectCol.innerHTML = contentsCol;
+selectCol.options[4].selected = true;
+
 /* Fill the dimensions dropdown with values */
 var selectDim = document.getElementById("dim");
 var valuesDim = ["2", "3", "5"]; //, "10", "20", "40"];
@@ -56,7 +67,7 @@ function pad(num) {
 
 /* Adds the plot to the div */
 function addPlot(plotName) {
-	let plotWidth = 100 / cols.value;
+	let plotWidth = 100 / col.value;
 	var elemDiv = document.createElement('div');
 	var elemA = document.createElement('a');
 	var elemImg = document.createElement("img");

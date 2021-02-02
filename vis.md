@@ -10,18 +10,11 @@ title: Visualizations
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
 
-Show plots in <select id="cols" onchange="changePlot()">
-  <option>1</option>
-  <option>2</option>
-  <option>3</option>
-  <option>4</option>
-  <option selected="selected">5</option>
-  <option>6</option>
-  <option>7</option>
-  <option>8</option>
-  <option>9</option>
-  <option>10</option>
-</select> columns 
+Show plots in 
+<button id="colPrev" onclick="getPrev(this)" class="button">&minus;</button>
+<select id="col" onchange="changePlot()"></select>
+<button id="colNext" onclick="getNext(this)" class="button">+</button> 
+columns 
 
 <table BORDER="0">
 <tr>
@@ -32,19 +25,19 @@ Show plots in <select id="cols" onchange="changePlot()">
 </tr>
 <tr>
 <td class="select" align="center">
-<button id="dimPrev" onclick="getPrev(this)" class="button"><i class="arrow left"></i></button>
+<button id="dimPrev" onclick="getPrev(this)" class="button">&minus;</button>
 <select id="dim" onchange="changePlot()"></select>
-<button id="dimNext" onclick="getNext(this)" class="button"><i class="arrow right"></i></button>
+<button id="dimNext" onclick="getNext(this)" class="button">+</button>
 </td>
 <td class="select" align="center">
-<button id="funPrev" onclick="getPrev(this)" class="button"><i class="arrow left"></i></button>
+<button id="funPrev" onclick="getPrev(this)" class="button">&minus;</button>
 <select id="fun" onchange="changePlot()"></select>
-<button id="funNext" onclick="getNext(this)" class="button"><i class="arrow right"></i></button>
+<button id="funNext" onclick="getNext(this)" class="button">+</button>
 </td>
 <td class="select" align="center">
-<button id="insPrev" onclick="getPrev(this)" class="button"><i class="arrow left"></i></button>
+<button id="insPrev" onclick="getPrev(this)" class="button">&minus;</button>
 <select id="ins" onchange="changePlot()"></select>
-<button id="insNext" onclick="getNext(this)" class="button"><i class="arrow right"></i></button>
+<button id="insNext" onclick="getNext(this)" class="button">+</button>
 </td>
 <td class="select" align="center">
 <button id="typPrev" onclick="getPrev(this)" class="button"><i class="arrow left"></i></button>
