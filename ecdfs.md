@@ -5,7 +5,7 @@ nav_order: 3
 title: ECDFs of gradient angles
 ---
 
-# Visualizations of the Distribution of Gradient Angles for the bbob-biobj(-ext) Pareto Set Approximations  #
+# Distribution of gradient angles for the bbob-biobj(-ext) Pareto set approximations  #
 ---
 
 
