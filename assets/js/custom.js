@@ -116,6 +116,15 @@ function changePlot() {
 			document.getElementById(textName).setAttribute("style", "display:none;");
 		}
 	}
+	if ((selectedNode === "typAll") ||
+	(chosenTyp[0] === "directions-objspace") ||
+	(chosenTyp[0] === "directions-logobjspace") ||
+	(chosenTyp[0] === "directions-searchspace") ||
+	(chosenTyp[0] === "directions-searchspace-projection")) {
+		document.getElementById("text-additional-info").setAttribute("style", "display:block;");
+	} else {
+		document.getElementById("text-additional-info").setAttribute("style", "display:none;");
+	}
 }
 
 /* Move the dropdown selection to the previous item in the list */
