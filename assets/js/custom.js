@@ -72,13 +72,14 @@ function addPlot(plotName) {
 
 /* Show the plots wrt the chosen dimension, function, instance and plot type.
 Exactly one of these categories contains all possible values, the rest only the
-chonse one. */
+chosen one. */
 function changePlot() {
 	let plotName;
 	let chosenDim = [dim.value];
 	let chosenFun = [fun.value];
 	let chosenIns = [ins.value];
 	let chosenTyp = [typ.value];
+	let textName;
 	if (selectedNode === "dimAll") {
 		chosenDim = [...valuesDim];
 	} else if (selectedNode === "funAll") {
@@ -99,6 +100,20 @@ function changePlot() {
 					// document.getElementById("result").value += plotName + "\n";
 				}
 			}
+		}
+	}
+
+	/* Make sure only the correct plot descriptions are shown */
+	for (let iTyp = 0; iTyp < valuesTyp.length; iTyp++) {
+		textName = "text-" + valuesTyp[iTyp];
+		if (selectedNode === "typAll") {
+			document.getElementById(textName).setAttribute("style", "display:block;");
+		}
+		else if (valuesTyp[iTyp] === chosenTyp[0]) {
+			document.getElementById(textName).setAttribute("style", "display:block;");
+		}
+		else {
+			document.getElementById(textName).setAttribute("style", "display:none;");
 		}
 	}
 }

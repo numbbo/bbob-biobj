@@ -54,6 +54,16 @@ Show plots in <select id="cols" onchange="changePlot()">
 
 <div id="images"></div>
 
+<span id="text-directions-objspace">**directions-objspace**</span>
+<span id="text-directions-logobjspace">**directions-logobjspace**</span>
+<span id="text-directions-searchspace">**directions-searchspace**</span>
+<span id="text-directions-searchspace-projection">**directions-searchspace-projection**</span>
+<span id="text-dominance-rank">**dominance-rank**</span>
+<span id="text-level-sets">**level-sets**</span>
+<span id="text-local-dominance">**local-dominance**</span>
+<span id="text-gradient-length">**gradient-length**</span>
+<span id="text-path-length">**path-length**</span>
+
 ---
 
 Note that some visualization types are not available for all dimensions and instances. For example, visualizations
