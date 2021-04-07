@@ -43,8 +43,8 @@ selectIns.innerHTML = contentsIns;
 
 /* Fill the plot types dropdown with values */
 var selectTyp = document.getElementById("typ");
-var typs = ["Unscaled objective space", "Normalized objective space", "Search space", "Search space (optima direction)", "Dominance rank", "Level sets", "Local dominance", "Gradient length", "Path length"];
-var valuesTyp = ["directions-objspace", "directions-logobjspace", "directions-searchspace", "directions-searchspace-projection", "dominance-rank", "level-sets", "local-dominance", "gradient-length", "path-length"];
+var typs = ["Unscaled objective space", "Normalized objective space", "Search space", "Search space (optima direction)", "Dominance ratio", "Level sets", "Local dominance", "Gradient length", "Path length"];
+var valuesTyp = ["directions-objspace", "directions-logobjspace", "directions-searchspace", "directions-searchspace-projection", "dominance-ratio", "level-sets", "local-dominance", "gradient-length", "path-length"];
 /* Make sure typs and valuesTyp have the same length! */
 var contentsTyp;
 for (let i = 0; i < typs.length; i++) {

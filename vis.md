@@ -92,10 +92,10 @@ All straight lines are of the same length (10) with the support vector in its ex
 Furthermore, the search space plots highlight the projected region $$[-5,5]^n$$ as a gray-shaded area while the gray-shaded area in the objective space plots denotes the region of interest between the ideal ($$\times$$) and nadir points ($$+$$). 
 </div>
 
-<div id="text-dominance-rank" markdown="1" style="padding-top: 10px;">
-### Dominance rank
+<div id="text-dominance-ratio" markdown="1" style="padding-top: 10px;">
+### Dominance ratio
 
-Based on a sample of solutions on a regular grid in search space, we count for each grid point the number of other grid points that dominate it and use this, divided by the total number of grid points as solution quality or normalized dominance rank.
+The dominance ratio for each grid point in the search space is computed as the the number of other grid points that dominate it, divided by the total number of grid points.
 </div>
 
 <div id="text-level-sets" markdown="1" style="padding-top: 10px;">
