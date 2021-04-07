@@ -2,7 +2,7 @@
 layout: default
 permalink: /ecdfs/
 nav_order: 4
-title: Gradient angle distribution
+title: Gradient angle plots
 ---
 
 # Distribution of gradient angles for the bbob-biobj(-ext) Pareto set approximations  #
