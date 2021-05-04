@@ -2,12 +2,12 @@
 layout: page
 permalink: /ppdata/
 nav_order: 5
-title: Postprocessed Data
+title: Postprocessed data
 ---
 
 # Postprocessed data #
 ---
-Below, we display the postprocessed (html) output of the <a href="https://github.com/numbbo/coco">COCO platform</a> when comparing COMO-CMA-ES (COMO-100), SMS-EMOA-DE, and NSGA-II-Matlab on the bbob-biobj test suite.
+Below, we display the postprocessed (html) output of the <a href="https://github.com/numbbo/coco">COCO platform</a> when comparing the algorithms COMO-CMA-ES (COMO-100) (Touré et al., 2019), SMS-EMOA-DE (Auger et al., 2016b), and NSGA-II-Matlab (Auger et al., 2016a) on the bbob-biobj test suite.
 
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
@@ -19,3 +19,16 @@ Below, we display the postprocessed (html) output of the <a href="https://github
 	This IFrame displays the performance of COMO-CMA-ES, SMS-EMOA-DE, and NSGA-II-Matlab.
 </iframe>
 
+## References
+
+Auger, A., Brockhoff, D., Hansen, N., Tušar, D., Tušar, T., and Wagner, T. (2016a). Benchmarking MATLAB’s gamultiobj (NSGA-II) on the bi-objective BBOB-2016 test suite. In *Genetic and Evolutionary Computation Conference (Companion), GECCO 2016 Companion*, pages 1233–1239, New York, NY, USA. ACM.
+
+Auger, A., Brockhoff, D., Hansen, N., Tušar, D., Tušar, T., and Wagner, T. (2016b). The impact of variation operators on the performance of SMS-EMOA on the bi-objective BBOB-2016 test suite. In *Genetic and Evolutionary Computation Conference (Companion), GECCO 2016 Companion*, pages 1225–1232, New York, NY, USA. ACM.
+
+Touré, C., Hansen, N., Auger, A., and Brockhoff, D. (2019). Uncrowded hypervolume
+improvement: COMO-CMA-ES and the Sofomore framework. In *Genetic and Evolutionary Computation Conference (GECCO 2019)*, pages 638–646, New York, NY, USA.
+ACM.
+ 
+---
+
+The plots are retrieved from the [bbob-biobj-plots](https://github.com/numbbo/bbob-biobj-plots) GitHub repository. 

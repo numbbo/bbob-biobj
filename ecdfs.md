@@ -14,7 +14,7 @@ Shown are the empirical cumulative distribution functions (ECDFs) of the observe
 </p>
 <p>Click on each plot to enlarge.</p>
 <p>
-<a href="https://raw.githubusercontent.com/numbbo/bbob-biobj-plots/gh-pages/ECDFofAngles/cosineangles-bbob-biobj-f01.png"><img src="https://raw.githubusercontent.com/numbbo/bbob-biobj-plots/gh-pages/ECDFofAngles/cosineangles-bbob-biobj-f01.png" alt="ECDF of angles for F01" width="350px"></a>
+<a href="https://raw.githubusercontent.com/numbbo/bbob-biobj-plots/gh-pages/ECDFofAngles/cosineangles-bbob-biobj-f01.png"><src="https://raw.githubusercontent.com/numbbo/bbob-biobj-plots/gh-pages/ECDFofAngles/cosineangles-bbob-biobj-f01.png" alt="ECDF of angles for F01" width="350px"></a>
 <a href="https://raw.githubusercontent.com/numbbo/bbob-biobj-plots/gh-pages/ECDFofAngles/cosineangles-bbob-biobj-f02.png"><img src="https://raw.githubusercontent.com/numbbo/bbob-biobj-plots/gh-pages/ECDFofAngles/cosineangles-bbob-biobj-f02.png" alt="ECDF of angles for F02" width="350px"></a>
 <a href="https://raw.githubusercontent.com/numbbo/bbob-biobj-plots/gh-pages/ECDFofAngles/cosineangles-bbob-biobj-f03.png"><img src="https://raw.githubusercontent.com/numbbo/bbob-biobj-plots/gh-pages/ECDFofAngles/cosineangles-bbob-biobj-f03.png" alt="ECDF of angles for F03" width="350px"></a>
 <a href="https://raw.githubusercontent.com/numbbo/bbob-biobj-plots/gh-pages/ECDFofAngles/cosineangles-bbob-biobj-f04.png"><img src="https://raw.githubusercontent.com/numbbo/bbob-biobj-plots/gh-pages/ECDFofAngles/cosineangles-bbob-biobj-f04.png" alt="ECDF of angles for F04" width="350px"></a>
@@ -108,10 +108,8 @@ Shown are the empirical cumulative distribution functions (ECDFs) of the observe
 <a href="https://raw.githubusercontent.com/numbbo/bbob-biobj-plots/gh-pages/ECDFofAngles/cosineangles-bbob-biobj-f92.png"><img src="https://raw.githubusercontent.com/numbbo/bbob-biobj-plots/gh-pages/ECDFofAngles/cosineangles-bbob-biobj-f92.png" alt="ECDF of angles for F92" width="350px"></a>
 </p>
 
+---
 
-
-
-
-All plots are retrieved from the [bbob-biobj-plots](https://github.com/numbbo/bbob-biobj-plots) GitHub repository. 
+The plots are retrieved from the [bbob-biobj-plots](https://github.com/numbbo/bbob-biobj-plots) GitHub repository. 
 
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}"/>
