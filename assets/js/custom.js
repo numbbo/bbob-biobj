@@ -101,7 +101,7 @@ function changePlot() {
 		chosenTyp = [...valuesTyp];
 	}
 	document.getElementById("images").innerHTML = "";
-	//document.getElementById("result").value = "";
+	// document.getElementById("result").value = "";
 	for (let iDim = 0; iDim < chosenDim.length; iDim++) {
 		for (let iFun = 0; iFun < chosenFun.length; iFun++) {
 			for (let iIns = 0; iIns < chosenIns.length; iIns++) {
@@ -135,6 +135,23 @@ function changePlot() {
 		document.getElementById("text-additional-info").setAttribute("style", "display:block;");
 	} else {
 		document.getElementById("text-additional-info").setAttribute("style", "display:none;");
+	}
+
+	/* Make sure only the correct function description is shown */
+	if (selectedNode === "funAll") {
+		document.getElementById("text-function").setAttribute("style", "display:none;");
+	}
+	else {
+		document.getElementById("text-function").setAttribute("style", "display:block;");
+	}
+	for (let iFun = 0; iFun < valuesFun.length; iFun++) {
+		textName = "text-f" + valuesFun[iFun];
+		if (valuesFun[iFun] == chosenFun[0]) {
+			document.getElementById(textName).setAttribute("style", "display:block;");
+		}
+		else {
+			document.getElementById(textName).setAttribute("style", "display:none;");
+		}
 	}
 }
 

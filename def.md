@@ -34,6 +34,10 @@ jump.appendChild(elemA);
 }
 </script>
 
+[//]: # (In order to make changes to the text about the functions, change the text)
+[//]: # (in the file appendixB.tex and rerun appendixB.py and then copy)
+[//]: # (appendixB.md to this file and appendixB_div.md to vis.md)
+
 ## <a name="F1"></a>F<sub>1</sub>: Sphere/Sphere ##
 Combination of two sphere functions ([f<sub>1</sub>](https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf#page=5) in the bbob suite).
 
