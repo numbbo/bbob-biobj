@@ -117,9 +117,10 @@ This plot by Fieldsend et al. (2019) uses, for each point of the $$501\times501$
 
 This plot shows the length of the normalized multiobjective gradient at each of $$501\times501$$ grid points, computed as 
 
-$$\frac{\nabla f_1(x)}{|\nabla f_1(x)|} + \frac{\nabla f_2(x)}{|\nabla f_2(x)|},$$
+$$\frac{\nabla f_1(x)}{|\nabla f_1(x)|} + \frac{\nabla f_2(x)}{|\nabla f_2(x)|}
+  = \sqrt{1 + \cos\left(\theta \right)}\times\sqrt{2}$$
 
-where $$\nabla f_1(x)$$ and $$\nabla f_2(x)$$ are the gradients in the objectives $$f_1$$ and $$f_2$$ in a search point $$x$$. The normalized multiobjective gradient is exactly zero for Pareto-optimal solutions as well as locally non-dominated solutions. 
+where $$\nabla f_1(x)$$ and $$\nabla f_2(x)$$ are the gradients in the objectives $$f_1$$ and $$f_2$$ in a search point $$x$$ and $$\theta$$ is the angle between these gradients. The normalized multiobjective gradient is exactly zero for Pareto-optimal solutions as well as locally non-dominated solutions. 
 </div>
 
 <div id="text-path-length" markdown="1" style="padding-top: 10px;">
