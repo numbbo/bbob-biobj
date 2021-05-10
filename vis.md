@@ -5,7 +5,7 @@ nav_order: 3
 title: Visualizations
 ---
 
-# Visualizations #
+# Visualizations of problem landscapes #
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}"/>
