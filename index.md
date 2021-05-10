@@ -17,4 +17,4 @@ It provides [function definitions]({{ site.baseurl }}{% link def.md %}) and [vis
 <a href="{{ site.baseurl }}{% link def.md %}"><img src="../assets/img/button-def.png" alt="Functions definitions" style="max-width: 25%; height: auto;"></a><a href="{{ site.baseurl }}{% link vis.md %}"><img src="../assets/img/button-vis.png" alt="Visualizations" style="max-width: 25%; height: auto;"></a><a href="{{ site.baseurl }}{% link ecdfs.md %}"><img src="../assets/img/button-ecdfs.png" alt="Gradient angle plots" style="max-width: 25%; height: auto;"></a><a href="{{ site.baseurl }}{% link ppdata.md %}"><img src="../assets/img/button-ppdata.png" alt="Postprocessed data" style="max-width: 25%; height: auto;"></a>
 </div>
 
-<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}"/>
+<img src="../assets/img/button-def.png" alt="Functions definitions" style="max-width: 25%; height: auto;">
