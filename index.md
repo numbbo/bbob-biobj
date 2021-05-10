@@ -17,4 +17,7 @@ It provides [function definitions]({{ site.baseurl }}{% link def.md %}) and [vis
 <a href="{{ site.baseurl }}{% link def.md %}"><img src="../assets/img/button-def.png" alt="Functions definitions" style="max-width: 25%; height: auto;"></a><a href="{{ site.baseurl }}{% link vis.md %}"><img src="../assets/img/button-vis.png" alt="Visualizations" style="max-width: 25%; height: auto;"></a><a href="{{ site.baseurl }}{% link ecdfs.md %}"><img src="../assets/img/button-ecdfs.png" alt="Gradient angle plots" style="max-width: 25%; height: auto;"></a><a href="{{ site.baseurl }}{% link ppdata.md %}"><img src="../assets/img/button-ppdata.png" alt="Postprocessed data" style="max-width: 25%; height: auto;"></a>
 </div>
 
-<img src="../assets/img/button-def.png" alt="Functions definitions" style="max-width: 25%; height: auto;">
+<img src="../assets/img/button-def.png" alt="Functions definitions">
+
+<img src="../assets/img/bbob-biobj-ext.png" alt="Functions in the bbob-biobj-ext suite" width="800">
+
