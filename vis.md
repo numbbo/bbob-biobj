@@ -17,7 +17,7 @@ Show plots in
 <button id="colPrev" onclick="getPrev(this)" class="button">&minus;</button>
 <select id="col" onchange="changePlot()"></select>
 <button id="colNext" onclick="getNext(this)" class="button">+</button> 
-columns (click on <b>Dimension</b>/<b>Function</b>/<b>Instance</b>/<b>Visualization type</b> below to show plots for all values of the chosen category)
+columns (click on <b>Dimension</b>/<b>Function</b>/<b>Instance</b>/<b>Visualization type</b> below to show all plots for the chosen category)
 
 <table BORDER="0">
 <tr>
