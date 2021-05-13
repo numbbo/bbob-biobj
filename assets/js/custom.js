@@ -186,6 +186,15 @@ function disableElements(ele, mode) {
 	document.getElementById(ele + "Prev").disabled = mode;
 	document.getElementById(ele).disabled = mode;
 	document.getElementById(ele + "Next").disabled = mode;
+	if (mode == false) {
+		document.getElementById(ele + "Prev").style.cursor = "pointer";
+		document.getElementById(ele).style.cursor = "pointer"
+		document.getElementById(ele + "Next").style.cursor = "pointer"
+	} else {
+		document.getElementById(ele + "Prev").style.cursor = "default";
+		document.getElementById(ele).style.cursor = "default"
+		document.getElementById(ele + "Next").style.cursor = "default"
+	}
 }
 
 /* Select the table cell */

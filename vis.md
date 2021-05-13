@@ -15,7 +15,7 @@ title: Visualizations
 
 Show plots in 
 <button id="colPrev" onclick="getPrev(this)" class="button">&minus;</button>
-<select id="col" onchange="changePlot()"></select>
+<select id="col" onchange="changePlot()" class="dropdown"></select>
 <button id="colNext" onclick="getNext(this)" class="button">+</button> 
 columns (click on <b>Dimension</b>/<b>Function</b>/<b>Instance</b>/<b>Visualization type</b> below to show plots for all values of the chosen category)
 
@@ -29,17 +29,17 @@ columns (click on <b>Dimension</b>/<b>Function</b>/<b>Instance</b>/<b>Visualizat
 <tr>
 <td class="select" align="center">
 <button id="dimPrev" onclick="getPrev(this)" class="button">&minus;</button>
-<select id="dim" onchange="changePlot()"></select>
+<select id="dim" onchange="changePlot()" class="dropdown"></select>
 <button id="dimNext" onclick="getNext(this)" class="button">+</button>
 </td>
 <td class="select" align="center">
 <button id="funPrev" onclick="getPrev(this)" class="button">&minus;</button>
-<select id="fun" onchange="changePlot()"></select>
+<select id="fun" onchange="changePlot()" class="dropdown"></select>
 <button id="funNext" onclick="getNext(this)" class="button">+</button>
 </td>
 <td class="select" align="center">
 <button id="insPrev" onclick="getPrev(this)" class="button">&minus;</button>
-<select id="ins" onchange="changePlot()"></select>
+<select id="ins" onchange="changePlot()" class="dropdown"></select>
 <button id="insNext" onclick="getNext(this)" class="button">+</button>
 </td>
 <td class="select" align="center">
@@ -51,7 +51,7 @@ columns (click on <b>Dimension</b>/<b>Function</b>/<b>Instance</b>/<b>Visualizat
 </tr>
 </table>
 
-<!-- <textarea id="result"></textarea> --> 
+<!-- <textarea id="result"></textarea> -->
 
 <div id="images"></div>
 
