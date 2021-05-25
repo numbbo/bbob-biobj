@@ -9,6 +9,8 @@ title: Postprocessed data
 ---
 Below, we display the postprocessed (html) output of the <a href="https://github.com/numbbo/coco">COCO platform</a> when comparing the algorithms COMO-CMA-ES (COMO-100) (Touré et al., 2019; Dufossé and Touré, 2019), SMS-EMOA-DE (Beume et al., 2007; Auger et al., 2016b), and NSGA-II-Matlab (Deb et al., 2002; Auger et al., 2016a) on the bbob-biobj test suite.
 
+<a href="https://numbbo.github.io/bbob-biobj-plots/ppdata-comosmsnsga/COMO-_NSGA-_SMS-E/index.html">Click here</a> to view the output as separate web pages.  
+
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
