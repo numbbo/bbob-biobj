@@ -24,3 +24,14 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+    
+aux_links:
+  "COCO code":
+    - "https://github.com/numbbo/coco"
+  "data archive":
+    - "http://numbbo.github.io/data-archive/"
+  "postprocessed data":
+    - "http://numbbo.github.io/ppdata-archive/"
+  "COCO Home":
+    - "http://numbbo.github.io/coco/"
+  
