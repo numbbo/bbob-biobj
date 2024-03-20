@@ -1,61 +1,52 @@
 /* Url to the plots */
 plotPath = "https://raw.githubusercontent.com/numbbo/bbob-biobj-plots/gh-pages/plots_currData_Sep2020/"
 
-/* Fill the columns dropdown with values */
-var selectCol = document.getElementById("col");
-var valuesCol = [];
-var contentsCol;
-for (let i = 1; i <= 10; i++) {
-	valuesCol.push(i);
-	contentsCol += "<option>" + i + "</option>";
-}
-selectCol.innerHTML = contentsCol;
-selectCol.options[4].selected = true;
-
-/* Fill the dimensions dropdown with values */
-var selectDim = document.getElementById("dim");
-var valuesDim = ["2", "3", "5"]; //, "10", "20", "40"];
-var contentsDim;
-for (let i = 0; i < valuesDim.length; i++) {
-	contentsDim += "<option>" + valuesDim[i] + "</option>";
-}
-selectDim.innerHTML = contentsDim;
-
-/* Fill the functions dropdown with values */
-var selectFun = document.getElementById("fun");
-var valuesFun = [];
-var contentsFun;
-for (let i = 1; i <= 92; i++) {
-	valuesFun.push(i);
-	contentsFun += "<option>" + i + "</option>";
-}
-selectFun.innerHTML = contentsFun;
-
-/* Fill the instances dropdown with values */
-var selectIns = document.getElementById("ins");
-var valuesIns = [];
-var contentsIns;
-for (let i = 1; i <= 15; i++) {
-	valuesIns.push(i);
-	contentsIns += "<option>" + i + "</option>";
-}
-selectIns.innerHTML = contentsIns;
-
-/* Fill the plot types dropdown with values */
-var selectTyp = document.getElementById("typ");
-var typs = ["Pareto set approximation", "Pareto set approximation (optima direction)", "Pareto front approximation (original space)", "Pareto front approximation (normalized space)", "Dominance ratio", "Level sets", "Local dominance", "Gradient length", "Path length"];
-var valuesTyp = ["directions-searchspace", "directions-searchspace-projection", "directions-objspace", "directions-logobjspace", "dominance-ratio", "level-sets", "local-dominance", "gradient-length", "path-length"];
-/* Make sure typs and valuesTyp have the same length! */
-var contentsTyp;
-for (let i = 0; i < typs.length; i++) {
-	contentsTyp += "<option value=\"" + valuesTyp[i] + "\">" + typs[i] + "</option>";
-}
-selectTyp.innerHTML = contentsTyp;
-
-/* By default, plot types are chosen */
+/* Define some global variables */
+var labelsTyp = ["Pareto set approximation", "Pareto set approximation (optima direction)", "Pareto front approximation (original space)", "Pareto front approximation (normalized space)", "Dominance rank ratio", "Level sets", "Local dominance", "Gradient length", "Path length", "Pearson correlation coefficient"];
+var valuesTyp = ["directions-searchspace", "directions-searchspace-projection", "directions-objspace", "directions-logobjspace", "dominance-rank", "level-sets", "local-dominance", "gradient-length", "path-length", "correlation"];
 var allNodes = ["dimAll", "funAll", "insAll", "typAll"];
 var selectedNode = "typAll";
-selectNode(document.getElementById(selectedNode));
+var valuesDim = ["2", "3", "5"];
+var valuesFun = [];
+for (let i = 1; i <= 92; i++) {valuesFun.push(i);}
+var valuesIns = [];
+for (let i = 1; i <= 15; i++) {valuesIns.push(i);}
+var valuesCol = [];
+for (let i = 1; i <= 10; i++) {valuesCol.push(i);}
+var params = ["col", "dim", "fun", "ins", "typ"];
+
+/* Fill the table with values from the URL parameters. If any are missing, use the defaults (all plot types are shown,
+   there are five plots per row, the first option is chosen for all other select elements) */
+window.onload=function() {
+    /* Fill the dropdowns with values */
+    fill_options("col", valuesCol, valuesCol, "5");
+    fill_options("dim", valuesDim, valuesDim, "2");
+    fill_options("fun", valuesFun, valuesFun, "1");
+    fill_options("ins", valuesIns, valuesIns, "1");
+    fill_options("typ", valuesTyp, labelsTyp, "directions-searchspace");
+
+    for (var i = 0; i < params.length; i++) {
+        var value = getParam(params[i]);
+        if (value == "all") {
+            selectedNode = params[i] + "All";
+        }
+    }
+    selectNode(document.getElementById(selectedNode));
+}
+
+/* Create a string with all options according to the given subject, values, labels and default value */
+function fill_options(name, values, labels, default_value) {
+    var contents = "";
+    var value = getParam(name);
+    if ((!value) || (value === "all")) {
+        value = default_value;
+    }
+    for (let i = 0; i < values.length; i++) {
+        contents += "<option value=\"" + values[i] + "\">" + labels[i] + "</option>";
+    }
+    document.getElementById(name).innerHTML = contents;
+    document.getElementById(name).value = value;
+}
 
 /* Display number with leading zero */
 function pad(num) {
@@ -73,9 +64,9 @@ function addPlot(plotName) {
 	var elemImg = document.createElement("img");
 	elemDiv.setAttribute("style", "display:inline-block; width:" + plotWidth + "%;");
 	elemA.setAttribute("href", plotPath + plotName);
-	elemA.setAttribute("class", "nostyle");
 	elemImg.setAttribute("src", plotPath + plotName);
 	elemImg.setAttribute("alt", "");
+	elemImg.setAttribute("style", "width:100%;");
 	elemA.appendChild(elemImg);
 	elemDiv.appendChild(elemA);
 	document.getElementById("images").appendChild(elemDiv);
@@ -101,7 +92,7 @@ function changePlot() {
 		chosenTyp = [...valuesTyp];
 	}
 	document.getElementById("images").innerHTML = "";
-	// document.getElementById("result").value = "";
+    // document.getElementById("result").value = "";
 	for (let iDim = 0; iDim < chosenDim.length; iDim++) {
 		for (let iFun = 0; iFun < chosenFun.length; iFun++) {
 			for (let iIns = 0; iIns < chosenIns.length; iIns++) {
@@ -117,10 +108,7 @@ function changePlot() {
 	/* Make sure only the correct plot descriptions are shown */
 	for (let iTyp = 0; iTyp < valuesTyp.length; iTyp++) {
 		textName = "text-" + valuesTyp[iTyp];
-		if (selectedNode === "typAll") {
-			document.getElementById(textName).setAttribute("style", "display:block;");
-		}
-		else if (valuesTyp[iTyp] === chosenTyp[0]) {
+		if ((selectedNode === "typAll") || (valuesTyp[iTyp] === chosenTyp[0])) {
 			document.getElementById(textName).setAttribute("style", "display:block;");
 		}
 		else {
@@ -138,21 +126,18 @@ function changePlot() {
 	}
 
 	/* Make sure only the correct function description is shown */
-	if (selectedNode === "funAll") {
-		document.getElementById("text-function").setAttribute("style", "display:none;");
-	}
-	else {
-		document.getElementById("text-function").setAttribute("style", "display:block;");
-	}
 	for (let iFun = 0; iFun < valuesFun.length; iFun++) {
 		textName = "text-f" + valuesFun[iFun];
-		if (valuesFun[iFun] == chosenFun[0]) {
+		if ((selectedNode === "funAll") || (valuesFun[iFun] == chosenFun[0])) {
 			document.getElementById(textName).setAttribute("style", "display:block;");
 		}
 		else {
 			document.getElementById(textName).setAttribute("style", "display:none;");
 		}
 	}
+
+	/* Reflect the current state in the URL parameters */
+	setAllParams();
 }
 
 /* Move the dropdown selection to the previous item in the list */
@@ -209,5 +194,23 @@ function selectNode(node) {
 		  disableElements(allNodes[i].substring(0, 3), false);
 		}
 	}
-	changePlot()
+	changePlot();
+}
+
+/* Get the value of the URL parameter */
+function getParam(param) {
+    return new URLSearchParams(window.location.search).get(param);
+}
+
+/* Sets the value of all URL parameters according to the current view */
+function setAllParams() {
+    const urlParams = new URLSearchParams(window.location.search);
+    for (var i = 0; i < params.length; i++) {
+        var value = document.getElementById(params[i]).value;
+        if (selectedNode === (params[i] + "All")) {
+            value = "all";
+        }
+        urlParams.set(params[i], value);
+    }
+    window.history.replaceState({}, '', `${location.pathname}?${urlParams}`);
 }
