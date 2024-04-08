@@ -1,5 +1,5 @@
 
-### F<sub>1</sub>: Sphere/Sphere
+### F<sub>1</sub>: Sphere/Sphere {#F1}
 Combination of two sphere functions ([f<sub>1</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=5) in the `bbob` suite).
 
 Both objectives are unimodal, highly symmetric, rotational and scale
@@ -15,7 +15,7 @@ Contained in the *separable - separable* function group.
 
 
 
-### F<sub>2</sub>: Sphere/Ellipsoid separable
+### F<sub>2</sub>: Sphere/Ellipsoid separable {#F2}
 Combination of the sphere function ([f<sub>1</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=5) in the `bbob` suite)
 and the separable ellipsoid function ([f<sub>2</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=10) in the `bbob` suite).
 
@@ -28,7 +28,7 @@ about $10^6$.
 Contained in the *separable - separable* function group.
 
 
-### F<sub>3</sub>: Sphere/Attractive sector
+### F<sub>3</sub>: Sphere/Attractive sector {#F3}
 Combination of the sphere function ([f<sub>1</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=5) in the `bbob` suite)
 and the attractive sector function ([f<sub>6</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=30) in the `bbob` suite).
 
@@ -43,7 +43,7 @@ Contained in the *separable - moderate* function group.
 
 
 
-### F<sub>4</sub>: Sphere/Rosenbrock original
+### F<sub>4</sub>: Sphere/Rosenbrock original {#F4}
 Combination of the sphere function ([f<sub>1</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=5) in the `bbob` suite)
 and the original, i.e., unrotated Rosenbrock function ([f<sub>8</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=40) in the `bbob` suite).
 
@@ -56,7 +56,7 @@ Contained in the *separable - moderate* function group.
 
 
 
-### F<sub>5</sub>: Sphere/Sharp ridge
+### F<sub>5</sub>: Sphere/Sharp ridge {#F5}
 Combination of the sphere function ([f<sub>1</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=5) in the `bbob` suite)
 and the sharp ridge function ([f<sub>13</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=65) in the `bbob` suite).
 
@@ -76,7 +76,7 @@ Contained in the *separable - ill-conditioned* function group.
 
 
 
-### F<sub>6</sub>: Sphere/Sum of Different Powers
+### F<sub>6</sub>: Sphere/Sum of Different Powers {#F6}
 Combination of the sphere function ([f<sub>1</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=5) in the `bbob` suite)
 and the sum of different powers function ([f<sub>14</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the `bbob` suite).
 
@@ -90,7 +90,7 @@ Contained in the *separable - ill-conditioned* function group.
 
 
 
-### F<sub>7</sub>: Sphere/Rastrigin
+### F<sub>7</sub>: Sphere/Rastrigin {#F7}
 Combination of the sphere function ([f<sub>1</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=5) in the `bbob` suite)
 and the Rastrigin function ([f<sub>15</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=75) in the `bbob` suite).
 
@@ -108,7 +108,7 @@ Contained in the *separable - multimodal* function group.
 
 
 
-### F<sub>8</sub>: Sphere/Schaffer F7, condition 10
+### F<sub>8</sub>: Sphere/Schaffer F7, condition 10 {#F8}
 Combination of the sphere function ([f<sub>1</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=5) in the `bbob` suite)
 and the Schaffer F7 function with condition number 10 ([f<sub>17</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the `bbob` suite).
 
@@ -122,7 +122,7 @@ Contained in the *separable - multimodal* function group.
 
 
 
-### F<sub>9</sub>: Sphere/Schwefel x*sin(x)
+### F<sub>9</sub>: Sphere/Schwefel x*sin(x) {#F9}
 Combination of the sphere function ([f<sub>1</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=5) in the `bbob` suite)
 and the Schwefel function ([f<sub>20</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the `bbob` suite).
 
@@ -135,7 +135,7 @@ Contained in the *separable - weakly-structured* function group.
 
 
 
-### F<sub>10</sub>: Sphere/Gallagher 101 peaks
+### F<sub>10</sub>: Sphere/Gallagher 101 peaks {#F10}
 Combination of the sphere function ([f<sub>1</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=5) in the `bbob` suite)
 and the Gallagher function with 101 peaks ([f<sub>21</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the `bbob` suite).
 
@@ -150,7 +150,7 @@ Contained in the *separable - weakly-structured* function group.
 
 
 
-### F<sub>11</sub>: Ellipsoid separable/Ellipsoid separable
+### F<sub>11</sub>: Ellipsoid separable/Ellipsoid separable {#F11}
 Combination of two separable ellipsoid functions ([f<sub>2</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=10) in the `bbob` suite).
 
 Both objectives are unimodal, separable, only globally
@@ -162,7 +162,7 @@ Contained in the *separable - separable* function group.
 
 
 
-### F<sub>12</sub>: Ellipsoid separable/Attractive sector
+### F<sub>12</sub>: Ellipsoid separable/Attractive sector {#F12}
 Combination of the separable ellipsoid function ([f<sub>2</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=10) in the `bbob` suite)
 and the attractive sector function ([f<sub>6</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=30) in the `bbob` suite).
 
@@ -180,7 +180,7 @@ Contained in the *separable - moderate* function group.
 
 
 
-### F<sub>13</sub>: Ellipsoid separable/Rosenbrock original
+### F<sub>13</sub>: Ellipsoid separable/Rosenbrock original {#F13}
 Combination of the separable ellipsoid function ([f<sub>2</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=10) in the `bbob` suite) and the original, i.e., unrotated Rosenbrock function
 ([f<sub>8</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=40) in the `bbob` suite).
 
@@ -196,7 +196,7 @@ Contained in the *separable - moderate* function group.
 
 
 
-### F<sub>14</sub>: Ellipsoid separable/Sharp ridge
+### F<sub>14</sub>: Ellipsoid separable/Sharp ridge {#F14}
 Combination of the separable ellipsoid function ([f<sub>2</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=10) in the `bbob` suite) and the sharp ridge function ([f<sub>13</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=65) in the `bbob` suite).
 
 Both objective functions are unimodal but only the first one is
@@ -211,7 +211,7 @@ Contained in the *separable - ill-conditioned* function group.
 
 
 
-### F<sub>15</sub>: Ellipsoid separable/Sum of Different Powers
+### F<sub>15</sub>: Ellipsoid separable/Sum of Different Powers {#F15}
 Combination of the separable ellipsoid function ([f<sub>2</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=10) in the `bbob` suite) and the sum of different powers function
 ([f<sub>14</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the `bbob` suite).
 
@@ -228,7 +228,7 @@ Contained in the *separable - ill-conditioned* function group.
 
 
 
-### F<sub>16</sub>: Ellipsoid separable/Rastrigin
+### F<sub>16</sub>: Ellipsoid separable/Rastrigin {#F16}
 Combination of the separable ellipsoid function ([f<sub>2</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=10) in the `bbob` suite) and the Rastrigin function ([f<sub>15</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=75) in the `bbob` suite).
 
 The objective functions show rather opposite properties.
@@ -244,7 +244,7 @@ Contained in the *separable - multimodal* function group.
 
 
 
-### F<sub>17</sub>: Ellipsoid separable/Schaffer F7, condition 10
+### F<sub>17</sub>: Ellipsoid separable/Schaffer F7, condition 10 {#F17}
 Combination of the separable ellipsoid function ([f<sub>2</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=10) in the `bbob` suite) and the Schaffer F7 function with condition number 10
 ([f<sub>17</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the `bbob` suite).
 
@@ -257,7 +257,7 @@ Contained in the *separable - multimodal* function group.
 
 
 
-### F<sub>18</sub>: Ellipsoid separable/Schwefel x*sin(x)
+### F<sub>18</sub>: Ellipsoid separable/Schwefel x*sin(x) {#F18}
 Combination of the separable ellipsoid function ([f<sub>2</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=10) in the `bbob` suite) and the Schwefel function ([f<sub>20</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the `bbob` suite).
 
 The first objective is unimodal, separable and highly ill-conditioned.
@@ -269,7 +269,7 @@ Contained in the *separable - weakly-structured* function group.
 
 
 
-### F<sub>19</sub>: Ellipsoid separable/Gallagher 101 peaks
+### F<sub>19</sub>: Ellipsoid separable/Gallagher 101 peaks {#F19}
 Combination of the separable ellipsoid function ([f<sub>2</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=10) in the `bbob` suite) and the Gallagher function with 101 peaks ([f<sub>21</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the `bbob` suite).
 
 While the first objective function is separable, unimodal, and
@@ -284,7 +284,7 @@ Contained in the *separable - weakly-structured* function group.
 
 
 
-### F<sub>20</sub>: Attractive sector/Attractive sector
+### F<sub>20</sub>: Attractive sector/Attractive sector {#F20}
 Combination of two attractive sector functions ([f<sub>6</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=30) in the `bbob` suite).
 Both functions are unimodal and highly asymmetric, where only one
 *hypercone* (with angular base area) per objective with a volume of
@@ -295,7 +295,7 @@ Contained in the *moderate - moderate* function group.
 
 
 
-### F<sub>21</sub>: Attractive sector/Rosenbrock original
+### F<sub>21</sub>: Attractive sector/Rosenbrock original {#F21}
 Combination of the attractive sector function ([f<sub>6</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=30) in the `bbob` suite) and the Rosenbrock function ([f<sub>8</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=40) in the `bbob` suite).
 
 The first function is unimodal but highly asymmetric, where only one
@@ -309,7 +309,7 @@ Contained in the *moderate - moderate* function group.
 
 
 
-### F<sub>22</sub>: Attractive sector/Sharp ridge
+### F<sub>22</sub>: Attractive sector/Sharp ridge {#F22}
 Combination of the attractive sector function ([f<sub>6</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=30) in the `bbob` suite) and the sharp ridge function ([f<sub>13</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=65) in the `bbob` suite).
 
 Both objective functions are unimodal and non-separable. The
@@ -323,7 +323,7 @@ Contained in the *moderate - ill-conditioned* function group.
 
 
 
-### F<sub>23</sub>: Attractive sector/Sum of Different Powers
+### F<sub>23</sub>: Attractive sector/Sum of Different Powers {#F23}
 Combination of the attractive sector function ([f<sub>6</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=30) in the `bbob` suite) and the sum of different powers function
 ([f<sub>14</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the `bbob` suite).
 
@@ -339,7 +339,7 @@ Contained in the *moderate - ill-conditioned* function group.
 
 
 
-### F<sub>24</sub>: Attractive sector/Rastrigin
+### F<sub>24</sub>: Attractive sector/Rastrigin {#F24}
 Combination of the attractive sector function ([f<sub>6</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=30) in the `bbob` suite) and the Rastrigin function
 ([f<sub>15</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=75) in the `bbob` suite).
 
@@ -353,7 +353,7 @@ Contained in the *moderate - multimodal* function group.
 
 
 
-### F<sub>25</sub>: Attractive sector/Schaffer F7, condition 10
+### F<sub>25</sub>: Attractive sector/Schaffer F7, condition 10 {#F25}
 Combination of the attractive sector function ([f<sub>6</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=30) in the `bbob` suite) and the Schaffer F7 function with condition number 10
 ([f<sub>17</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the `bbob` suite).
 
@@ -366,7 +366,7 @@ Contained in the *moderate - multimodal* function group.
 
 
 
-### F<sub>26</sub>: Attractive sector/Schwefel x*sin(x)
+### F<sub>26</sub>: Attractive sector/Schwefel x*sin(x) {#F26}
 Combination of the attractive sector function ([f<sub>6</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=30) in the `bbob` suite) and the Schwefel function ([f<sub>20</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the `bbob` suite).
 
 The first objective is non-separable, unimodal, and asymmetric.
@@ -378,7 +378,7 @@ Contained in the *moderate - weakly-structured* function group.
 
 
 
-### F<sub>27</sub>: Attractive sector/Gallagher 101 peaks
+### F<sub>27</sub>: Attractive sector/Gallagher 101 peaks {#F27}
 Combination of the attractive sector function ([f<sub>6</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=30) in the `bbob` suite) and the Gallagher function with 101 peaks ([f<sub>21</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the `bbob` suite).
 
 Both objective functions are non-separable but only the first
@@ -392,7 +392,7 @@ Contained in the *moderate - weakly-structured* function group.
 
 
 
-### F<sub>28</sub>: Rosenbrock original/Rosenbrock original
+### F<sub>28</sub>: Rosenbrock original/Rosenbrock original {#F28}
 Combination of two Rosenbrock functions ([f<sub>8</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=40) in the `bbob` suite).
 
 Both objectives are partially separable (tri-band structure) and have
@@ -402,7 +402,7 @@ Contained in the *moderate - moderate* function group.
 
 
 
-### F<sub>29</sub>: Rosenbrock original/Sharp ridge
+### F<sub>29</sub>: Rosenbrock original/Sharp ridge {#F29}
 Combination of the Rosenbrock function ([f<sub>8</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=40) in the `bbob` suite) and the
 sharp ridge function ([f<sub>13</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=65) in the `bbob` suite).
 
@@ -415,7 +415,7 @@ Contained in the *moderate - ill-conditioned* function group.
 
 
 
-### F<sub>30</sub>: Rosenbrock original/Sum of Different Powers
+### F<sub>30</sub>: Rosenbrock original/Sum of Different Powers {#F30}
 Combination of the Rosenbrock function ([f<sub>8</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=40) in the `bbob` suite) and the sum of different powers function
 ([f<sub>14</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the `bbob` suite).
 
@@ -429,7 +429,7 @@ Contained in the *moderate - ill-conditioned* function group.
 
 
 
-### F<sub>31</sub>: Rosenbrock original/Rastrigin
+### F<sub>31</sub>: Rosenbrock original/Rastrigin {#F31}
 Combination of the Rosenbrock function ([f<sub>8</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=40) in the `bbob` suite) and the Rastrigin function
 ([f<sub>15</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=75) in the `bbob` suite).
 
@@ -443,7 +443,7 @@ Contained in the *moderate - multimodal* function group.
 
 
 
-### F<sub>32</sub>: Rosenbrock original/Schaffer F7, condition 10
+### F<sub>32</sub>: Rosenbrock original/Schaffer F7, condition 10 {#F32}
 Combination of the Rosenbrock function ([f<sub>8</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=40) in the `bbob` suite) and the
 Schaffer F7 function with condition number 10
 ([f<sub>17</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the `bbob` suite).
@@ -458,7 +458,7 @@ Contained in the *moderate - multimodal* function group.
 
 
 
-### F<sub>33</sub>: Rosenbrock original/Schwefel x*sin(x)
+### F<sub>33</sub>: Rosenbrock original/Schwefel x*sin(x) {#F33}
 Combination of the Rosenbrock function ([f<sub>8</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=40) in the `bbob` suite) and the
 Schwefel function ([f<sub>20</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the `bbob` suite).
 
@@ -472,7 +472,7 @@ Contained in the *moderate - weakly-structured* function group.
 
 
 
-### F<sub>34</sub>: Rosenbrock original/Gallagher 101 peaks
+### F<sub>34</sub>: Rosenbrock original/Gallagher 101 peaks {#F34}
 Combination of the Rosenbrock function ([f<sub>8</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=40) in the `bbob` suite) and
 the Gallagher function with 101 peaks ([f<sub>21</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the `bbob` suite).
 
@@ -488,7 +488,7 @@ Contained in the *moderate - weakly-structured* function group.
 
 
 
-### F<sub>35</sub>: Sharp ridge/Sharp ridge
+### F<sub>35</sub>: Sharp ridge/Sharp ridge {#F35}
 Combination of two sharp ridge functions ([f<sub>13</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=65) in the `bbob` suite).
 
 Both objective functions are unimodal and non-separable and, for
@@ -499,7 +499,7 @@ Contained in the *ill-conditioned - ill-conditioned* function group.
 
 
 
-### F<sub>36</sub>: Sharp ridge/Sum of Different Powers
+### F<sub>36</sub>: Sharp ridge/Sum of Different Powers {#F36}
 Combination of the sharp ridge function ([f<sub>13</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=65) in the `bbob` suite) and the
 sum of different powers function
 ([f<sub>14</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the `bbob` suite).
@@ -514,7 +514,7 @@ Contained in the *ill-conditioned - ill-conditioned* function group.
 
 
 
-### F<sub>37</sub>: Sharp ridge/Rastrigin
+### F<sub>37</sub>: Sharp ridge/Rastrigin {#F37}
 Combination of the sharp ridge function ([f<sub>13</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=65) in the `bbob` suite) and the Rastrigin function
 ([f<sub>15</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=75) in the `bbob` suite).
 
@@ -526,7 +526,7 @@ Contained in the *ill-conditioned - multimodal* function group.
 
 
 
-### F<sub>38</sub>: Sharp ridge/Schaffer F7, condition 10
+### F<sub>38</sub>: Sharp ridge/Schaffer F7, condition 10 {#F38}
 Combination of the sharp ridge function ([f<sub>13</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=65) in the `bbob` suite) and the
 Schaffer F7 function with condition number 10
 ([f<sub>17</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the `bbob` suite).
@@ -540,7 +540,7 @@ Contained in the *ill-conditioned - multimodal* function group.
 
 
 
-### F<sub>39</sub>: Sharp ridge/Schwefel x*sin(x)
+### F<sub>39</sub>: Sharp ridge/Schwefel x*sin(x) {#F39}
 Combination of the sharp ridge function ([f<sub>13</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=65) in the `bbob` suite) and the
 Schwefel function ([f<sub>20</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the `bbob` suite).
 
@@ -553,7 +553,7 @@ Contained in the *ill-conditioned - weakly-structured* function group.
 
 
 
-### F<sub>40</sub>: Sharp ridge/Gallagher 101 peaks
+### F<sub>40</sub>: Sharp ridge/Gallagher 101 peaks {#F40}
 Combination of the sharp ridge function ([f<sub>13</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=65) in the `bbob` suite) and the
 Gallagher function with 101 peaks ([f<sub>21</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the `bbob` suite).
 
@@ -569,7 +569,7 @@ Contained in the *ill-conditioned - weakly-structured* function group.
 
 
 
-### F<sub>41</sub>: Sum of Different Powers/Sum of Different Powers
+### F<sub>41</sub>: Sum of Different Powers/Sum of Different Powers {#F41}
 Combination of two sum of different powers functions
 ([f<sub>14</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the `bbob` suite).
 
@@ -581,7 +581,7 @@ Contained in the *ill-conditioned - ill-conditioned* function group.
 
 
 
-### F<sub>42</sub>: Sum of Different Powers/Rastrigin
+### F<sub>42</sub>: Sum of Different Powers/Rastrigin {#F42}
 Combination of the sum of different powers functions
 ([f<sub>14</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the `bbob` suite) and the Rastrigin function
 ([f<sub>15</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=75) in the `bbob` suite).
@@ -594,7 +594,7 @@ Contained in the *ill-conditioned - multimodal* function group.
 
 
 
-### F<sub>43</sub>: Sum of Different Powers/Schaffer F7, condition 10
+### F<sub>43</sub>: Sum of Different Powers/Schaffer F7, condition 10 {#F43}
 Combination of the sum of different powers functions
 ([f<sub>14</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the `bbob` suite) and the Schaffer F7 function with
 condition number 10 ([f<sub>17</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the `bbob` suite).
@@ -608,7 +608,7 @@ Contained in the *ill-conditioned - multimodal* function group.
 
 
 
-### F<sub>44</sub>: Sum of Different Powers/Schwefel x*sin(x)
+### F<sub>44</sub>: Sum of Different Powers/Schwefel x*sin(x) {#F44}
 Combination of the sum of different powers functions
 ([f<sub>14</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the `bbob` suite) and the Schwefel function ([f<sub>20</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the `bbob` suite).
 
@@ -622,7 +622,7 @@ Contained in the *ill-conditioned - weakly-structured* function group.
 
 
 
-### F<sub>45</sub>: Sum of Different Powers/Gallagher 101 peaks
+### F<sub>45</sub>: Sum of Different Powers/Gallagher 101 peaks {#F45}
 Combination of the sum of different powers functions
 ([f<sub>14</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the `bbob` suite) and the Gallagher function with
 101 peaks ([f<sub>21</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the `bbob` suite).
@@ -638,7 +638,7 @@ Contained in the *ill-conditioned - weakly-structured* function group.
 
 
 
-### F<sub>46</sub>: Rastrigin/Rastrigin
+### F<sub>46</sub>: Rastrigin/Rastrigin {#F46}
 Combination of two Rastrigin functions
 ([f<sub>15</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=75) in the `bbob` suite).
 
@@ -649,7 +649,7 @@ Contained in the *multimodal - multimodal* function group.
 
 
 
-### F<sub>47</sub>: Rastrigin/Schaffer F7, condition 10
+### F<sub>47</sub>: Rastrigin/Schaffer F7, condition 10 {#F47}
 Combination of the Rastrigin function
 ([f<sub>15</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=75) in the `bbob` suite) and the Schaffer F7 function with
 condition number 10 ([f<sub>17</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the `bbob` suite).
@@ -660,7 +660,7 @@ Contained in the *multimodal - multimodal* function group.
 
 
 
-### F<sub>48</sub>: Rastrigin/Schwefel x*sin(x)
+### F<sub>48</sub>: Rastrigin/Schwefel x*sin(x) {#F48}
 Combination of the Rastrigin function
 ([f<sub>15</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=75) in the `bbob` suite) and the Schwefel function ([f<sub>20</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the `bbob` suite).
 
@@ -673,7 +673,7 @@ Contained in the *multimodal - weakly-structured* function group.
 
 
 
-### F<sub>49</sub>: Rastrigin/Gallagher 101 peaks
+### F<sub>49</sub>: Rastrigin/Gallagher 101 peaks {#F49}
 Combination of the Rastrigin function
 ([f<sub>15</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=75) in the `bbob` suite) and the Gallagher function with
 101 peaks ([f<sub>21</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the `bbob` suite).
@@ -687,7 +687,7 @@ Contained in the *multimodal - weakly-structured* function group.
 
 
 
-### F<sub>50</sub>: Schaffer F7, condition 10/Schaffer F7, condition 10
+### F<sub>50</sub>: Schaffer F7, condition 10/Schaffer F7, condition 10 {#F50}
 Combination of two Schaffer F7 functions with
 condition number 10 ([f<sub>17</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the `bbob` suite).
 
@@ -697,7 +697,7 @@ Contained in the *multimodal - multimodal* function group.
 
 
 
-### F<sub>51</sub>: Schaffer F7, condition 10/Schwefel x*sin(x)
+### F<sub>51</sub>: Schaffer F7, condition 10/Schwefel x*sin(x) {#F51}
 Combination of the Schaffer F7 function with
 condition number 10 ([f<sub>17</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the `bbob` suite)
 and the Schwefel function ([f<sub>20</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the `bbob` suite).
@@ -711,7 +711,7 @@ Contained in the *multimodal - weakly-structured* function group.
 
 
 
-### F<sub>52</sub>: Schaffer F7, condition 10/Gallagher 101 peaks
+### F<sub>52</sub>: Schaffer F7, condition 10/Gallagher 101 peaks {#F52}
 Combination of the Schaffer F7 function with
 condition number 10 ([f<sub>17</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the `bbob` suite)
 and the Gallagher function with
@@ -727,7 +727,7 @@ Contained in the *multimodal - weakly-structured* function group.
 
 
 
-### F<sub>53</sub>: Schwefel x*sin(x)/Schwefel x*sin(x)
+### F<sub>53</sub>: Schwefel x*sin(x)/Schwefel x*sin(x) {#F53}
 Combination of two Schwefel functions ([f<sub>20</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the `bbob` suite).
 
 Both objective functions are non-separable and highly multimodal where
@@ -741,7 +741,7 @@ Contained in the *weakly-structured - weakly-structured* function group.
 
 
 
-### F<sub>54</sub>: Schwefel x*sin(x)/Gallagher 101 peaks
+### F<sub>54</sub>: Schwefel x*sin(x)/Gallagher 101 peaks {#F54}
 Combination of the Schwefel function ([f<sub>20</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the `bbob` suite) and the Gallagher function with
 101 peaks ([f<sub>21</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the `bbob` suite).
 
@@ -756,7 +756,7 @@ Contained in the *weakly-structured - weakly-structured* function group.
 
 
 
-### F<sub>55</sub>: Gallagher 101 peaks/Gallagher 101 peaks
+### F<sub>55</sub>: Gallagher 101 peaks/Gallagher 101 peaks {#F55}
 Combination of two Gallagher functions with
 101 peaks ([f<sub>21</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the `bbob` suite).
 
@@ -769,7 +769,7 @@ Contained in the *weakly-structured - weakly-structured* function group.
 
 
 
-### F<sub>56</sub>: Sphere/Rastrigin separable
+### F<sub>56</sub>: Sphere/Rastrigin separable {#F56}
 Combination of the Sphere function ([f<sub>1</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=5) in the `bbob` suite) and the
 separable Rastrigin function ([f<sub>3</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=15) in the `bbob` suite).
 
@@ -784,7 +784,7 @@ Contained in the *separable - separable* function group.
 
 
 
-### F<sub>57</sub>: Sphere/Rastrigin-Büche
+### F<sub>57</sub>: Sphere/Rastrigin-Büche {#F57}
 Combination of the Sphere function ([f<sub>1</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=5) in the `bbob` suite) and the
 separable Büche-Rastrigin function ([f<sub>4</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=20) in the `bbob` suite).
 
@@ -800,7 +800,7 @@ Contained in the *separable - separable* function group.
 
 
 
-### F<sub>58</sub>: Sphere/Linear slope
+### F<sub>58</sub>: Sphere/Linear slope {#F58}
 Combination of the Sphere function ([f<sub>1</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=5) in the `bbob` suite) and the
 Linear Slope function ([f<sub>5</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=25) in the `bbob` suite).
 
@@ -815,7 +815,7 @@ Contained in the *separable - separable* function group.
 
 
 
-### F<sub>59</sub>: Separable Ellipsoid/Separable Rastrigin
+### F<sub>59</sub>: Separable Ellipsoid/Separable Rastrigin {#F59}
 Combination of the separable Ellipsoid function ([f<sub>2</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=10) in the `bbob` suite) and the
 separable Rastrigin function ([f<sub>3</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=15) in the `bbob` suite).
 
@@ -832,7 +832,7 @@ Contained in the *separable - separable* function group.
 
 
 
-### F<sub>60</sub>: separable Ellipsoid/Büche-Rastrigin
+### F<sub>60</sub>: separable Ellipsoid/Büche-Rastrigin {#F60}
 Combination of the separable Ellipsoid function ([f<sub>2</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=10) in the `bbob` suite) and the
 separable Büche-Rastrigin function ([f<sub>4</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=20) in the `bbob` suite).
 
@@ -847,7 +847,7 @@ Contained in the *separable - separable* function group.
 
 
 
-### F<sub>61</sub>: Separable Ellipsoid/Linear Slope
+### F<sub>61</sub>: Separable Ellipsoid/Linear Slope {#F61}
 Combination of the separable Ellipsoid function ([f<sub>2</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=10) in the `bbob` suite) and the
 Linear Slope function ([f<sub>5</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=25) in the `bbob` suite).
 
@@ -861,7 +861,7 @@ Contained in the *separable - separable* function group.
 
 
 
-### F<sub>62</sub>: separable Rastrigin/Büche-Rastrigin
+### F<sub>62</sub>: separable Rastrigin/Büche-Rastrigin {#F62}
 Combination of the separable Rastrigin function ([f<sub>3</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=15) in the `bbob` suite) and the
 separable Büche-Rastrigin function ([f<sub>4</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=20) in the `bbob` suite).
 
@@ -874,7 +874,7 @@ Contained in the *separable - separable* function group.
 
 
 
-### F<sub>63</sub>: Separable Rastrigin/Linear Slope
+### F<sub>63</sub>: Separable Rastrigin/Linear Slope {#F63}
 Combination of the separable Rastrigin function ([f<sub>3</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=15) in the `bbob` suite) and the
 Linear Slope function ([f<sub>5</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=25) in the `bbob` suite).
 
@@ -887,7 +887,7 @@ Contained in the *separable - separable* function group.
 
 
 
-### F<sub>64</sub>: Büche-Rastrigin/Linear slope
+### F<sub>64</sub>: Büche-Rastrigin/Linear slope {#F64}
 Combination of the Büche-Rastrigin function ([f<sub>4</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=20) in the `bbob` suite) and the
 Linear Slope function ([f<sub>5</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=25) in the `bbob` suite).
 
@@ -900,7 +900,7 @@ Contained in the *separable - separable* function group.
 
 
 
-### F<sub>65</sub>: Attractive Sector/Step-ellipsoid
+### F<sub>65</sub>: Attractive Sector/Step-ellipsoid {#F65}
 Combination of the Attractive Sector function ([f<sub>6</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=30) in the `bbob` suite) and the
 Step Ellipsoidal function ([f<sub>7</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=35) in the `bbob` suite).
 
@@ -916,7 +916,7 @@ Contained in the *moderate - moderate* function group.
 
 
 
-### F<sub>66</sub>: Attractive Sector/rotated Rosenbrock
+### F<sub>66</sub>: Attractive Sector/rotated Rosenbrock {#F66}
 Combination of the Attractive Sector function ([f<sub>6</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=30) in the `bbob` suite) and the
 rotated Rosenbrock function ([f<sub>9</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=45) in the `bbob` suite).
 
@@ -933,7 +933,7 @@ Contained in the *moderate - moderate* function group.
 
 
 
-### F<sub>67</sub>: Step-ellipsoid/separable Rosenbrock
+### F<sub>67</sub>: Step-ellipsoid/separable Rosenbrock {#F67}
 Combination of the Step Ellipsoidal function ([f<sub>7</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=35) in the `bbob` suite) and the
 separable Rosenbrock function ([f<sub>8</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=40) in the `bbob` suite).
 
@@ -948,7 +948,7 @@ Contained in the *moderate - moderate* function group.
 
 
 
-### F<sub>68</sub>: Step-ellipsoid/rotated Rosenbrock
+### F<sub>68</sub>: Step-ellipsoid/rotated Rosenbrock {#F68}
 Combination of the Step Ellipsoidal function ([f<sub>7</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=35) in the `bbob` suite) and the
 rotated Rosenbrock function ([f<sub>9</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=45) in the `bbob` suite).
 
@@ -967,7 +967,7 @@ Contained in the *moderate - moderate* function group.
 
 
 
-### F<sub>69</sub>: separable Rosenbrock/rotated Rosenbrock
+### F<sub>69</sub>: separable Rosenbrock/rotated Rosenbrock {#F69}
 Combination of the separable Rosenbrock function ([f<sub>8</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=40) in the `bbob` suite) and the
 rotated Rosenbrock function ([f<sub>9</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=45) in the `bbob` suite).
 
@@ -981,7 +981,7 @@ Contained in the *moderate - moderate* function group.
 
 
 
-### F<sub>70</sub>: Ellipsoid/Discus
+### F<sub>70</sub>: Ellipsoid/Discus {#F70}
 Combination of the Ellipsoid function ([f<sub>10</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=50) in the `bbob` suite) and the
 Discus (or Tablet) function ([f<sub>11</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=55) in the `bbob` suite).
 
@@ -993,7 +993,7 @@ Contained in the *ill-conditioned - ill-conditioned* function group.
 
 
 
-### F<sub>71</sub>: Ellipsoid/Bent Cigar
+### F<sub>71</sub>: Ellipsoid/Bent Cigar {#F71}
 Combination of the Ellipsoid function ([f<sub>10</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=50) in the `bbob` suite) and the
 Bent Cigar function ([f<sub>12</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=60) in the `bbob` suite).
 
@@ -1007,7 +1007,7 @@ Contained in the *ill-conditioned - ill-conditioned* function group.
 
 
 
-### F<sub>72</sub>: Ellipsoid/Sharp Ridge
+### F<sub>72</sub>: Ellipsoid/Sharp Ridge {#F72}
 Combination of the Ellipsoid function ([f<sub>10</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=50) in the `bbob` suite) and the
 Sharp Ridge function ([f<sub>13</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=65) in the `bbob` suite).
 
@@ -1022,7 +1022,7 @@ Contained in the *ill-conditioned - ill-conditioned* function group.
 
 
 
-### F<sub>73</sub>: Ellipsoid/Sum of Different Powers
+### F<sub>73</sub>: Ellipsoid/Sum of Different Powers {#F73}
 Combination of the Ellipsoid function ([f<sub>10</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=50) in the `bbob` suite) and the
 Sum of Different Powers function ([f<sub>14</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the `bbob` suite).
 
@@ -1037,7 +1037,7 @@ Contained in the *ill-conditioned - ill-conditioned* function group.
 
 
 
-### F<sub>74</sub>: Discus/Bent Cigar
+### F<sub>74</sub>: Discus/Bent Cigar {#F74}
 Combination of the Discus function ([f<sub>11</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=55) in the `bbob` suite) and the
 Bent cigar function ([f<sub>12</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=60) in the `bbob` suite).
 
@@ -1053,7 +1053,7 @@ Contained in the *ill-conditioned - ill-conditioned* function group.
 
 
 
-### F<sub>75</sub>: Discus/Sharp Ridge
+### F<sub>75</sub>: Discus/Sharp Ridge {#F75}
 Combination of the Discus function ([f<sub>11</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=55) in the `bbob` suite) and the
 Sharp Ridge function ([f<sub>13</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=65) in the `bbob` suite).
 
@@ -1072,7 +1072,7 @@ Contained in the *ill-conditioned - ill-conditioned* function group.
 
 
 
-### F<sub>76</sub>: Discus/Sum of Different Powers
+### F<sub>76</sub>: Discus/Sum of Different Powers {#F76}
 Combination of the Discus function ([f<sub>11</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=55) in the `bbob` suite) and the
 Sum of Different Powers function ([f<sub>14</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the `bbob` suite).
 
@@ -1090,7 +1090,7 @@ Contained in the *ill-conditioned - ill-conditioned* function group.
 
 
 
-### F<sub>77</sub>: Bent Cigar/Sharp Ridge
+### F<sub>77</sub>: Bent Cigar/Sharp Ridge {#F77}
 Combination of the Bent Cigar function ([f<sub>12</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=60) in the `bbob` suite) and the
 Sharp Ridge function ([f<sub>13</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=65) in the `bbob` suite).
 
@@ -1109,7 +1109,7 @@ Contained in the *ill-conditioned - ill-conditioned* function group.
 
 
 
-### F<sub>78</sub>: Bent Cigar/Sum of Different Powers
+### F<sub>78</sub>: Bent Cigar/Sum of Different Powers {#F78}
 Combination of the Bent Cigar function ([f<sub>12</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=60) in the `bbob` suite) and the
 Sum of Different Powers function ([f<sub>14</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the `bbob` suite).
 
@@ -1131,7 +1131,7 @@ Contained in the *ill-conditioned - ill-conditioned* function group.
 
 
 
-### F<sub>79</sub>: Rastrigin/Schaffer F7 with conditioning of 1000
+### F<sub>79</sub>: Rastrigin/Schaffer F7 with conditioning of 1000 {#F79}
 Combination of the Rastrigin function ([f<sub>15</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=75) in the `bbob` suite) and the
 Schaffer F7 function with conditioning 1000 ([f<sub>18</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=90) in the `bbob` suite).
 
@@ -1150,7 +1150,7 @@ Contained in the *multimodal - multimodal* function group.
 
 
 
-### F<sub>80</sub>: Rastrigin/Griewank-Rosenbrock
+### F<sub>80</sub>: Rastrigin/Griewank-Rosenbrock {#F80}
 Combination of the Rastrigin function ([f<sub>15</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=75) in the `bbob` suite) and the
 Griewank-Rosenbrock function ([f<sub>19</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=95) in the `bbob` suite).
 
@@ -1166,7 +1166,7 @@ Contained in the *multimodal multimodal* function group.
 
 
 
-### F<sub>81</sub>: Schaffer F7/Schaffer F7 with conditioning 1000
+### F<sub>81</sub>: Schaffer F7/Schaffer F7 with conditioning 1000 {#F81}
 Combination of the Schaffer F7 function ([f<sub>17</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the `bbob` suite) and the
 Schaffer F7 with conditioning 1000 function ([f<sub>18</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=90) in the `bbob` suite).
 
@@ -1179,7 +1179,7 @@ Contained in the *multimodal - multimodal* function group.
 
 
 
-### F<sub>82</sub>: Schaffer F7/Griewank-Rosenbrock
+### F<sub>82</sub>: Schaffer F7/Griewank-Rosenbrock {#F82}
 Combination of the Schaffer F7 function ([f<sub>17</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the `bbob` suite) and the
 Griewank-Rosenbrock function ([f<sub>19</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=95) in the `bbob` suite).
 
@@ -1193,7 +1193,7 @@ Contained in the *multimodal - multimodal* function group.
 
 
 
-### F<sub>83</sub>: Schaffer F7 with conditioning 1000/Griewank-Rosenbrock
+### F<sub>83</sub>: Schaffer F7 with conditioning 1000/Griewank-Rosenbrock {#F83}
 Combination of the Schaffer F7 function with conditioning 1000 ([f<sub>18</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=90) in the `bbob` suite) and the
 Griewank-Rosenbrock function ([f<sub>19</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=95) in the `bbob` suite).
 
@@ -1204,7 +1204,7 @@ Contained in the *multimodal - multimodal* function group.
 
 
 
-### F<sub>84</sub>: Schwefel/Gallagher 21
+### F<sub>84</sub>: Schwefel/Gallagher 21 {#F84}
 Combination of the Schwefel function ([f<sub>20</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the `bbob` suite) and the
 Gallagher 21 function ([f<sub>22</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=110) in the `bbob` suite).
 
@@ -1223,7 +1223,7 @@ Contained in the *weakly-structured - weakly-structured* function group.
 
 
 
-### F<sub>85</sub>: Schwefel/Katsuuras
+### F<sub>85</sub>: Schwefel/Katsuuras {#F85}
 Combination of the Schwefel function ([f<sub>20</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the `bbob` suite) and the
 Katsuuras function ([f<sub>23</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=115) in the `bbob` suite).
 
@@ -1237,7 +1237,7 @@ global optima.
 
 
 
-### F<sub>86</sub>: Schwefel/Lunacek bi-Rastrigin
+### F<sub>86</sub>: Schwefel/Lunacek bi-Rastrigin {#F86}
 Combination of the Schwefel function ([f<sub>20</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the `bbob` suite) and the
 Lunacek bi-Rastrigin function ([f<sub>24</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=120) in the `bbob` suite).
 
@@ -1254,7 +1254,7 @@ Contained in the *weakly-structure - weakly-structured* function group.
 
 
 
-### F<sub>87</sub>: Gallagher 101/Gallagher 21
+### F<sub>87</sub>: Gallagher 101/Gallagher 21 {#F87}
 Combination of Gallagher’s Gaussian 101-me Peaks function ([f<sub>21</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the `bbob` suite) and the
 Gallagher’s Gaussian 21-hi Peaks function ([f<sub>22</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=110) in the `bbob` suite).
 
@@ -1267,7 +1267,7 @@ Contained in the *weakly-structured - weakly-structured* function group.
 
 
 
-### F<sub>88</sub>: Gallagher 101/Katsuuras
+### F<sub>88</sub>: Gallagher 101/Katsuuras {#F88}
 Combination of Gallagher’s Gaussian 101-me Peaks function ([f<sub>21</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the `bbob` suite) and the
 Katsuuras function ([f<sub>23</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=115) in the `bbob` suite).
 
@@ -1282,7 +1282,7 @@ Contained in the *weakly-structured - weakly-structured* function group.
 
 
 
-### F<sub>89</sub>: Gallagher 101/Lunacek bi-Rastrigin
+### F<sub>89</sub>: Gallagher 101/Lunacek bi-Rastrigin {#F89}
 Combination of Gallagher’s Gaussian 101-me Peaks function ([f<sub>21</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the `bbob` suite) and the
 Lunacek bi-Rastrigin function ([f<sub>24</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=120) in the `bbob` suite).
 
@@ -1300,7 +1300,7 @@ Contained in the *weakly-structured - weakly-structured* function group.
 
 
 
-### F<sub>90</sub>: Gallagher 21/Katsuuras
+### F<sub>90</sub>: Gallagher 21/Katsuuras {#F90}
 Combination of Gallagher’s Gaussian 21-hi Peaks function ([f<sub>22</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=110) in the `bbob` suite) and the
 Katsuuras function ([f<sub>23</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=115) in the `bbob` suite).
 
@@ -1315,7 +1315,7 @@ Contained in the *weakly-structured - weakly-structured* function group.
 
 
 
-### F<sub>91</sub>: Gallagher 21/Lunacek bi-Rastrigin
+### F<sub>91</sub>: Gallagher 21/Lunacek bi-Rastrigin {#F91}
 Combination of Gallagher’s Gaussian 21-hi Peaks function ([f<sub>22</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=110) in the `bbob` suite) and the
 Lunacek bi-Rastrigin function ([f<sub>24</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=120) in the `bbob` suite).
 
@@ -1333,7 +1333,7 @@ Contained in the *weakly-structured - weakly-structured* function group.
 
 
 
-### F<sub>92</sub>: Katsuuras/Lunacek bi-Rastrigin
+### F<sub>92</sub>: Katsuuras/Lunacek bi-Rastrigin {#F92}
 Combination of the Katsuuras function ([f<sub>23</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=115) in the `bbob` suite) and the
 Lunacek bi-Rastrigin function ([f<sub>24</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=120) in the `bbob` suite).
 

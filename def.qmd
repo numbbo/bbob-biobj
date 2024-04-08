@@ -10,7 +10,7 @@ The bi-objective problems are created by combining two `bbob` functions [@bbob20
 
 ### Overview
 
-<img src="/assets/img/bbob-biobj-ext.png" alt="Functions in the bbob-biobj-ext suite" style="width:100%; max-width:900px;">
+{{< include assets/functions_image.html >}}
 
 {{< include func_def/functions.md >}}
  
