@@ -12,9 +12,10 @@ Optimization Test Suites</strong> by Dimo Brockhoff, Anne Auger, Nikolaus Hansen
 between the two (estimated) gradients at the best known Pareto set approximations in low dimensions. The 
 [postprossed data page](ppdata.qmd) shows the postprocessed results from a comparison among three selected algorithms.
 
-<div width="100%">
-<a href="def.qmd"><img src="assets/img/button-def.png" alt="Functions definitions" style="max-width: 25%; height: auto;"></a><a href="vis.qmd"><img src="assets/img/button-vis.png" alt="Visualizations" style="max-width: 25%; height: auto;"></a><a href="ecdfs.qmd"><img src="assets/img/button-ecdfs.png" alt="Gradient angle plots" style="max-width: 25%; height: auto;"></a><a href="ppdata.qmd"><img src="assets/img/button-ppdata.png" alt="Postprocessed data" style="max-width: 25%; height: auto;"></a>
-</div>
+[![Functions definitions](assets/img/button-def.png){width=25%}](def.qmd)
+[![Visualizations](assets/img/button-vis.png){width=25%}](vis.qmd)
+[![Gradient angle plots](assets/img/button-ecdfs.png){width=25%}](ecdfs.qmd)
+[![Postprocessed data](assets/img/button-ppdata.png){width=25%}](ppdata.qmd)
 
 ### Citation
 
