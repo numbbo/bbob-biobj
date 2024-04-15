@@ -5,14 +5,11 @@ project:
     port: 4204
     browser: false
   resources: 
-    - env.yaml
-    - "*.ipynb"
+    - "assets/**/*"
   render:
     - "*.qmd"
     - "*.ipynb"
-    - "!scripts/"
     - "!README.md"
-    - "env.yaml"
 
 bibliography: references.bib
 
