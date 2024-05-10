@@ -3,7 +3,7 @@ title: Function definitions
 format: 
   html:
     grid:
-      margin-width: 450px
+      margin-width: 500px
 ---
 
 The bi-objective problems are created by combining two `bbob` functions [@bbob2019].

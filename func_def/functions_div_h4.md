@@ -84,7 +84,7 @@ Contained in the *separable - ill-conditioned* function group.
 </div>
 
 <div id="text-f6">
-<h4><a name="F6"></a>F<sub>6</sub>: Sphere/Sum of Different Powers</h4>
+<h4><a name="F6"></a>F<sub>6</sub>: Sphere/Sum of different powers</h4>
 Combination of the sphere function ([f<sub>1</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=5) in the `bbob` suite)
 and the sum of different powers function ([f<sub>14</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the `bbob` suite).
 
@@ -133,7 +133,7 @@ Contained in the *separable - multimodal* function group.
 </div>
 
 <div id="text-f9">
-<h4><a name="F9"></a>F<sub>9</sub>: Sphere/Schwefel x*sin(x)</h4>
+<h4><a name="F9"></a>F<sub>9</sub>: Sphere/Schwefel</h4>
 Combination of the sphere function ([f<sub>1</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=5) in the `bbob` suite)
 and the Schwefel function ([f<sub>20</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the `bbob` suite).
 
@@ -228,7 +228,7 @@ Contained in the *separable - ill-conditioned* function group.
 </div>
 
 <div id="text-f15">
-<h4><a name="F15"></a>F<sub>15</sub>: Ellipsoid separable/Sum of Different Powers</h4>
+<h4><a name="F15"></a>F<sub>15</sub>: Ellipsoid separable/Sum of different powers</h4>
 Combination of the separable ellipsoid function ([f<sub>2</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=10) in the `bbob` suite) and the sum of different powers function
 ([f<sub>14</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the `bbob` suite).
 
@@ -277,7 +277,7 @@ Contained in the *separable - multimodal* function group.
 </div>
 
 <div id="text-f18">
-<h4><a name="F18"></a>F<sub>18</sub>: Ellipsoid separable/Schwefel x*sin(x)</h4>
+<h4><a name="F18"></a>F<sub>18</sub>: Ellipsoid separable/Schwefel</h4>
 Combination of the separable ellipsoid function ([f<sub>2</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=10) in the `bbob` suite) and the Schwefel function ([f<sub>20</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the `bbob` suite).
 
 The first objective is unimodal, separable and highly ill-conditioned.
@@ -348,7 +348,7 @@ Contained in the *moderate - ill-conditioned* function group.
 </div>
 
 <div id="text-f23">
-<h4><a name="F23"></a>F<sub>23</sub>: Attractive sector/Sum of Different Powers</h4>
+<h4><a name="F23"></a>F<sub>23</sub>: Attractive sector/Sum of different powers</h4>
 Combination of the attractive sector function ([f<sub>6</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=30) in the `bbob` suite) and the sum of different powers function
 ([f<sub>14</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the `bbob` suite).
 
@@ -394,7 +394,7 @@ Contained in the *moderate - multimodal* function group.
 </div>
 
 <div id="text-f26">
-<h4><a name="F26"></a>F<sub>26</sub>: Attractive sector/Schwefel x*sin(x)</h4>
+<h4><a name="F26"></a>F<sub>26</sub>: Attractive sector/Schwefel</h4>
 Combination of the attractive sector function ([f<sub>6</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=30) in the `bbob` suite) and the Schwefel function ([f<sub>20</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the `bbob` suite).
 
 The first objective is non-separable, unimodal, and asymmetric.
@@ -447,7 +447,7 @@ Contained in the *moderate - ill-conditioned* function group.
 </div>
 
 <div id="text-f30">
-<h4><a name="F30"></a>F<sub>30</sub>: Rosenbrock original/Sum of Different Powers</h4>
+<h4><a name="F30"></a>F<sub>30</sub>: Rosenbrock original/Sum of different powers</h4>
 Combination of the Rosenbrock function ([f<sub>8</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=40) in the `bbob` suite) and the sum of different powers function
 ([f<sub>14</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the `bbob` suite).
 
@@ -493,7 +493,7 @@ Contained in the *moderate - multimodal* function group.
 </div>
 
 <div id="text-f33">
-<h4><a name="F33"></a>F<sub>33</sub>: Rosenbrock original/Schwefel x*sin(x)</h4>
+<h4><a name="F33"></a>F<sub>33</sub>: Rosenbrock original/Schwefel</h4>
 Combination of the Rosenbrock function ([f<sub>8</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=40) in the `bbob` suite) and the
 Schwefel function ([f<sub>20</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the `bbob` suite).
 
@@ -537,7 +537,7 @@ Contained in the *ill-conditioned - ill-conditioned* function group.
 </div>
 
 <div id="text-f36">
-<h4><a name="F36"></a>F<sub>36</sub>: Sharp ridge/Sum of Different Powers</h4>
+<h4><a name="F36"></a>F<sub>36</sub>: Sharp ridge/Sum of different powers</h4>
 Combination of the sharp ridge function ([f<sub>13</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=65) in the `bbob` suite) and the
 sum of different powers function
 ([f<sub>14</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the `bbob` suite).
@@ -581,7 +581,7 @@ Contained in the *ill-conditioned - multimodal* function group.
 </div>
 
 <div id="text-f39">
-<h4><a name="F39"></a>F<sub>39</sub>: Sharp ridge/Schwefel x*sin(x)</h4>
+<h4><a name="F39"></a>F<sub>39</sub>: Sharp ridge/Schwefel</h4>
 Combination of the sharp ridge function ([f<sub>13</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=65) in the `bbob` suite) and the
 Schwefel function ([f<sub>20</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the `bbob` suite).
 
@@ -612,7 +612,7 @@ Contained in the *ill-conditioned - weakly-structured* function group.
 </div>
 
 <div id="text-f41">
-<h4><a name="F41"></a>F<sub>41</sub>: Sum of Different Powers/Sum of Different Powers</h4>
+<h4><a name="F41"></a>F<sub>41</sub>: Sum of different powers/Sum of different powers</h4>
 Combination of two sum of different powers functions
 ([f<sub>14</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the `bbob` suite).
 
@@ -625,7 +625,7 @@ Contained in the *ill-conditioned - ill-conditioned* function group.
 </div>
 
 <div id="text-f42">
-<h4><a name="F42"></a>F<sub>42</sub>: Sum of Different Powers/Rastrigin</h4>
+<h4><a name="F42"></a>F<sub>42</sub>: Sum of different powers/Rastrigin</h4>
 Combination of the sum of different powers functions
 ([f<sub>14</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the `bbob` suite) and the Rastrigin function
 ([f<sub>15</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=75) in the `bbob` suite).
@@ -639,7 +639,7 @@ Contained in the *ill-conditioned - multimodal* function group.
 </div>
 
 <div id="text-f43">
-<h4><a name="F43"></a>F<sub>43</sub>: Sum of Different Powers/Schaffer F7, condition 10</h4>
+<h4><a name="F43"></a>F<sub>43</sub>: Sum of different powers/Schaffer F7, condition 10</h4>
 Combination of the sum of different powers functions
 ([f<sub>14</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the `bbob` suite) and the Schaffer F7 function with
 condition number 10 ([f<sub>17</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the `bbob` suite).
@@ -654,7 +654,7 @@ Contained in the *ill-conditioned - multimodal* function group.
 </div>
 
 <div id="text-f44">
-<h4><a name="F44"></a>F<sub>44</sub>: Sum of Different Powers/Schwefel x*sin(x)</h4>
+<h4><a name="F44"></a>F<sub>44</sub>: Sum of different powers/Schwefel</h4>
 Combination of the sum of different powers functions
 ([f<sub>14</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the `bbob` suite) and the Schwefel function ([f<sub>20</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the `bbob` suite).
 
@@ -669,7 +669,7 @@ Contained in the *ill-conditioned - weakly-structured* function group.
 </div>
 
 <div id="text-f45">
-<h4><a name="F45"></a>F<sub>45</sub>: Sum of Different Powers/Gallagher 101 peaks</h4>
+<h4><a name="F45"></a>F<sub>45</sub>: Sum of different powers/Gallagher 101 peaks</h4>
 Combination of the sum of different powers functions
 ([f<sub>14</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the `bbob` suite) and the Gallagher function with
 101 peaks ([f<sub>21</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the `bbob` suite).
@@ -710,7 +710,7 @@ Contained in the *multimodal - multimodal* function group.
 </div>
 
 <div id="text-f48">
-<h4><a name="F48"></a>F<sub>48</sub>: Rastrigin/Schwefel x*sin(x)</h4>
+<h4><a name="F48"></a>F<sub>48</sub>: Rastrigin/Schwefel</h4>
 Combination of the Rastrigin function
 ([f<sub>15</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=75) in the `bbob` suite) and the Schwefel function ([f<sub>20</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the `bbob` suite).
 
@@ -750,7 +750,7 @@ Contained in the *multimodal - multimodal* function group.
 </div>
 
 <div id="text-f51">
-<h4><a name="F51"></a>F<sub>51</sub>: Schaffer F7, condition 10/Schwefel x*sin(x)</h4>
+<h4><a name="F51"></a>F<sub>51</sub>: Schaffer F7, condition 10/Schwefel</h4>
 Combination of the Schaffer F7 function with
 condition number 10 ([f<sub>17</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=85) in the `bbob` suite)
 and the Schwefel function ([f<sub>20</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the `bbob` suite).
@@ -782,7 +782,7 @@ Contained in the *multimodal - weakly-structured* function group.
 </div>
 
 <div id="text-f53">
-<h4><a name="F53"></a>F<sub>53</sub>: Schwefel x*sin(x)/Schwefel x*sin(x)</h4>
+<h4><a name="F53"></a>F<sub>53</sub>: Schwefel/Schwefel</h4>
 Combination of two Schwefel functions ([f<sub>20</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the `bbob` suite).
 
 Both objective functions are non-separable and highly multimodal where
@@ -797,7 +797,7 @@ Contained in the *weakly-structured - weakly-structured* function group.
 </div>
 
 <div id="text-f54">
-<h4><a name="F54"></a>F<sub>54</sub>: Schwefel x*sin(x)/Gallagher 101 peaks</h4>
+<h4><a name="F54"></a>F<sub>54</sub>: Schwefel/Gallagher 101 peaks</h4>
 Combination of the Schwefel function ([f<sub>20</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100) in the `bbob` suite) and the Gallagher function with
 101 peaks ([f<sub>21</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the `bbob` suite).
 
@@ -1097,14 +1097,14 @@ Contained in the *ill-conditioned - ill-conditioned* function group.
 </div>
 
 <div id="text-f73">
-<h4><a name="F73"></a>F<sub>73</sub>: Ellipsoid/Sum of Different Powers</h4>
+<h4><a name="F73"></a>F<sub>73</sub>: Ellipsoid/Sum of different powers</h4>
 Combination of the Ellipsoid function ([f<sub>10</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=50) in the `bbob` suite) and the
-Sum of Different Powers function ([f<sub>14</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the `bbob` suite).
+Sum of different powers function ([f<sub>14</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the `bbob` suite).
 
 Both objective functions are unimodal and non-separable. While the
 Ellipsoid function has a constant conditioning of $10^6$ everywhere,
 the sensitivities of the $z_i$-variables (in the rotated search space)
-for the Different Powers function become more and more different when
+for the different powers function become more and more different when
 approaching the optimum. The latter function has furthermore a small
 solution volume.
 
@@ -1150,9 +1150,9 @@ Contained in the *ill-conditioned - ill-conditioned* function group.
 </div>
 
 <div id="text-f76">
-<h4><a name="F76"></a>F<sub>76</sub>: Discus/Sum of Different Powers</h4>
+<h4><a name="F76"></a>F<sub>76</sub>: Discus/Sum of different powers</h4>
 Combination of the Discus function ([f<sub>11</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=55) in the `bbob` suite) and the
-Sum of Different Powers function ([f<sub>14</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the `bbob` suite).
+Sum of different powers function ([f<sub>14</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the `bbob` suite).
 
 Both objective functions are unimodal and non-separable. While the
 globally quadratic Discus function has a constant conditioning
@@ -1160,7 +1160,7 @@ of about $10^6$ everywhere
 with a single direction in search space that is a thousand times more
 sensitive than all others, the sensitivities of the
 $z_i$-variables (in the rotated search space)
-for the Different Powers function become more and more different when
+for the different powers function become more and more different when
 approaching the optimum. The latter function has furthermore a small
 solution volume.
 
@@ -1189,9 +1189,9 @@ Contained in the *ill-conditioned - ill-conditioned* function group.
 </div>
 
 <div id="text-f78">
-<h4><a name="F78"></a>F<sub>78</sub>: Bent Cigar/Sum of Different Powers</h4>
+<h4><a name="F78"></a>F<sub>78</sub>: Bent Cigar/Sum of different powers</h4>
 Combination of the Bent Cigar function ([f<sub>12</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=60) in the `bbob` suite) and the
-Sum of Different Powers function ([f<sub>14</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the `bbob` suite).
+Sum of different powers function ([f<sub>14</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70) in the `bbob` suite).
 
 Both objective functions are unimodal, non-separable, and have a conditioning
 of about $10^6$.
@@ -1203,7 +1203,7 @@ from being quadratic due to an asymmetric transformation and a smooth,
 but very narrow ridge has to be followed to optimize it.
 The sensitivities of the
 $z_i$-variables (in the rotated search space)
-for the Different Powers function, on the other hand,
+for the different powers function, on the other hand,
 become more and more different when
 approaching the optimum.
 
@@ -1344,8 +1344,8 @@ Contained in the *weakly-structure - weakly-structured* function group.
 
 <div id="text-f87">
 <h4><a name="F87"></a>F<sub>87</sub>: Gallagher 101/Gallagher 21</h4>
-Combination of Gallagher’s Gaussian 101-me Peaks function ([f<sub>21</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the `bbob` suite) and the
-Gallagher’s Gaussian 21-hi Peaks function ([f<sub>22</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=110) in the `bbob` suite).
+Combination of Gallagherâ€™s Gaussian 101-me Peaks function ([f<sub>21</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the `bbob` suite) and the
+Gallagherâ€™s Gaussian 21-hi Peaks function ([f<sub>22</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=110) in the `bbob` suite).
 
 Both objective functions are multimodal and non-separable. Both consist of a set of
 optima with position and height being unrelated and randomly chosen. The number of
@@ -1358,7 +1358,7 @@ Contained in the *weakly-structured - weakly-structured* function group.
 
 <div id="text-f88">
 <h4><a name="F88"></a>F<sub>88</sub>: Gallagher 101/Katsuuras</h4>
-Combination of Gallagher’s Gaussian 101-me Peaks function ([f<sub>21</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the `bbob` suite) and the
+Combination of Gallagherâ€™s Gaussian 101-me Peaks function ([f<sub>21</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the `bbob` suite) and the
 Katsuuras function ([f<sub>23</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=115) in the `bbob` suite).
 
 Both objective functions are non-separable and highly multimodal with
@@ -1374,7 +1374,7 @@ Contained in the *weakly-structured - weakly-structured* function group.
 
 <div id="text-f89">
 <h4><a name="F89"></a>F<sub>89</sub>: Gallagher 101/Lunacek bi-Rastrigin</h4>
-Combination of Gallagher’s Gaussian 101-me Peaks function ([f<sub>21</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the `bbob` suite) and the
+Combination of Gallagherâ€™s Gaussian 101-me Peaks function ([f<sub>21</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=105) in the `bbob` suite) and the
 Lunacek bi-Rastrigin function ([f<sub>24</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=120) in the `bbob` suite).
 
 Both objective functions are non-separable and highly multimodal with
@@ -1393,7 +1393,7 @@ Contained in the *weakly-structured - weakly-structured* function group.
 
 <div id="text-f90">
 <h4><a name="F90"></a>F<sub>90</sub>: Gallagher 21/Katsuuras</h4>
-Combination of Gallagher’s Gaussian 21-hi Peaks function ([f<sub>22</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=110) in the `bbob` suite) and the
+Combination of Gallagherâ€™s Gaussian 21-hi Peaks function ([f<sub>22</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=110) in the `bbob` suite) and the
 Katsuuras function ([f<sub>23</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=115) in the `bbob` suite).
 
 Both objective functions are non-separable and multimodal with
@@ -1409,7 +1409,7 @@ Contained in the *weakly-structured - weakly-structured* function group.
 
 <div id="text-f91">
 <h4><a name="F91"></a>F<sub>91</sub>: Gallagher 21/Lunacek bi-Rastrigin</h4>
-Combination of Gallagher’s Gaussian 21-hi Peaks function ([f<sub>22</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=110) in the `bbob` suite) and the
+Combination of Gallagherâ€™s Gaussian 21-hi Peaks function ([f<sub>22</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=110) in the `bbob` suite) and the
 Lunacek bi-Rastrigin function ([f<sub>24</sub>](https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=120) in the `bbob` suite).
 
 Both objective functions are non-separable and multimodal with
