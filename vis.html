@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.553">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -24,7 +24,6 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
-  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -66,12 +65,7 @@ div.csl-indent {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
+  "limit": 20,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -80,7 +74,6 @@ div.csl-indent {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -104,46 +97,19 @@ div.csl-indent {
   </script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css">
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
 <link rel="stylesheet" href="assets/css/custom.css">
 <meta property="og:title" content="Supplementary material for the bbob-biobj and bbob-biobj-ext test suites - Visualizations of problem landscapes">
 <meta property="og:description" content="">
-<meta property="og:site_name" content="Supplementary material for the bbob-biobj and bbob-biobj-ext test suites">
+<meta property="og:site-name" content="Supplementary material for the bbob-biobj and bbob-biobj-ext test suites">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
+      <div class="navbar-brand-container">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     <img src="./images/favicon.png" alt="" class="navbar-logo">
     </a>
@@ -155,46 +121,46 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Home</span></a>
+    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://github.com/numbbo/coco"> 
-<span class="menu-text">COCO code</span></a>
+    <a class="nav-link" href="https://github.com/numbbo/coco" rel="" target="">
+ <span class="menu-text">COCO code</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://numbbo.github.io/data-archive/"> 
-<span class="menu-text">Data archive</span></a>
+    <a class="nav-link" href="https://numbbo.github.io/data-archive/" rel="" target="">
+ <span class="menu-text">Data archive</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://numbbo.github.io/ppdata-archive/"> 
-<span class="menu-text">Postprocessed data</span></a>
+    <a class="nav-link" href="https://numbbo.github.io/ppdata-archive/" rel="" target="">
+ <span class="menu-text">Postprocessed data</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="http://numbbo.github.io/coco/"> 
-<span class="menu-text">COCO home</span></a>
+    <a class="nav-link" href="http://numbbo.github.io/coco/" rel="" target="">
+ <span class="menu-text">COCO home</span></a>
   </li>  
 </ul>
-          </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools ms-auto">
 </div>
+          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./vis.html">Visualizations</a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./vis.html">Visualizations</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
@@ -230,11 +196,21 @@ window.Quarto = {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#plots" id="toc-plots" class="nav-link active" data-scroll-target="#plots">Plots</a></li>
+  <li><a href="#plot-explanation" id="toc-plot-explanation" class="nav-link" data-scroll-target="#plot-explanation">Plot explanation</a></li>
+  <li><a href="#problem-definition" id="toc-problem-definition" class="nav-link" data-scroll-target="#problem-definition">Problem definition</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -243,7 +219,7 @@ window.Quarto = {
 
 
 
-<div class="quarto-title-meta column-page-right">
+<div class="quarto-title-meta">
 
     
   
@@ -251,13 +227,12 @@ window.Quarto = {
   </div>
   
 
-
 </header>
-
 
 <section id="plots" class="level3">
 <h3 class="anchored" data-anchor-id="plots">Plots</h3>
 <p>Show plots in <button id="colPrev" onclick="getPrev(this)" class="button">−</button> <select id="col" onchange="changePlot()" class="dropdown"></select> <button id="colNext" onclick="getNext(this)" class="button">+</button> columns (click on <b>Dimension</b>/<b>Function</b>/<b>Instance</b>/<b>Visualization type</b> below to show all plots for the chosen category)</p>
+
 <table border="0" width="100%">
 <tbody><tr>
 <td align="center" onclick="selectNode(this)" id="dimAll" class="off">
@@ -299,6 +274,7 @@ window.Quarto = {
 <select id="typ" onchange="changePlot()" style="width:220px;height:30px;"> </select> <button id="typNext" onclick="getNext(this)" class="button"><i class="arrow right"></i></button>
 </td>
 </tr>
+
 </tbody></table>
 <!-- <textarea id="result" num=7></textarea> -->
 <div id="images" width="100%">
@@ -441,7 +417,7 @@ a random line in the random projection plane going through both optima (in green
 </div>
 <div id="text-f6">
 <h4 class="anchored">
-<a name="F6"></a>F<sub>6</sub>: Sphere/Sum of Different Powers
+<a name="F6"></a>F<sub>6</sub>: Sphere/Sum of different powers
 </h4>
 <p>Combination of the sphere function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=5">f<sub>1</sub></a> in the <code>bbob</code> suite) and the sum of different powers function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70">f<sub>14</sub></a> in the <code>bbob</code> suite).</p>
 <p>Both objective functions are unimodal. The first objective is separable, the second non-separable. When approaching the second objective’s optimum, the difference in sensitivity between different directions in search space increases unboundedly.</p>
@@ -466,7 +442,7 @@ a random line in the random projection plane going through both optima (in green
 </div>
 <div id="text-f9">
 <h4 class="anchored">
-<a name="F9"></a>F<sub>9</sub>: Sphere/Schwefel x*sin(x)
+<a name="F9"></a>F<sub>9</sub>: Sphere/Schwefel
 </h4>
 <p>Combination of the sphere function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=5">f<sub>1</sub></a> in the <code>bbob</code> suite) and the Schwefel function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100">f<sub>20</sub></a> in the <code>bbob</code> suite).</p>
 <p>While the first objective function is separable and unimodal, the second objective function is partially separable and highly multimodal—having the most prominent <span class="math inline">2^n</span> minima located comparatively close to the corners of the unpenalized search area.</p>
@@ -515,7 +491,7 @@ a random line in the random projection plane going through both optima (in green
 </div>
 <div id="text-f15">
 <h4 class="anchored">
-<a name="F15"></a>F<sub>15</sub>: Ellipsoid separable/Sum of Different Powers
+<a name="F15"></a>F<sub>15</sub>: Ellipsoid separable/Sum of different powers
 </h4>
 <p>Combination of the separable ellipsoid function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=10">f<sub>2</sub></a> in the <code>bbob</code> suite) and the sum of different powers function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70">f<sub>14</sub></a> in the <code>bbob</code> suite).</p>
 <p>Both objective functions are unimodal but only the first one is separable.</p>
@@ -540,7 +516,7 @@ a random line in the random projection plane going through both optima (in green
 </div>
 <div id="text-f18">
 <h4 class="anchored">
-<a name="F18"></a>F<sub>18</sub>: Ellipsoid separable/Schwefel x*sin(x)
+<a name="F18"></a>F<sub>18</sub>: Ellipsoid separable/Schwefel
 </h4>
 <p>Combination of the separable ellipsoid function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=10">f<sub>2</sub></a> in the <code>bbob</code> suite) and the Schwefel function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100">f<sub>20</sub></a> in the <code>bbob</code> suite).</p>
 <p>The first objective is unimodal, separable and highly ill-conditioned. The second objective is partially separable and highly multimodal—having the most prominent <span class="math inline">2^n</span> minima located comparatively close to the corners of the unpenalized search area.</p>
@@ -579,7 +555,7 @@ a random line in the random projection plane going through both optima (in green
 </div>
 <div id="text-f23">
 <h4 class="anchored">
-<a name="F23"></a>F<sub>23</sub>: Attractive sector/Sum of Different Powers
+<a name="F23"></a>F<sub>23</sub>: Attractive sector/Sum of different powers
 </h4>
 <p>Combination of the attractive sector function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=30">f<sub>6</sub></a> in the <code>bbob</code> suite) and the sum of different powers function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70">f<sub>14</sub></a> in the <code>bbob</code> suite).</p>
 <p>Both objective functions are unimodal and non-separable. The first objective is highly asymmetric in the sense that only one <em>hypercone</em> (with angular base area) with a volume of roughly <span class="math inline">(1/2)^n</span> yields low function values (with the optimum at the tip of the cone). When approaching the second objective’s optimum, the sensitivities of the variables in the rotated search space become more and more different.</p>
@@ -603,7 +579,7 @@ a random line in the random projection plane going through both optima (in green
 </div>
 <div id="text-f26">
 <h4 class="anchored">
-<a name="F26"></a>F<sub>26</sub>: Attractive sector/Schwefel x*sin(x)
+<a name="F26"></a>F<sub>26</sub>: Attractive sector/Schwefel
 </h4>
 <p>Combination of the attractive sector function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=30">f<sub>6</sub></a> in the <code>bbob</code> suite) and the Schwefel function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100">f<sub>20</sub></a> in the <code>bbob</code> suite).</p>
 <p>The first objective is non-separable, unimodal, and asymmetric. The second objective is partially separable and highly multimodal—having the most prominent <span class="math inline">2^n</span> minima located comparatively close to the corners of the unpenalized search area.</p>
@@ -635,7 +611,7 @@ a random line in the random projection plane going through both optima (in green
 </div>
 <div id="text-f30">
 <h4 class="anchored">
-<a name="F30"></a>F<sub>30</sub>: Rosenbrock original/Sum of Different Powers
+<a name="F30"></a>F<sub>30</sub>: Rosenbrock original/Sum of different powers
 </h4>
 <p>Combination of the Rosenbrock function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=40">f<sub>8</sub></a> in the <code>bbob</code> suite) and the sum of different powers function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70">f<sub>14</sub></a> in the <code>bbob</code> suite).</p>
 <p>The first objective function is partially separable (tri-band structure) and has a local optimum with an attraction volume of about 25%. The second objective function is unimodal and non-separable. When approaching the second objective’s optimum, the sensitivities of the variables in the rotated search space become more and more different.</p>
@@ -659,7 +635,7 @@ a random line in the random projection plane going through both optima (in green
 </div>
 <div id="text-f33">
 <h4 class="anchored">
-<a name="F33"></a>F<sub>33</sub>: Rosenbrock original/Schwefel x*sin(x)
+<a name="F33"></a>F<sub>33</sub>: Rosenbrock original/Schwefel
 </h4>
 <p>Combination of the Rosenbrock function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=40">f<sub>8</sub></a> in the <code>bbob</code> suite) and the Schwefel function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100">f<sub>20</sub></a> in the <code>bbob</code> suite).</p>
 <p>Both objective functions are partially separable. While the first objective function has a local optimum with an attraction volume of about 25%, the second objective function is highly multimodal—having the most prominent <span class="math inline">2^n</span> minima located comparatively close to the corners of its unpenalized search area.</p>
@@ -683,7 +659,7 @@ a random line in the random projection plane going through both optima (in green
 </div>
 <div id="text-f36">
 <h4 class="anchored">
-<a name="F36"></a>F<sub>36</sub>: Sharp ridge/Sum of Different Powers
+<a name="F36"></a>F<sub>36</sub>: Sharp ridge/Sum of different powers
 </h4>
 <p>Combination of the sharp ridge function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=65">f<sub>13</sub></a> in the <code>bbob</code> suite) and the sum of different powers function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70">f<sub>14</sub></a> in the <code>bbob</code> suite).</p>
 <p>Both functions are uni-modal and non-separable. For optimizing the first objective, a sharp, i.e., non-differentiable ridge has to be followed. When approaching the second objective’s optimum, the sensitivities of the variables in the rotated search space become more and more different.</p>
@@ -707,7 +683,7 @@ a random line in the random projection plane going through both optima (in green
 </div>
 <div id="text-f39">
 <h4 class="anchored">
-<a name="F39"></a>F<sub>39</sub>: Sharp ridge/Schwefel x*sin(x)
+<a name="F39"></a>F<sub>39</sub>: Sharp ridge/Schwefel
 </h4>
 <p>Combination of the sharp ridge function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=65">f<sub>13</sub></a> in the <code>bbob</code> suite) and the Schwefel function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100">f<sub>20</sub></a> in the <code>bbob</code> suite).</p>
 <p>While the first objective function is unimodal, non-separable, and non-differentiable at its ridge, the second objective function is highly multimodal—having the most prominent <span class="math inline">2^n</span> minima located comparatively close to the corners of its unpenalized search area.</p>
@@ -723,7 +699,7 @@ a random line in the random projection plane going through both optima (in green
 </div>
 <div id="text-f41">
 <h4 class="anchored">
-<a name="F41"></a>F<sub>41</sub>: Sum of Different Powers/Sum of Different Powers
+<a name="F41"></a>F<sub>41</sub>: Sum of different powers/Sum of different powers
 </h4>
 <p>Combination of two sum of different powers functions (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70">f<sub>14</sub></a> in the <code>bbob</code> suite).</p>
 <p>Both functions are uni-modal and non-separable where the sensitivities of the variables in the rotated search space become more and more different when approaching the objectives’ optima.</p>
@@ -731,7 +707,7 @@ a random line in the random projection plane going through both optima (in green
 </div>
 <div id="text-f42">
 <h4 class="anchored">
-<a name="F42"></a>F<sub>42</sub>: Sum of Different Powers/Rastrigin
+<a name="F42"></a>F<sub>42</sub>: Sum of different powers/Rastrigin
 </h4>
 <p>Combination of the sum of different powers functions (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70">f<sub>14</sub></a> in the <code>bbob</code> suite) and the Rastrigin function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=75">f<sub>15</sub></a> in the <code>bbob</code> suite).</p>
 <p>Both objective functions are non-separable. While the first one is unimodal, the second objective function is highly multimodal (roughly <span class="math inline">10^n</span> local optima).</p>
@@ -739,7 +715,7 @@ a random line in the random projection plane going through both optima (in green
 </div>
 <div id="text-f43">
 <h4 class="anchored">
-<a name="F43"></a>F<sub>43</sub>: Sum of Different Powers/Schaffer F7, condition 10
+<a name="F43"></a>F<sub>43</sub>: Sum of different powers/Schaffer F7, condition 10
 </h4>
 <p>Combination of the sum of different powers functions (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70">f<sub>14</sub></a> in the <code>bbob</code> suite) and the Schaffer F7 function with condition number 10 (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=85">f<sub>17</sub></a> in the <code>bbob</code> suite).</p>
 <p>Both objective functions are non-separable. While the first one is unimodal with an increasing conditioning once the optimum is approached, the second objective function is asymmetric and highly multimodal with a low conditioning where frequency and amplitude of the modulation vary.</p>
@@ -747,7 +723,7 @@ a random line in the random projection plane going through both optima (in green
 </div>
 <div id="text-f44">
 <h4 class="anchored">
-<a name="F44"></a>F<sub>44</sub>: Sum of Different Powers/Schwefel x*sin(x)
+<a name="F44"></a>F<sub>44</sub>: Sum of different powers/Schwefel
 </h4>
 <p>Combination of the sum of different powers functions (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70">f<sub>14</sub></a> in the <code>bbob</code> suite) and the Schwefel function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100">f<sub>20</sub></a> in the <code>bbob</code> suite).</p>
 <p>Both objectives are non-separable. While the first objective function is unimodal, the second objective function is highly multimodal—having the most prominent <span class="math inline">2^n</span> minima located comparatively close to the corners of its unpenalized search area.</p>
@@ -755,7 +731,7 @@ a random line in the random projection plane going through both optima (in green
 </div>
 <div id="text-f45">
 <h4 class="anchored">
-<a name="F45"></a>F<sub>45</sub>: Sum of Different Powers/Gallagher 101 peaks
+<a name="F45"></a>F<sub>45</sub>: Sum of different powers/Gallagher 101 peaks
 </h4>
 <p>Combination of the sum of different powers functions (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70">f<sub>14</sub></a> in the <code>bbob</code> suite) and the Gallagher function with 101 peaks (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=105">f<sub>21</sub></a> in the <code>bbob</code> suite).</p>
 <p>Both objective functions are non-separable. While the first objective function is unimodal, the second objective function has 101 optima with position and height being unrelated and randomly chosen (different for each instantiation of the function). The conditioning around the global optimum of the second objective function is about 30.</p>
@@ -779,7 +755,7 @@ a random line in the random projection plane going through both optima (in green
 </div>
 <div id="text-f48">
 <h4 class="anchored">
-<a name="F48"></a>F<sub>48</sub>: Rastrigin/Schwefel x*sin(x)
+<a name="F48"></a>F<sub>48</sub>: Rastrigin/Schwefel
 </h4>
 <p>Combination of the Rastrigin function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=75">f<sub>15</sub></a> in the <code>bbob</code> suite) and the Schwefel function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100">f<sub>20</sub></a> in the <code>bbob</code> suite).</p>
 <p>Both objective functions are non-separable and highly multimodal where the first has roughly <span class="math inline">10^n</span> local optima and the most prominent <span class="math inline">2^n</span> minima of the second objective function are located comparatively close to the corners of its unpenalized search area.</p>
@@ -803,7 +779,7 @@ a random line in the random projection plane going through both optima (in green
 </div>
 <div id="text-f51">
 <h4 class="anchored">
-<a name="F51"></a>F<sub>51</sub>: Schaffer F7, condition 10/Schwefel x*sin(x)
+<a name="F51"></a>F<sub>51</sub>: Schaffer F7, condition 10/Schwefel
 </h4>
 <p>Combination of the Schaffer F7 function with condition number 10 (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=85">f<sub>17</sub></a> in the <code>bbob</code> suite) and the Schwefel function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100">f<sub>20</sub></a> in the <code>bbob</code> suite).</p>
 <p>Both objective functions are non-separable and highly multimodal. While frequency and amplitude of the modulation vary in an almost regular fashion in the first objective function, the second objective function possesses less global structure.</p>
@@ -819,7 +795,7 @@ a random line in the random projection plane going through both optima (in green
 </div>
 <div id="text-f53">
 <h4 class="anchored">
-<a name="F53"></a>F<sub>53</sub>: Schwefel x<em>sin(x)/Schwefel x</em>sin(x)
+<a name="F53"></a>F<sub>53</sub>: Schwefel/Schwefel
 </h4>
 <p>Combination of two Schwefel functions (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100">f<sub>20</sub></a> in the <code>bbob</code> suite).</p>
 <p>Both objective functions are non-separable and highly multimodal where the most prominent <span class="math inline">2^n</span> minima of each objective function are located comparatively close to the corners of its unpenalized search area. Due to the combinatorial nature of the Schwefel function, it is likely in low dimensions that the Pareto set goes through the origin of the search space.</p>
@@ -827,7 +803,7 @@ a random line in the random projection plane going through both optima (in green
 </div>
 <div id="text-f54">
 <h4 class="anchored">
-<a name="F54"></a>F<sub>54</sub>: Schwefel x*sin(x)/Gallagher 101 peaks
+<a name="F54"></a>F<sub>54</sub>: Schwefel/Gallagher 101 peaks
 </h4>
 <p>Combination of the Schwefel function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=100">f<sub>20</sub></a> in the <code>bbob</code> suite) and the Gallagher function with 101 peaks (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=105">f<sub>21</sub></a> in the <code>bbob</code> suite).</p>
 <p>Both objective functions are non-separable and highly multimodal. For the first objective function, the most prominent <span class="math inline">2^n</span> minima are located comparatively close to the corners of its unpenalized search area. For the second objective, position and height of all 101 optima are unrelated and randomly chosen (different for each instantiation of the function).</p>
@@ -980,10 +956,10 @@ a random line in the random projection plane going through both optima (in green
 </div>
 <div id="text-f73">
 <h4 class="anchored">
-<a name="F73"></a>F<sub>73</sub>: Ellipsoid/Sum of Different Powers
+<a name="F73"></a>F<sub>73</sub>: Ellipsoid/Sum of different powers
 </h4>
-<p>Combination of the Ellipsoid function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=50">f<sub>10</sub></a> in the <code>bbob</code> suite) and the Sum of Different Powers function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70">f<sub>14</sub></a> in the <code>bbob</code> suite).</p>
-<p>Both objective functions are unimodal and non-separable. While the Ellipsoid function has a constant conditioning of <span class="math inline">10^6</span> everywhere, the sensitivities of the <span class="math inline">z_i</span>-variables (in the rotated search space) for the Different Powers function become more and more different when approaching the optimum. The latter function has furthermore a small solution volume.</p>
+<p>Combination of the Ellipsoid function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=50">f<sub>10</sub></a> in the <code>bbob</code> suite) and the Sum of different powers function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70">f<sub>14</sub></a> in the <code>bbob</code> suite).</p>
+<p>Both objective functions are unimodal and non-separable. While the Ellipsoid function has a constant conditioning of <span class="math inline">10^6</span> everywhere, the sensitivities of the <span class="math inline">z_i</span>-variables (in the rotated search space) for the different powers function become more and more different when approaching the optimum. The latter function has furthermore a small solution volume.</p>
 <p>Contained in the <em>ill-conditioned - ill-conditioned</em> function group.</p>
 </div>
 <div id="text-f74">
@@ -1004,10 +980,10 @@ a random line in the random projection plane going through both optima (in green
 </div>
 <div id="text-f76">
 <h4 class="anchored">
-<a name="F76"></a>F<sub>76</sub>: Discus/Sum of Different Powers
+<a name="F76"></a>F<sub>76</sub>: Discus/Sum of different powers
 </h4>
-<p>Combination of the Discus function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=55">f<sub>11</sub></a> in the <code>bbob</code> suite) and the Sum of Different Powers function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70">f<sub>14</sub></a> in the <code>bbob</code> suite).</p>
-<p>Both objective functions are unimodal and non-separable. While the globally quadratic Discus function has a constant conditioning of about <span class="math inline">10^6</span> everywhere with a single direction in search space that is a thousand times more sensitive than all others, the sensitivities of the <span class="math inline">z_i</span>-variables (in the rotated search space) for the Different Powers function become more and more different when approaching the optimum. The latter function has furthermore a small solution volume.</p>
+<p>Combination of the Discus function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=55">f<sub>11</sub></a> in the <code>bbob</code> suite) and the Sum of different powers function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70">f<sub>14</sub></a> in the <code>bbob</code> suite).</p>
+<p>Both objective functions are unimodal and non-separable. While the globally quadratic Discus function has a constant conditioning of about <span class="math inline">10^6</span> everywhere with a single direction in search space that is a thousand times more sensitive than all others, the sensitivities of the <span class="math inline">z_i</span>-variables (in the rotated search space) for the different powers function become more and more different when approaching the optimum. The latter function has furthermore a small solution volume.</p>
 <p>Contained in the <em>ill-conditioned - ill-conditioned</em> function group.</p>
 </div>
 <div id="text-f77">
@@ -1020,11 +996,11 @@ a random line in the random projection plane going through both optima (in green
 </div>
 <div id="text-f78">
 <h4 class="anchored">
-<a name="F78"></a>F<sub>78</sub>: Bent Cigar/Sum of Different Powers
+<a name="F78"></a>F<sub>78</sub>: Bent Cigar/Sum of different powers
 </h4>
-<p>Combination of the Bent Cigar function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=60">f<sub>12</sub></a> in the <code>bbob</code> suite) and the Sum of Different Powers function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70">f<sub>14</sub></a> in the <code>bbob</code> suite).</p>
+<p>Combination of the Bent Cigar function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=60">f<sub>12</sub></a> in the <code>bbob</code> suite) and the Sum of different powers function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=70">f<sub>14</sub></a> in the <code>bbob</code> suite).</p>
 <p>Both objective functions are unimodal, non-separable, and have a conditioning of about <span class="math inline">10^6</span>.</p>
-<p>Both objective functions are unimodal and non-separable but differ in the difficulties provided to an optimization algorithm. The Bent Cigar function, on the one hand, deviates remarkably from being quadratic due to an asymmetric transformation and a smooth, but very narrow ridge has to be followed to optimize it. The sensitivities of the <span class="math inline">z_i</span>-variables (in the rotated search space) for the Different Powers function, on the other hand, become more and more different when approaching the optimum.</p>
+<p>Both objective functions are unimodal and non-separable but differ in the difficulties provided to an optimization algorithm. The Bent Cigar function, on the one hand, deviates remarkably from being quadratic due to an asymmetric transformation and a smooth, but very narrow ridge has to be followed to optimize it. The sensitivities of the <span class="math inline">z_i</span>-variables (in the rotated search space) for the different powers function, on the other hand, become more and more different when approaching the optimum.</p>
 <p>Contained in the <em>ill-conditioned - ill-conditioned</em> function group.</p>
 </div>
 <div id="text-f79">
@@ -1094,7 +1070,7 @@ a random line in the random projection plane going through both optima (in green
 <h4 class="anchored">
 <a name="F87"></a>F<sub>87</sub>: Gallagher 101/Gallagher 21
 </h4>
-<p>Combination of Gallagher’s Gaussian 101-me Peaks function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=105">f<sub>21</sub></a> in the <code>bbob</code> suite) and the Gallagher’s Gaussian 21-hi Peaks function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=110">f<sub>22</sub></a> in the <code>bbob</code> suite).</p>
+<p>Combination of Gallagherâ€™s Gaussian 101-me Peaks function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=105">f<sub>21</sub></a> in the <code>bbob</code> suite) and the Gallagherâ€™s Gaussian 21-hi Peaks function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=110">f<sub>22</sub></a> in the <code>bbob</code> suite).</p>
 <p>Both objective functions are multimodal and non-separable. Both consist of a set of optima with position and height being unrelated and randomly chosen. The number of optima is 101 and 21 respectively and the condition number around the (unique) global optima are about 30 and about 1000 respectively.</p>
 <p>Contained in the <em>weakly-structured - weakly-structured</em> function group.</p>
 </div>
@@ -1102,7 +1078,7 @@ a random line in the random projection plane going through both optima (in green
 <h4 class="anchored">
 <a name="F88"></a>F<sub>88</sub>: Gallagher 101/Katsuuras
 </h4>
-<p>Combination of Gallagher’s Gaussian 101-me Peaks function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=105">f<sub>21</sub></a> in the <code>bbob</code> suite) and the Katsuuras function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=115">f<sub>23</sub></a> in the <code>bbob</code> suite).</p>
+<p>Combination of Gallagherâ€™s Gaussian 101-me Peaks function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=105">f<sub>21</sub></a> in the <code>bbob</code> suite) and the Katsuuras function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=115">f<sub>23</sub></a> in the <code>bbob</code> suite).</p>
 <p>Both objective functions are non-separable and highly multimodal with only a weak global structure. Gallagher’s Gaussian 101-me Peaks function consists of a set of 101 optima with position and height being unrelated and randomly chosen. The conditioning is about 30. The Katsuuras function, in turn, is highly repetitive with more than <span class="math inline">10^n</span> global optima.</p>
 <p>Contained in the <em>weakly-structured - weakly-structured</em> function group.</p>
 </div>
@@ -1110,7 +1086,7 @@ a random line in the random projection plane going through both optima (in green
 <h4 class="anchored">
 <a name="F89"></a>F<sub>89</sub>: Gallagher 101/Lunacek bi-Rastrigin
 </h4>
-<p>Combination of Gallagher’s Gaussian 101-me Peaks function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=105">f<sub>21</sub></a> in the <code>bbob</code> suite) and the Lunacek bi-Rastrigin function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=120">f<sub>24</sub></a> in the <code>bbob</code> suite).</p>
+<p>Combination of Gallagherâ€™s Gaussian 101-me Peaks function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=105">f<sub>21</sub></a> in the <code>bbob</code> suite) and the Lunacek bi-Rastrigin function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=120">f<sub>24</sub></a> in the <code>bbob</code> suite).</p>
 <p>Both objective functions are non-separable and highly multimodal with only a weak global structure. Gallagher’s Gaussian 101-me Peaks function consists of a set of 101 optima with position and height being unrelated and randomly chosen. The conditioning is about 30. The Lunacek bi-Rastrigin function has two superimposed funnels. Presumably, different approaches need to be used for ‘selecting the funnel’ and for searching the highly multimodal function ‘within’ the funnel. The single-objective Lunacek bi-Rastrigin function was constructed to be deceptive for some evolutionary algorithms with large population size.</p>
 <p>Contained in the <em>weakly-structured - weakly-structured</em> function group.</p>
 </div>
@@ -1118,7 +1094,7 @@ a random line in the random projection plane going through both optima (in green
 <h4 class="anchored">
 <a name="F90"></a>F<sub>90</sub>: Gallagher 21/Katsuuras
 </h4>
-<p>Combination of Gallagher’s Gaussian 21-hi Peaks function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=110">f<sub>22</sub></a> in the <code>bbob</code> suite) and the Katsuuras function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=115">f<sub>23</sub></a> in the <code>bbob</code> suite).</p>
+<p>Combination of Gallagherâ€™s Gaussian 21-hi Peaks function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=110">f<sub>22</sub></a> in the <code>bbob</code> suite) and the Katsuuras function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=115">f<sub>23</sub></a> in the <code>bbob</code> suite).</p>
 <p>Both objective functions are non-separable and multimodal with only a weak global structure. Gallagher’s Gaussian 21-hi Peaks function consists of a set of 21 optima with position and height being unrelated and randomly chosen. The conditioning is about 1000. The Katsuuras function, in turn, is highly repetitive with more than <span class="math inline">10^n</span> global optima.</p>
 <p>Contained in the <em>weakly-structured - weakly-structured</em> function group.</p>
 </div>
@@ -1126,7 +1102,7 @@ a random line in the random projection plane going through both optima (in green
 <h4 class="anchored">
 <a name="F91"></a>F<sub>91</sub>: Gallagher 21/Lunacek bi-Rastrigin
 </h4>
-<p>Combination of Gallagher’s Gaussian 21-hi Peaks function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=110">f<sub>22</sub></a> in the <code>bbob</code> suite) and the Lunacek bi-Rastrigin function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=120">f<sub>24</sub></a> in the <code>bbob</code> suite).</p>
+<p>Combination of Gallagherâ€™s Gaussian 21-hi Peaks function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=110">f<sub>22</sub></a> in the <code>bbob</code> suite) and the Lunacek bi-Rastrigin function (<a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf#page=120">f<sub>24</sub></a> in the <code>bbob</code> suite).</p>
 <p>Both objective functions are non-separable and multimodal with only a weak global structure. Gallagher’s Gaussian 21-hi Peaks function consists of a set of 21 optima with position and height being unrelated and randomly chosen. The conditioning is about 1000. The Lunacek bi-Rastrigin function has two superimposed funnels. Presumably, different approaches need to be used for ‘selecting the funnel’ and for searching the highly multimodal function ‘within’ the funnel. The single-objective Lunacek bi-Rastrigin function was constructed to be deceptive for some evolutionary algorithms with large population size.</p>
 <p>Contained in the <em>weakly-structured - weakly-structured</em> function group.</p>
 </div>
@@ -1143,7 +1119,7 @@ a random line in the random projection plane going through both optima (in green
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
 <div id="ref-Fieldsend2019feature" class="csl-entry" role="listitem">
 Fieldsend, Jonathan E., Tinkle Chugh, Richard Allmendinger, and Kaisa Miettinen. 2019. <span>“A Feature Rich Distance-Based Many-Objective Visualisable Test Problem Generator.”</span> In <em>Proceedings of the Genetic and Evolutionary Computation Conference</em>, 541–49. GECCO 2019. ACM. <a href="https://doi.org/10.1145/3321707.3321727">https://doi.org/10.1145/3321707.3321727</a>.
 </div>
@@ -1233,34 +1209,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/numbbo\.github\.io\/bbob-biobj\/");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-          // target, if specified
-          link.setAttribute("target", "_blank");
-          if (link.getAttribute("rel") === null) {
-            link.setAttribute("rel", "noopener");
-          }
-          // default icon
-          link.classList.add("external");
-      }
-    }
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+  function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
+      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1270,17 +1222,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start',
+      placement: 'bottom-start'
     };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1292,130 +1235,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
-          }
-        }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
-        }
-        return container.innerHTML
-      } else {
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
-        }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      // TODO in 1.5, we should make sure this works without a callout special case
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
-      }
-    }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
-          }
-        } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
-            if (note !== null) {
-              const html = processXRef(id, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
-          });
-        }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
+      return note.innerHTML;
     });
   }
       let selectedAnnoteEl;
@@ -1459,7 +1279,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
-            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1485,32 +1304,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1568,12 +1361,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("https:\/\/numbbo\.github\.io\/bbob-biobj\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          // default icon
+          link.classList.add("external");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->
-<script type="text/javascript" defer="" src="assets/js/biobj.js">
+<script type="text/javascript" defer="" src="assets/js/biobj.js"></script>
 
-</body>
 
-</html>
-</script></body></html>
+
+</body></html>
